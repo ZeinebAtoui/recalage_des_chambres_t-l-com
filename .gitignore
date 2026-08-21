@@ -1,0 +1,53 @@
+# --- Environnements Python / venvs ---
+mon_env/
+env_hybrid_311/
+backend/.venv/
+**/.venv/
+__pycache__/
+*.pyc
+
+# --- Poids de modeles entraines (trop volumineux pour Git) ---
+*.pth
+*.pt
+*.ckpt
+
+# --- Archives et datasets images bruts (reproductibles via les scripts) ---
+*.zip
+dataset_lyon_augmented/
+dataset_lyon_high_res/
+dataset_lyon_final/
+dataset_telecom/
+full_dataset_lyon/
+images_sans_masques/
+masques_lyon/
+masques_sam2/
+Exp-Avant-IA/
+pub_pcrs_affleurantenveloppepcrs/
+
+# --- Depot tiers clone localement (pas notre code) ---
+mmsegmentation/
+
+# --- Dossiers temporaires / scratch ---
+temp_ipc/
+work_dirs/
+
+# --- Artefact shell accidentel ---
+=*
+
+# --- Backend : donnees runtime, jamais versionnees ---
+backend/app.db
+backend/uploads/
+backend/uvicorn_out.log
+backend/uvicorn_err.log
+backend/_check_env.py
+
+# --- Frontend Angular ---
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/*.log
+
+# --- Divers ---
+.DS_Store
+Thumbs.db
+.claude/

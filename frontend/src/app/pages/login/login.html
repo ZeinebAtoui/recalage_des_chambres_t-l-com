@@ -1,0 +1,28 @@
+<div class="auth-page">
+  <form class="auth-card" (ngSubmit)="onSubmit()">
+    <h1>Connexion</h1>
+    <p class="sous-titre">Détection de chambres télécom — Lyon</p>
+
+    <label>
+      Email
+      <input type="email" name="email" required [ngModel]="email()" (ngModelChange)="email.set($event)" autocomplete="email" />
+    </label>
+
+    <label>
+      Mot de passe
+      <input type="password" name="password" required [ngModel]="password()" (ngModelChange)="password.set($event)" autocomplete="current-password" />
+    </label>
+
+    @if (erreur()) {
+      <p class="erreur">{{ erreur() }}</p>
+    }
+
+    <button type="submit" [disabled]="enCours()">
+      {{ enCours() ? 'Connexion…' : 'Se connecter' }}
+    </button>
+
+    <p class="lien">
+      Pas encore de compte ? <a routerLink="/register">Créer un compte</a>
+    </p>
+  </form>
+</div>

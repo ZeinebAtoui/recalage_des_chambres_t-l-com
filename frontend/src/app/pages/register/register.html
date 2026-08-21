@@ -1,0 +1,33 @@
+<div class="auth-page">
+  <form class="auth-card" (ngSubmit)="onSubmit()">
+    <h1>Créer un compte</h1>
+    <p class="sous-titre">Détection de chambres télécom — Lyon</p>
+
+    <label>
+      Email
+      <input type="email" name="email" required [ngModel]="email()" (ngModelChange)="email.set($event)" autocomplete="email" />
+    </label>
+
+    <label>
+      Mot de passe
+      <input type="password" name="password" required minlength="8" [ngModel]="password()" (ngModelChange)="password.set($event)" autocomplete="new-password" />
+    </label>
+
+    <label>
+      Confirmer le mot de passe
+      <input type="password" name="confirmation" required [ngModel]="confirmation()" (ngModelChange)="confirmation.set($event)" autocomplete="new-password" />
+    </label>
+
+    @if (erreur()) {
+      <p class="erreur">{{ erreur() }}</p>
+    }
+
+    <button type="submit" [disabled]="enCours()">
+      {{ enCours() ? 'Création…' : 'Créer mon compte' }}
+    </button>
+
+    <p class="lien">
+      Déjà un compte ? <a routerLink="/login">Se connecter</a>
+    </p>
+  </form>
+</div>

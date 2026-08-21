@@ -1,0 +1,86 @@
+<section class="metriques">
+  <h2>Résultats du modèle</h2>
+
+  @if (erreur()) {
+    <p class="erreur">{{ erreur() }}</p>
+  }
+
+  @if (metriquesFinal(); as final) {
+    <p class="config-label">Configuration finale : <strong>{{ final.configuration }}</strong></p>
+
+    <div class="cartes">
+      <div class="carte">
+        <span class="valeur">{{ final.Precision_chambre | percent: '1.1-1' }}</span>
+        <span class="libelle">Précision</span>
+      </div>
+      <div class="carte">
+        <span class="valeur">{{ final.Recall_chambre | percent: '1.1-1' }}</span>
+        <span class="libelle">Recall</span>
+      </div>
+      <div class="carte">
+        <span class="valeur">{{ final.F1_chambre | percent: '1.1-1' }}</span>
+        <span class="libelle">F1-score</span>
+      </div>
+      <div class="carte carte--accent">
+        <span class="valeur">{{ final.IoU_chambre | percent: '1.1-1' }}</span>
+        <span class="libelle">IoU chambre</span>
+      </div>
+      <div class="carte">
+        <span class="valeur">{{ final.mIoU | percent: '1.1-1' }}</span>
+        <span class="libelle">mIoU global</span>
+      </div>
+      <div class="carte">
+        <span class="valeur">{{ final.pixel_accuracy | percent: '1.1-1' }}</span>
+        <span class="libelle">Pixel accuracy</span>
+      </div>
+    </div>
+
+    @if (gainIoU(); as gain) {
+      <p class="gain">
+        +{{ gain | percent: '1.1-1' }} d'IoU par rapport à la meilleure configuration d'ablation
+        ({{ meilleureAblationIoU() | percent: '1.1-1' }})
+      </p>
+    }
+
+    <div class="confusion">
+      <span>TP&nbsp;: {{ final.TP | number }}</span>
+      <span>FP&nbsp;: {{ final.FP | number }}</span>
+      <span>FN&nbsp;: {{ final.FN | number }}</span>
+    </div>
+  }
+
+  <h3>Étude d'ablation</h3>
+  @if (chargement()) {
+    <p>Chargement…</p>
+  } @else {
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Configuration</th>
+            <th>IoU chambre</th>
+            <th>Précision</th>
+            <th>Recall</th>
+            <th>F1</th>
+            <th>mIoU</th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (ligne of ablationTriee(); track ligne.configuration) {
+            <tr [class.meilleure]="ligne.IoU_chambre === meilleureAblationIoU()">
+              <td>{{ ligne.configuration }}</td>
+              <td>{{ ligne.IoU_chambre | percent: '1.1-1' }}</td>
+              <td>{{ ligne.Precision_chambre | percent: '1.1-1' }}</td>
+              <td>{{ ligne.Recall_chambre | percent: '1.1-1' }}</td>
+              <td>{{ ligne.F1_chambre | percent: '1.1-1' }}</td>
+              <td>{{ ligne.mIoU | percent: '1.1-1' }}</td>
+            </tr>
+          }
+        </tbody>
+      </table>
+    </div>
+  }
+
+  <h3>Comparaison globale</h3>
+  <img class="graphique" [src]="urlComparaisonGlobale" alt="Comparaison globale des métriques" />
+</section>

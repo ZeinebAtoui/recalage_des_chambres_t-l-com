@@ -1,0 +1,83 @@
+:host {
+  display: block;
+  font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  color: #1a1a2e;
+  background: #f4f6f9;
+  min-height: 100dvh;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background: #1a1a2e;
+  color: #fff;
+  padding: 0.85rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+
+  .titre {
+    font-weight: 700;
+    font-size: 1.05rem;
+  }
+
+  .sous-titre {
+    color: #9ca3d4;
+    font-size: 0.75rem;
+  }
+}
+
+nav {
+  display: flex;
+  gap: 0.5rem;
+
+  a {
+    color: #c9cbe8;
+    text-decoration: none;
+    padding: 0.4rem 0.9rem;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: background 0.15s ease, color 0.15s ease;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.08);
+      color: #fff;
+    }
+
+    &.active {
+      background: #6a5acd;
+      color: #fff;
+    }
+  }
+}
+
+.compte {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.85rem;
+  color: #c9cbe8;
+
+  button {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: none;
+    border-radius: 999px;
+    padding: 0.4rem 0.9rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.18);
+    }
+  }
+}

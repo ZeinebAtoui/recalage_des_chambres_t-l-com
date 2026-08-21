@@ -1,0 +1,38 @@
+<section class="upload">
+  <h2>Télécharger des images depuis une carte SIG</h2>
+  <p class="aide">
+    Envoie un CSV de points (colonnes <code>latitude</code>, <code>longitude</code>) — par exemple un extrait de
+    <code>points_A_prets.csv</code> — pour lancer la collecte Street View correspondante.
+  </p>
+
+  <div class="formulaire">
+    <input type="file" accept=".csv" (change)="onFichierSelectionne($event)" [disabled]="envoiEnCours()" />
+
+    <label class="max-points">
+      Nombre max de points
+      <input type="number" min="1" max="66174" [(ngModel)]="maxPoints" [disabled]="envoiEnCours()" />
+    </label>
+
+    <button (click)="onTelecharger()" [disabled]="envoiEnCours()">
+      {{ envoiEnCours() ? 'Envoi…' : 'Lancer le téléchargement' }}
+    </button>
+  </div>
+
+  @if (messageErreur()) {
+    <p class="erreur">{{ messageErreur() }}</p>
+  }
+
+  @if (job(); as j) {
+    <div class="statut-job" [class]="'statut-' + j.status">
+      <div class="ligne">
+        <span class="badge">{{ j.status }}</span>
+        <span>job {{ j.job_id }}</span>
+        <span>{{ j.images_telechargees }} / {{ j.max_points }} images</span>
+      </div>
+
+      @if (j.status === 'failed' && j.log_tail.length) {
+        <pre class="log">{{ j.log_tail.join('\n') }}</pre>
+      }
+    </div>
+  }
+</section>

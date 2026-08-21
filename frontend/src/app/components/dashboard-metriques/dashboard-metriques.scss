@@ -1,0 +1,106 @@
+.metriques {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+
+  h2 {
+    margin-top: 0;
+  }
+
+  h3 {
+    margin-top: 2rem;
+  }
+}
+
+.erreur {
+  color: #b91c1c;
+  background: #fee2e2;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+}
+
+.config-label {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.cartes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.carte {
+  background: #f4f6f9;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+
+  .valeur {
+    display: block;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #1a1a2e;
+  }
+
+  .libelle {
+    display: block;
+    margin-top: 0.35rem;
+    color: #666;
+    font-size: 0.85rem;
+  }
+}
+
+.carte--accent {
+  background: #e6f4ea;
+
+  .valeur {
+    color: #1a7f37;
+  }
+}
+
+.gain {
+  font-weight: 600;
+  color: #1a7f37;
+}
+
+.confusion {
+  display: flex;
+  gap: 1.5rem;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+
+  th, td {
+    padding: 0.5rem 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+  }
+
+  th {
+    color: #666;
+    font-weight: 600;
+  }
+
+  tr.meilleure td {
+    font-weight: 700;
+    color: #1a7f37;
+  }
+}
+
+.graphique {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+}

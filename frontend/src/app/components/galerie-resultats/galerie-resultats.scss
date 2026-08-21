@@ -1,0 +1,66 @@
+.galerie {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+
+  h2 {
+    margin-top: 0;
+  }
+}
+
+.erreur {
+  color: #b91c1c;
+  background: #fee2e2;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+}
+
+.selecteur {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  max-height: 8rem;
+  overflow-y: auto;
+}
+
+.vignette {
+  border: 1px solid #ddd;
+  background: #f4f6f9;
+  border-radius: 999px;
+  padding: 0.35rem 0.9rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  color: #444;
+
+  &.active {
+    background: #1a1a2e;
+    color: #fff;
+    border-color: #1a1a2e;
+  }
+}
+
+.comparaison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+
+  h4 {
+    margin: 0 0 0.5rem;
+    color: #555;
+    font-size: 0.9rem;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+  }
+}
+
+@media (max-width: 700px) {
+  .comparaison {
+    grid-template-columns: 1fr;
+  }
+}

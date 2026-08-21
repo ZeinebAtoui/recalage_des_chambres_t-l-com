@@ -1,0 +1,43 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 3rem;
+}
+
+.hero {
+  background: linear-gradient(135deg, #4834d4, #6a5acd 60%, #8e7bf0);
+  color: #fff;
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+
+  h1 {
+    margin: 0 0 0.5rem;
+    font-size: 1.7rem;
+  }
+
+  p {
+    margin: 0 0 1.25rem;
+    max-width: 640px;
+    color: #e6e2ff;
+    line-height: 1.5;
+  }
+}
+
+.cta {
+  display: inline-block;
+  background: #fff;
+  color: #4834d4;
+  font-weight: 700;
+  padding: 0.65rem 1.25rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: transform 0.15s ease;
+
+  &:hover {
+    transform: translateY(-1px);
+  }
+}

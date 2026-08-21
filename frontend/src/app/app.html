@@ -1,0 +1,20 @@
+@if (auth.isAuthenticated()) {
+  <header class="topbar">
+    <div class="brand">
+      <span class="titre">Chambres télécom — Lyon</span>
+      <span class="sous-titre">Faster R-CNN + DeepLabV3+ (TTA) + SAM2</span>
+    </div>
+
+    <nav>
+      <a routerLink="/home" routerLinkActive="active">Accueil</a>
+      <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
+    </nav>
+
+    <div class="compte">
+      <span>{{ auth.currentEmail() }}</span>
+      <button (click)="onLogout()">Déconnexion</button>
+    </div>
+  </header>
+}
+
+<router-outlet />

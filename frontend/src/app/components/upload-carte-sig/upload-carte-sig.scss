@@ -1,0 +1,111 @@
+.upload {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+
+  h2 {
+    margin-top: 0;
+  }
+}
+
+.aide {
+  color: #666;
+  font-size: 0.9rem;
+
+  code {
+    background: #f4f6f9;
+    padding: 0.1rem 0.35rem;
+    border-radius: 4px;
+  }
+}
+
+.formulaire {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+}
+
+.max-points {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: #555;
+
+  input {
+    width: 6rem;
+    padding: 0.4rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+}
+
+button {
+  background: #1a1a2e;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1.25rem;
+  cursor: pointer;
+  font-weight: 600;
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+}
+
+.erreur {
+  color: #b91c1c;
+  background: #fee2e2;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+}
+
+.statut-job {
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  background: #f4f6f9;
+}
+
+.ligne {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.9rem;
+}
+
+.badge {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.statut-completed .badge {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.statut-failed .badge {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.log {
+  margin-top: 0.5rem;
+  background: #1a1a2e;
+  color: #eee;
+  padding: 0.75rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}

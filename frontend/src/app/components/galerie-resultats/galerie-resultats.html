@@ -1,0 +1,38 @@
+<section class="galerie">
+  <h2>Vérité terrain vs prédiction</h2>
+
+  @if (erreur()) {
+    <p class="erreur">{{ erreur() }}</p>
+  }
+
+  @if (chargement()) {
+    <p>Chargement…</p>
+  } @else if (!visualisations().length) {
+    <p>Aucune visualisation disponible.</p>
+  } @else {
+    <div class="selecteur">
+      @for (item of visualisations(); track item.nom_base) {
+        <button
+          class="vignette"
+          [class.active]="selection()?.nom_base === item.nom_base"
+          (click)="selectionner(item)"
+        >
+          {{ item.nom_base }}
+        </button>
+      }
+    </div>
+
+    @if (selection(); as s) {
+      <div class="comparaison">
+        <div>
+          <h4>Vérité terrain</h4>
+          <img [src]="getUrlImage(s.gt)" [alt]="'GT ' + s.nom_base" />
+        </div>
+        <div>
+          <h4>Prédiction (overlay)</h4>
+          <img [src]="getUrlImage(s.prediction)" [alt]="'Prédiction ' + s.nom_base" />
+        </div>
+      </div>
+    }
+  }
+</section>
