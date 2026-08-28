@@ -1,0 +1,80 @@
+--- DÉMARRAGE DE L'INFÉRENCE POUR LE JOB 1ac7dd04b040 ---
+Script : /mnt/c/Users/zatoui/dataset_chambres/inference_nouvelles_images.py
+Dossier images : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/downloads/1ac7dd04b040/images
+Dossier de sortie : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/downloads/1ac7dd04b040/predictions
+
+
+======================================================================
+DEVICE
+======================================================================
+Device utilise : cpu
+5 images trouvees dans /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/downloads/1ac7dd04b040/images
+
+======================================================================
+CHARGEMENT FASTER R-CNN
+======================================================================
+Faster R-CNN charge avec succes.
+
+======================================================================
+CHARGEMENT DEEPLABV3+
+======================================================================
+Traceback (most recent call last):
+  File "<frozen importlib._bootstrap_external>", line 1440, in _path_importer_cache
+KeyError: '/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/torch/distributed/_shard/sharding_spec'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/zatoui/dataset_chambres/inference_nouvelles_images.py", line 258, in <module>
+    main()
+  File "/mnt/c/Users/zatoui/dataset_chambres/inference_nouvelles_images.py", line 197, in main
+    deeplab_model = ff.charger_deeplab()
+                    ^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/zatoui/dataset_chambres/fusion_finale.py", line 266, in charger_deeplab
+    from mmseg.apis import init_model
+  File "/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/mmseg/apis/__init__.py", line 2, in <module>
+    from .inference import inference_model, init_model, show_result_pyplot
+  File "/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/mmseg/apis/inference.py", line 11, in <module>
+    from mmengine.runner import load_checkpoint
+  File "/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/mmengine/runner/__init__.py", line 2, in <module>
+    from ._flexible_runner import FlexibleRunner
+  File "/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/mmengine/runner/_flexible_runner.py", line 14, in <module>
+    from mmengine._strategy import BaseStrategy
+  File "/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/mmengine/_strategy/__init__.py", line 4, in <module>
+    from .base import BaseStrategy
+  File "/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/mmengine/_strategy/base.py", line 19, in <module>
+    from mmengine.model.wrappers import is_model_wrapper
+  File "/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/mmengine/model/__init__.py", line 6, in <module>
+    from .base_model import BaseDataPreprocessor, BaseModel, ImgDataPreprocessor
+  File "/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/mmengine/model/base_model/__init__.py", line 2, in <module>
+    from .base_model import BaseModel
+  File "/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/mmengine/model/base_model/base_model.py", line 9, in <module>
+    from mmengine.optim import OptimWrapper
+  File "/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/mmengine/optim/__init__.py", line 2, in <module>
+    from .optimizer import (OPTIM_WRAPPER_CONSTRUCTORS, OPTIMIZERS,
+  File "/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/mmengine/optim/optimizer/__init__.py", line 10, in <module>
+    from .zero_optimizer import ZeroRedundancyOptimizer
+  File "/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/mmengine/optim/optimizer/zero_optimizer.py", line 11, in <module>
+    from torch.distributed.optim import \
+  File "/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/torch/distributed/optim/__init__.py", line 24, in <module>
+    from .named_optimizer import _NamedOptimizer
+  File "/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/torch/distributed/optim/named_optimizer.py", line 10, in <module>
+    from torch.distributed._shard.sharded_tensor import ShardedTensor
+  File "/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/torch/distributed/_shard/__init__.py", line 1, in <module>
+    from .api import (
+  File "/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/torch/distributed/_shard/api.py", line 6, in <module>
+    from torch.distributed._shard.sharded_tensor import (
+  File "/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/torch/distributed/_shard/sharded_tensor/__init__.py", line 6, in <module>
+    import torch.distributed._shard.sharding_spec as shard_spec
+  File "/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/torch/distributed/_shard/sharding_spec/__init__.py", line 1, in <module>
+    from .api import (
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1138, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1078, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1507, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1476, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1442, in _path_importer_cache
+  File "<frozen importlib._bootstrap_external>", line 1418, in _path_hooks
+  File "<frozen zipimport>", line 75, in __init__
+  File "<frozen importlib._bootstrap_external>", line 147, in _path_stat
+KeyboardInterrupt

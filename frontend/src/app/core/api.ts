@@ -44,17 +44,27 @@ export interface UploadCarteReponse {
   statut: string;
 }
 
+export type JobPhase = 'pending' | 'telechargement' | 'inference' | 'termine' | 'echec_telechargement' | 'echec_inference';
+
 export interface JobStatus {
   job_id: string;
-  status: 'pending' | 'running' | 'completed' | 'failed';
+  status: 'pending' | 'completed' | 'failed';
+  phase: JobPhase;
   csv_path: string;
   output_dir: string;
   max_points: number;
-  pid: number | null;
-  returncode: number | null;
-  log_file: string | null;
+  telechargement_returncode: number | null;
+  inference_returncode: number | null;
   images_telechargees: number;
+  predictions_generees: number;
+  chambres_detectees: number;
   log_tail: string[];
+}
+
+export interface PredictionItem {
+  nom_base: string;
+  chambre_detectee: boolean;
+  overlay: string;
 }
 
 @Service()
@@ -96,5 +106,13 @@ export class Api {
 
   getJobStatus(jobId: string): Observable<JobStatus> {
     return this.http.get<JobStatus>(`${this.baseUrl}/carte-sig/jobs/${jobId}`);
+  }
+
+  getJobPredictions(jobId: string): Observable<PredictionItem[]> {
+    return this.http.get<PredictionItem[]>(`${this.baseUrl}/carte-sig/jobs/${jobId}/predictions`);
+  }
+
+  getUrlPrediction(cheminRelatif: string): string {
+    return `http://localhost:8000${cheminRelatif}?token=${this.auth.getToken()}`;
   }
 }

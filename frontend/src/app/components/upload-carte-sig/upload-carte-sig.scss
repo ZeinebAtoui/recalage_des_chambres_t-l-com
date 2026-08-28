@@ -109,3 +109,76 @@ button {
   overflow-x: auto;
   white-space: pre-wrap;
 }
+
+.etapes {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.6rem;
+  font-size: 0.8rem;
+}
+
+.etape {
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  background: #e5e7eb;
+  color: #888;
+  font-weight: 600;
+
+  &.active {
+    background: #dbeafe;
+    color: #1e40af;
+  }
+
+  &.done {
+    background: #dcfce7;
+    color: #166534;
+  }
+}
+
+.fleche {
+  color: #aaa;
+}
+
+.note {
+  margin: 0.4rem 0 0;
+  font-size: 0.8rem;
+  color: #888;
+  font-style: italic;
+}
+
+.predictions {
+  margin-top: 1.5rem;
+
+  h3 {
+    margin-bottom: 0.75rem;
+  }
+}
+
+.grille-predictions {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+
+  figure {
+    margin: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #f4f6f9;
+
+    &.non-detectee {
+      opacity: 0.55;
+    }
+
+    img {
+      width: 100%;
+      display: block;
+    }
+
+    figcaption {
+      padding: 0.4rem 0.6rem;
+      font-size: 0.75rem;
+      color: #555;
+    }
+  }
+}

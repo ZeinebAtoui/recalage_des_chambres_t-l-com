@@ -1,0 +1,19 @@
+{
+  "nb_images_total": 2,
+  "nb_images_comparables": 2,
+  "erreur_translation_moyenne_m": 0.2165,
+  "erreur_translation_mediane_m": 0.2165,
+  "erreur_translation_min_m": 0.0129,
+  "erreur_translation_max_m": 0.4201,
+  "erreur_translation_ecart_type_m": 0.2879,
+  "detail_par_image": [
+    {
+      "image": "CH_1064983_L2T_dist5m_2024-06.jpg",
+      "erreur_translation_m": 0.4201
+    },
+    {
+      "image": "CH_1499645_L2T_dist9m_2024-06.jpg",
+      "erreur_translation_m": 0.0129
+    }
+  ]
+}

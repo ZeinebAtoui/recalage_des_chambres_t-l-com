@@ -1,0 +1,65 @@
+🚀 Début de la collecte haute résolution (20 points)...
+Traceback (most recent call last):
+  File "/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] Network is unreachable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7ff044108310>: Failed to establish a new connection: [Errno 101] Network is unreachable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='maps.googleapis.com', port=443): Max retries exceeded with url: /maps/api/streetview/metadata?location=50.45712273511192%2C1.758488221098668&radius=30&key=AIzaSyD_4J99_NCwayT9pZlOdHXyNjBrPWnnoG0&source=outdoor (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff044108310>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/zatoui/dataset_chambres/telechargement.py", line 125, in <module>
+    f"{meta.get('status')} - {meta.get('error_message', 'aucun detail')}")
+
+  File "/mnt/c/Users/zatoui/dataset_chambres/telechargement.py", line 80, in run
+    )
+     
+  File "/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/requests/adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='maps.googleapis.com', port=443): Max retries exceeded with url: /maps/api/streetview/metadata?location=50.45712273511192%2C1.758488221098668&radius=30&key=AIzaSyD_4J99_NCwayT9pZlOdHXyNjBrPWnnoG0&source=outdoor (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff044108310>: Failed to establish a new connection: [Errno 101] Network is unreachable'))

@@ -1,0 +1,10 @@
+--- DÉMARRAGE DU JOB 7b3ad14b806b ---
+Script : /mnt/c/Users/zatoui/dataset_chambres/telechargement_interface.py
+CSV source : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/cartes/Exp-Avant-IA-Saint-jans-Cappel.csv
+Dossier de sortie : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/downloads/7b3ad14b806b
+Points max : 200
+Interprète Python : /mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/bin/python
+Lancement du sous-processus...
+
+
+Statut : Terminé avec succès, mais 0 image n'a été téléchargée.

@@ -21,7 +21,7 @@ else:
     if old_chambre_id is None:
         print("❌ Erreur : La catégorie 'chambre_telecom' est introuvable dans le JSON.")
         exit()
-
+ 
     print(f"Ancien ID chambre : {old_chambre_id}")
 
     # 2. Remplacer la section CATEGORIES (Uniquement la chambre avec ID 1)

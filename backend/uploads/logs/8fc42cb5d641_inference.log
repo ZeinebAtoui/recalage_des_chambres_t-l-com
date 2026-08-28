@@ -1,0 +1,42 @@
+--- DÉMARRAGE DE L'INFÉRENCE POUR LE JOB 8fc42cb5d641 ---
+Script : /mnt/c/Users/zatoui/dataset_chambres/inference_nouvelles_images.py
+Dossier images : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/downloads/8fc42cb5d641/images
+Dossier de sortie : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/downloads/8fc42cb5d641/predictions
+
+/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/mmseg/models/builder.py:36: UserWarning: ``build_loss`` would be deprecated soon, please use ``mmseg.registry.MODELS.build()`` 
+  warnings.warn('``build_loss`` would be deprecated soon, please use '
+/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/mmseg/models/losses/cross_entropy_loss.py:250: UserWarning: Default ``avg_non_ignore`` is False, if you would like to ignore the certain label and average loss over non-ignore labels, which is the same with PyTorch official cross_entropy, set ``avg_non_ignore=True``.
+  warnings.warn(
+
+======================================================================
+DEVICE
+======================================================================
+Device utilise : cpu
+5 images trouvees dans /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/downloads/8fc42cb5d641/images
+
+======================================================================
+CHARGEMENT FASTER R-CNN
+======================================================================
+Faster R-CNN charge avec succes.
+
+======================================================================
+CHARGEMENT DEEPLABV3+
+======================================================================
+Loads checkpoint by local backend from path: /mnt/c/Users/zatoui/dataset_chambres/best_mIoU_iter_2000.pth
+DeepLabV3+ charge avec succes.
+
+======================================================================
+ETAPE 1 : COLLECTE FASTER R-CNN + DEEPLABV3+ (sans verite terrain)
+======================================================================
+  [5/5] images traitees (0 detections collectees)
+Total detections collectees : 0
+Aucune detection Faster R-CNN : masques vides pour toutes les images.
+
+======================================================================
+SAUVEGARDE DES MASQUES ET OVERLAYS
+======================================================================
+
+Termine : 0/5 images avec au moins une chambre detectee.
+Masques  : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/downloads/8fc42cb5d641/predictions/masks
+Overlays : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/downloads/8fc42cb5d641/predictions/overlays
+Manifest : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/downloads/8fc42cb5d641/predictions/manifest.json

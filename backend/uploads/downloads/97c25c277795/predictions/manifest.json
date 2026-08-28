@@ -1,0 +1,102 @@
+[
+  {
+    "file_name": "POINT_0_ANGLE0_dist4m.jpg",
+    "nom_base": "POINT_0_ANGLE0_dist4m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_0_ANGLE244_dist10m.jpg",
+    "nom_base": "POINT_0_ANGLE244_dist10m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_0_ANGLE79_dist11m.jpg",
+    "nom_base": "POINT_0_ANGLE79_dist11m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_1_ANGLE0_dist6m.jpg",
+    "nom_base": "POINT_1_ANGLE0_dist6m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_1_ANGLE14_dist9m.jpg",
+    "nom_base": "POINT_1_ANGLE14_dist9m",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_2_ANGLE0_dist13m.jpg",
+    "nom_base": "POINT_2_ANGLE0_dist13m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_2_ANGLE165_dist13m.jpg",
+    "nom_base": "POINT_2_ANGLE165_dist13m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_2_ANGLE57_dist6m.jpg",
+    "nom_base": "POINT_2_ANGLE57_dist6m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_3_ANGLE0_dist13m.jpg",
+    "nom_base": "POINT_3_ANGLE0_dist13m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_3_ANGLE165_dist14m.jpg",
+    "nom_base": "POINT_3_ANGLE165_dist14m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_4_ANGLE0_dist7m.jpg",
+    "nom_base": "POINT_4_ANGLE0_dist7m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_4_ANGLE108_dist5m.jpg",
+    "nom_base": "POINT_4_ANGLE108_dist5m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_4_ANGLE223_dist10m.jpg",
+    "nom_base": "POINT_4_ANGLE223_dist10m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_5_ANGLE0_dist3m.jpg",
+    "nom_base": "POINT_5_ANGLE0_dist3m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_5_ANGLE86_dist6m.jpg",
+    "nom_base": "POINT_5_ANGLE86_dist6m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_6_ANGLE0_dist4m.jpg",
+    "nom_base": "POINT_6_ANGLE0_dist4m",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_6_ANGLE172_dist6m.jpg",
+    "nom_base": "POINT_6_ANGLE172_dist6m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_7_ANGLE129_dist9m.jpg",
+    "nom_base": "POINT_7_ANGLE129_dist9m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_7_ANGLE223_dist14m.jpg",
+    "nom_base": "POINT_7_ANGLE223_dist14m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_7_ANGLE28_dist12m.jpg",
+    "nom_base": "POINT_7_ANGLE28_dist12m",
+    "chambre_detectee": false
+  }
+]

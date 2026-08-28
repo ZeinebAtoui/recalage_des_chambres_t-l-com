@@ -1,0 +1,14 @@
+--- DÉMARRAGE DU JOB 53c0ff274ee8 ---
+Script : /mnt/c/Users/zatoui/dataset_chambres/telechargement_interface.py
+CSV source : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/cartes/Exp-Avant-IA-Saint-jans-Cappel.csv
+Dossier de sortie : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/downloads/53c0ff274ee8
+Points max : 200
+Interprète Python : /mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/bin/python
+Lancement du sous-processus...
+
+[SCRIPT] Démarrage du script de téléchargement...
+[SCRIPT] Execution via ligne de commande.
+[SCRIPT] Lecture du fichier CSV : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/cartes/Exp-Avant-IA-Saint-jans-Cappel.csv
+[SCRIPT] ERREUR : Clé API GOOGLE_STREETVIEW_API_KEY non trouvée.
+
+Statut : Terminé avec succès, mais 0 image n'a été téléchargée.

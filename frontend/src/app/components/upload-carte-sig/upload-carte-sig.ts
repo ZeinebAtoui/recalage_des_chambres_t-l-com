@@ -1,7 +1,7 @@
 import { Component, OnDestroy, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Subscription, interval, switchMap } from 'rxjs';
-import { Api, JobStatus } from '../../core/api';
+import { Api, JobStatus, PredictionItem } from '../../core/api';
 
 @Component({
   imports: [FormsModule],
@@ -17,6 +17,7 @@ export class UploadCarteSig implements OnDestroy {
   protected readonly maxPoints = signal(200);
   protected readonly envoiEnCours = signal(false);
   protected readonly job = signal<JobStatus | null>(null);
+  protected readonly predictions = signal<PredictionItem[]>([]);
   protected readonly messageErreur = signal<string | null>(null);
 
   onFichierSelectionne(event: Event): void {
@@ -27,13 +28,14 @@ export class UploadCarteSig implements OnDestroy {
   onTelecharger(): void {
     const fichier = this.fichierSelectionne();
     if (!fichier) {
-      this.messageErreur.set('Sélectionnez un fichier CSV (colonnes latitude/longitude) avant de lancer le téléchargement.');
+      this.messageErreur.set('Sélectionnez un fichier zip ');
       return;
     }
 
     this.messageErreur.set(null);
     this.envoiEnCours.set(true);
     this.job.set(null);
+    this.predictions.set([]);
 
     this.api.uploaderCarteSig(fichier, this.maxPoints()).subscribe({
       next: (reponse) => {
@@ -50,23 +52,36 @@ export class UploadCarteSig implements OnDestroy {
   private demarrerSuiviJob(jobId: string): void {
     this.pollingSub?.unsubscribe();
 
-    this.pollingSub = interval(2000)
+    this.pollingSub = interval(3000)
       .pipe(switchMap(() => this.api.getJobStatus(jobId)))
       .subscribe({
-        next: (statut) => {
-          this.job.set(statut);
-          if (statut.status === 'completed' || statut.status === 'failed') {
-            this.pollingSub?.unsubscribe();
-          }
-        },
+        next: (statut) => this.traiterStatut(jobId, statut),
         error: () => {
           this.messageErreur.set('Suivi du job interrompu.');
           this.pollingSub?.unsubscribe();
         },
       });
 
-    // Premier appel immédiat pour ne pas attendre 2s avant le premier retour.
-    this.api.getJobStatus(jobId).subscribe((statut) => this.job.set(statut));
+    // Premier appel immédiat pour ne pas attendre avant le premier retour.
+    this.api.getJobStatus(jobId).subscribe((statut) => this.traiterStatut(jobId, statut));
+  }
+
+  private traiterStatut(jobId: string, statut: JobStatus): void {
+    this.job.set(statut);
+
+    if (statut.status !== 'completed' && statut.status !== 'failed') {
+      return;
+    }
+
+    this.pollingSub?.unsubscribe();
+
+    if (statut.status === 'completed' && statut.predictions_generees > 0) {
+      this.api.getJobPredictions(jobId).subscribe((liste) => this.predictions.set(liste));
+    }
+  }
+
+  protected getUrlPrediction(cheminRelatif: string): string {
+    return this.api.getUrlPrediction(cheminRelatif);
   }
 
   ngOnDestroy(): void {

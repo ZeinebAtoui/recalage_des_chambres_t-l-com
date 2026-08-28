@@ -1,0 +1,45 @@
+--- DÉMARRAGE DU JOB a091fa1b6cfc ---
+Script : /mnt/c/Users/zatoui/dataset_chambres/backend/services/telechargement_interface.py
+CSV source : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/cartes/Exp-Avant-IA-Saint-jans-Cappel.csv
+Dossier de sortie : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/downloads/a091fa1b6cfc
+Points max : 6
+Interprète Python : /mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/bin/python3
+Clé API transmise : Oui
+Lancement du sous-processus...
+
+[SCRIPT] Démarrage du script de téléchargement...
+[SCRIPT] Execution via ligne de commande.
+[SCRIPT] Lecture du fichier CSV : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/cartes/Exp-Avant-IA-Saint-jans-Cappel.csv
+[SCRIPT] Clé API détectée : AIzaSy...
+[SCRIPT] CSV chargé : 888 lignes trouvées.
+[SCRIPT] Analyse du Point 0 (50.76609618984319, 2.7156906700856136)...
+[SCRIPT] Point 0 : distance=4.6m, cap_centre=14.3°, 4 image(s) prévue(s) pour couvrir la zone de recherche.
+[SCRIPT]   -> Image enregistrée : POINT_0_v0_d4m_h294_p-28_f90.jpg
+[SCRIPT]   -> Image enregistrée : POINT_0_v1_d4m_h6_p-28_f90.jpg
+[SCRIPT]   -> Image enregistrée : POINT_0_v2_d4m_h78_p-28_f90.jpg
+[SCRIPT]   -> Image enregistrée : POINT_0_v3_d4m_h150_p-28_f90.jpg
+[SCRIPT] Analyse du Point 1 (50.765265439991175, 2.7252577198371752)...
+[SCRIPT] Point 1 : distance=6.9m, cap_centre=148.0°, 3 image(s) prévue(s) pour couvrir la zone de recherche.
+[SCRIPT]   -> Image enregistrée : POINT_1_v0_d6m_h102_p-19_f90.jpg
+[SCRIPT]   -> Image enregistrée : POINT_1_v1_d6m_h174_p-19_f90.jpg
+[SCRIPT]   -> Image enregistrée : POINT_1_v2_d6m_h246_p-19_f90.jpg
+[SCRIPT] Analyse du Point 2 (50.76796292903358, 2.7186271375885767)...
+[SCRIPT] Point 2 : distance=6.8m, cap_centre=285.7°, 3 image(s) prévue(s) pour couvrir la zone de recherche.
+[SCRIPT]   -> Image enregistrée : POINT_2_v0_d6m_h239_p-20_f90.jpg
+[SCRIPT]   -> Image enregistrée : POINT_2_v1_d6m_h311_p-20_f90.jpg
+[SCRIPT]   -> Image enregistrée : POINT_2_v2_d6m_h23_p-20_f90.jpg
+[SCRIPT] Analyse du Point 3 (50.7656609945417, 2.70876037887413)...
+[SCRIPT] Point 3 : distance=13.4m, cap_centre=104.1°, 1 image(s) prévue(s) pour couvrir la zone de recherche.
+[SCRIPT]   -> Image enregistrée : POINT_3_d13m_h104_p-10_f45.jpg
+[SCRIPT] Analyse du Point 4 (50.78021933226435, 2.729517551666634)...
+[SCRIPT] Point 4 : distance=5.1m, cap_centre=344.5°, 3 image(s) prévue(s) pour couvrir la zone de recherche.
+[SCRIPT]   -> Image enregistrée : POINT_4_v0_d5m_h277_p-26_f90.jpg
+[SCRIPT]   -> Image enregistrée : POINT_4_v1_d5m_h349_p-26_f90.jpg
+[SCRIPT]   -> Image enregistrée : POINT_4_v2_d5m_h61_p-26_f90.jpg
+[SCRIPT] Analyse du Point 5 (50.7590925037024, 2.724934413962284)...
+[SCRIPT] Point 5 : distance=3.1m, cap_centre=133.0°, 5 image(s) prévue(s) pour couvrir la zone de recherche.
+[SCRIPT]   -> Image enregistrée : POINT_5_v0_d3m_h16_p-39_f90.jpg
+[SCRIPT]   -> Image enregistrée : POINT_5_v1_d3m_h88_p-39_f90.jpg
+[SCRIPT]   -> Image enregistrée : POINT_5_v2_d3m_h160_p-39_f90.jpg
+[SCRIPT]   -> Image enregistrée : POINT_5_v3_d3m_h232_p-39_f90.jpg
+[SCRIPT]   -> Image enregistrée : POINT_5_v4_d3m_h304_p-39_f90.jpg

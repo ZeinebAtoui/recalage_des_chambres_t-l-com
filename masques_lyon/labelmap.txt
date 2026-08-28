@@ -1,0 +1,4 @@
+# label:color_rgb:parts:actions
+background:0,0,0::
+chambre_telecom:51,221,255::
+hard_negative:252,45,5::

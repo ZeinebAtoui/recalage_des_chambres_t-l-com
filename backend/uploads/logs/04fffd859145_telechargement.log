@@ -1,0 +1,32 @@
+--- DÉMARRAGE DU JOB 04fffd859145 ---
+Script : /mnt/c/Users/zatoui/dataset_chambres/backend/services/telechargement_interface.py
+CSV source : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/cartes/Exp-Avant-IA-Saint-jans-Cappel.csv
+Dossier de sortie : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/downloads/04fffd859145
+Points max : 8
+Interprète Python : /mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/bin/python3
+Clé API transmise : Oui
+Lancement du sous-processus...
+
+[SCRIPT] Démarrage du script de téléchargement...
+[SCRIPT] CSV source : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/cartes/Exp-Avant-IA-Saint-jans-Cappel.csv
+[SCRIPT] Dossier images de sortie : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/downloads/04fffd859145/images
+[SCRIPT] Limite de points : 8
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (HTTP 403)
+[SCRIPT] Terminé. 0 image(s) téléchargée(s) au total.
+
+Statut : Terminé avec succès, mais 0 image n'a été téléchargée.

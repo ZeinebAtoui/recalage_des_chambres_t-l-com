@@ -1,0 +1,92 @@
+[
+  {
+    "file_name": "POINT_0_dist4m.jpg",
+    "nom_base": "POINT_0_dist4m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_10_dist5m.jpg",
+    "nom_base": "POINT_10_dist5m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_11_dist7m.jpg",
+    "nom_base": "POINT_11_dist7m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_12_dist7m.jpg",
+    "nom_base": "POINT_12_dist7m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_14_dist7m.jpg",
+    "nom_base": "POINT_14_dist7m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_15_dist3m.jpg",
+    "nom_base": "POINT_15_dist3m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_17_dist7m.jpg",
+    "nom_base": "POINT_17_dist7m",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_18_dist9m.jpg",
+    "nom_base": "POINT_18_dist9m",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_19_dist3m.jpg",
+    "nom_base": "POINT_19_dist3m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_1_dist6m.jpg",
+    "nom_base": "POINT_1_dist6m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_2_dist6m.jpg",
+    "nom_base": "POINT_2_dist6m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_3_dist13m.jpg",
+    "nom_base": "POINT_3_dist13m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_4_dist5m.jpg",
+    "nom_base": "POINT_4_dist5m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_5_dist3m.jpg",
+    "nom_base": "POINT_5_dist3m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_6_dist4m.jpg",
+    "nom_base": "POINT_6_dist4m",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_7_dist9m.jpg",
+    "nom_base": "POINT_7_dist9m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_8_dist6m.jpg",
+    "nom_base": "POINT_8_dist6m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_9_dist6m.jpg",
+    "nom_base": "POINT_9_dist6m",
+    "chambre_detectee": true
+  }
+]

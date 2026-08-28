@@ -1,0 +1,25 @@
+--- DÉMARRAGE DU JOB 5084eda5891d ---
+Script : /mnt/c/Users/zatoui/dataset_chambres/backend/services/telechargement_interface.py
+CSV source : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/cartes/Exp-Avant-IA-Saint-jans-Cappel.csv
+Dossier de sortie : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/downloads/5084eda5891d
+Points max : 8
+Interprète Python : /mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/bin/python3
+Clé API transmise : Oui
+Lancement du sous-processus...
+
+[SCRIPT] Démarrage du script de téléchargement...
+[SCRIPT] CSV source : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/cartes/Exp-Avant-IA-Saint-jans-Cappel.csv
+[SCRIPT] Dossier images de sortie : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/downloads/5084eda5891d/images
+[SCRIPT] Limite de points : 8
+[SCRIPT]   -> Échec metadata (HTTP 400)
+[SCRIPT]   -> Échec metadata (HTTP 400)
+[SCRIPT]   -> Échec metadata (HTTP 400)
+[SCRIPT]   -> Échec metadata (HTTP 400)
+[SCRIPT]   -> Échec metadata (HTTP 400)
+[SCRIPT]   -> Échec metadata (HTTP 400)
+[SCRIPT]   -> Échec metadata (HTTP 400)
+[SCRIPT]   -> Échec metadata (HTTP 400)
+[SCRIPT] Terminé. 0 image(s) téléchargée(s) au total.
+[SCRIPT] 8 point(s) sans panorama Street View disponible à proximité.
+
+Statut : Terminé avec succès, mais 0 image n'a été téléchargée.

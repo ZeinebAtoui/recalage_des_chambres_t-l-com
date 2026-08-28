@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "crop_path": "/mnt/c/Users/zatoui/dataset_chambres/temp_ipc/crops/crop_0.png",
+    "box_locale": [
+      30,
+      15,
+      184,
+      89
+    ]
+  },
+  {
+    "id": 1,
+    "crop_path": "/mnt/c/Users/zatoui/dataset_chambres/temp_ipc/crops/crop_1.png",
+    "box_locale": [
+      20,
+      15,
+      122,
+      39
+    ]
+  }
+]

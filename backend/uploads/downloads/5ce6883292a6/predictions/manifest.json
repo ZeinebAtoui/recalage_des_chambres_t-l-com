@@ -1,0 +1,272 @@
+[
+  {
+    "file_name": "POINT_0_v0_d4m_h257_p-28_f60.jpg",
+    "nom_base": "POINT_0_v0_d4m_h257_p-28_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_0_v1_d4m_h305_p-28_f60.jpg",
+    "nom_base": "POINT_0_v1_d4m_h305_p-28_f60",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_0_v2_d4m_h353_p-28_f60.jpg",
+    "nom_base": "POINT_0_v2_d4m_h353_p-28_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_0_v3_d4m_h41_p-28_f60.jpg",
+    "nom_base": "POINT_0_v3_d4m_h41_p-28_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_0_v4_d4m_h89_p-28_f60.jpg",
+    "nom_base": "POINT_0_v4_d4m_h89_p-28_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_0_v5_d4m_h137_p-28_f60.jpg",
+    "nom_base": "POINT_0_v5_d4m_h137_p-28_f60",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_1_v0_d6m_h31_p-19_f60.jpg",
+    "nom_base": "POINT_1_v0_d6m_h31_p-19_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_1_v1_d6m_h79_p-19_f60.jpg",
+    "nom_base": "POINT_1_v1_d6m_h79_p-19_f60",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_1_v2_d6m_h127_p-19_f60.jpg",
+    "nom_base": "POINT_1_v2_d6m_h127_p-19_f60",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_1_v3_d6m_h175_p-19_f60.jpg",
+    "nom_base": "POINT_1_v3_d6m_h175_p-19_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_1_v4_d6m_h223_p-19_f60.jpg",
+    "nom_base": "POINT_1_v4_d6m_h223_p-19_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_1_v5_d6m_h271_p-19_f60.jpg",
+    "nom_base": "POINT_1_v5_d6m_h271_p-19_f60",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_2_v0_d6m_h168_p-20_f60.jpg",
+    "nom_base": "POINT_2_v0_d6m_h168_p-20_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_2_v1_d6m_h216_p-20_f60.jpg",
+    "nom_base": "POINT_2_v1_d6m_h216_p-20_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_2_v2_d6m_h264_p-20_f60.jpg",
+    "nom_base": "POINT_2_v2_d6m_h264_p-20_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_2_v3_d6m_h312_p-20_f60.jpg",
+    "nom_base": "POINT_2_v3_d6m_h312_p-20_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_2_v4_d6m_h0_p-20_f60.jpg",
+    "nom_base": "POINT_2_v4_d6m_h0_p-20_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_2_v5_d6m_h48_p-20_f60.jpg",
+    "nom_base": "POINT_2_v5_d6m_h48_p-20_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_4_v0_d5m_h227_p-26_f60.jpg",
+    "nom_base": "POINT_4_v0_d5m_h227_p-26_f60",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_4_v1_d5m_h275_p-26_f60.jpg",
+    "nom_base": "POINT_4_v1_d5m_h275_p-26_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_4_v2_d5m_h323_p-26_f60.jpg",
+    "nom_base": "POINT_4_v2_d5m_h323_p-26_f60",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_4_v3_d5m_h11_p-26_f60.jpg",
+    "nom_base": "POINT_4_v3_d5m_h11_p-26_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_4_v4_d5m_h59_p-26_f60.jpg",
+    "nom_base": "POINT_4_v4_d5m_h59_p-26_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_4_v5_d5m_h107_p-26_f60.jpg",
+    "nom_base": "POINT_4_v5_d5m_h107_p-26_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_5_v0_d3m_h16_p-39_f60.jpg",
+    "nom_base": "POINT_5_v0_d3m_h16_p-39_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_5_v1_d3m_h64_p-39_f60.jpg",
+    "nom_base": "POINT_5_v1_d3m_h64_p-39_f60",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_5_v2_d3m_h112_p-39_f60.jpg",
+    "nom_base": "POINT_5_v2_d3m_h112_p-39_f60",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_5_v3_d3m_h160_p-39_f60.jpg",
+    "nom_base": "POINT_5_v3_d3m_h160_p-39_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_5_v4_d3m_h208_p-39_f60.jpg",
+    "nom_base": "POINT_5_v4_d3m_h208_p-39_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_5_v5_d3m_h256_p-39_f60.jpg",
+    "nom_base": "POINT_5_v5_d3m_h256_p-39_f60",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_6_v0_d4m_h110_p-27_f60.jpg",
+    "nom_base": "POINT_6_v0_d4m_h110_p-27_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_6_v1_d4m_h158_p-27_f60.jpg",
+    "nom_base": "POINT_6_v1_d4m_h158_p-27_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_6_v2_d4m_h206_p-27_f60.jpg",
+    "nom_base": "POINT_6_v2_d4m_h206_p-27_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_6_v3_d4m_h254_p-27_f60.jpg",
+    "nom_base": "POINT_6_v3_d4m_h254_p-27_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_6_v4_d4m_h302_p-27_f60.jpg",
+    "nom_base": "POINT_6_v4_d4m_h302_p-27_f60",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_6_v5_d4m_h350_p-27_f60.jpg",
+    "nom_base": "POINT_6_v5_d4m_h350_p-27_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_7_v0_d9m_h232_p-15_f60.jpg",
+    "nom_base": "POINT_7_v0_d9m_h232_p-15_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_7_v1_d9m_h280_p-15_f60.jpg",
+    "nom_base": "POINT_7_v1_d9m_h280_p-15_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_7_v2_d9m_h328_p-15_f60.jpg",
+    "nom_base": "POINT_7_v2_d9m_h328_p-15_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_7_v3_d9m_h16_p-15_f60.jpg",
+    "nom_base": "POINT_7_v3_d9m_h16_p-15_f60",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_7_v4_d9m_h64_p-15_f60.jpg",
+    "nom_base": "POINT_7_v4_d9m_h64_p-15_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_7_v5_d9m_h112_p-15_f60.jpg",
+    "nom_base": "POINT_7_v5_d9m_h112_p-15_f60",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_8_v0_d6m_h125_p-21_f60.jpg",
+    "nom_base": "POINT_8_v0_d6m_h125_p-21_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_8_v1_d6m_h173_p-21_f60.jpg",
+    "nom_base": "POINT_8_v1_d6m_h173_p-21_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_8_v2_d6m_h221_p-21_f60.jpg",
+    "nom_base": "POINT_8_v2_d6m_h221_p-21_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_8_v3_d6m_h269_p-21_f60.jpg",
+    "nom_base": "POINT_8_v3_d6m_h269_p-21_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_8_v4_d6m_h317_p-21_f60.jpg",
+    "nom_base": "POINT_8_v4_d6m_h317_p-21_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_8_v5_d6m_h5_p-21_f60.jpg",
+    "nom_base": "POINT_8_v5_d6m_h5_p-21_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_9_v0_d6m_h250_p-20_f60.jpg",
+    "nom_base": "POINT_9_v0_d6m_h250_p-20_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_9_v1_d6m_h298_p-20_f60.jpg",
+    "nom_base": "POINT_9_v1_d6m_h298_p-20_f60",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_9_v2_d6m_h346_p-20_f60.jpg",
+    "nom_base": "POINT_9_v2_d6m_h346_p-20_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_9_v3_d6m_h34_p-20_f60.jpg",
+    "nom_base": "POINT_9_v3_d6m_h34_p-20_f60",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_9_v4_d6m_h82_p-20_f60.jpg",
+    "nom_base": "POINT_9_v4_d6m_h82_p-20_f60",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_9_v5_d6m_h130_p-20_f60.jpg",
+    "nom_base": "POINT_9_v5_d6m_h130_p-20_f60",
+    "chambre_detectee": false
+  }
+]

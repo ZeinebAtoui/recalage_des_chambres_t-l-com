@@ -1,0 +1,88 @@
+--- DÉMARRAGE DU JOB 5ce6883292a6 ---
+Script : /mnt/c/Users/zatoui/dataset_chambres/backend/services/telechargement_interface.py
+CSV source : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/cartes/Exp-Avant-IA-Saint-jans-Cappel.csv
+Dossier de sortie : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/downloads/5ce6883292a6
+Points max : 10
+Interprète Python : /mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/bin/python3
+Clé API transmise : Oui
+Lancement du sous-processus...
+
+[SCRIPT] Démarrage du script de téléchargement...
+[SCRIPT] Execution via ligne de commande.
+[SCRIPT] Lecture du fichier CSV : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/cartes/Exp-Avant-IA-Saint-jans-Cappel.csv
+[SCRIPT] Clé API détectée : AIzaSy...
+[SCRIPT] CSV chargé : 888 lignes trouvées.
+[SCRIPT] Analyse du Point 0 (50.76609618984319, 2.7156906700856136)...
+[SCRIPT] Point 0 : distance=4.6m, cap_centre=14.3°, 6 image(s) prévue(s) pour couvrir la zone de recherche.
+[SCRIPT]   -> Image enregistrée : POINT_0_v0_d4m_h257_p-28_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_0_v1_d4m_h305_p-28_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_0_v2_d4m_h353_p-28_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_0_v3_d4m_h41_p-28_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_0_v4_d4m_h89_p-28_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_0_v5_d4m_h137_p-28_f60.jpg
+[SCRIPT] Analyse du Point 1 (50.765265439991175, 2.7252577198371752)...
+[SCRIPT] Point 1 : distance=6.9m, cap_centre=148.0°, 6 image(s) prévue(s) pour couvrir la zone de recherche.
+[SCRIPT]   -> Image enregistrée : POINT_1_v0_d6m_h31_p-19_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_1_v1_d6m_h79_p-19_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_1_v2_d6m_h127_p-19_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_1_v3_d6m_h175_p-19_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_1_v4_d6m_h223_p-19_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_1_v5_d6m_h271_p-19_f60.jpg
+[SCRIPT] Analyse du Point 2 (50.76796292903358, 2.7186271375885767)...
+[SCRIPT] Point 2 : distance=6.8m, cap_centre=285.7°, 6 image(s) prévue(s) pour couvrir la zone de recherche.
+[SCRIPT]   -> Image enregistrée : POINT_2_v0_d6m_h168_p-20_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_2_v1_d6m_h216_p-20_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_2_v2_d6m_h264_p-20_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_2_v3_d6m_h312_p-20_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_2_v4_d6m_h0_p-20_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_2_v5_d6m_h48_p-20_f60.jpg
+[SCRIPT] Analyse du Point 3 (50.7656609945417, 2.70876037887413)...
+[SCRIPT] Point 3 ignoré : distance véhicule/point hors-limite (13.4m)
+[SCRIPT] Analyse du Point 4 (50.78021933226435, 2.729517551666634)...
+[SCRIPT] Point 4 : distance=5.1m, cap_centre=344.5°, 6 image(s) prévue(s) pour couvrir la zone de recherche.
+[SCRIPT]   -> Image enregistrée : POINT_4_v0_d5m_h227_p-26_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_4_v1_d5m_h275_p-26_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_4_v2_d5m_h323_p-26_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_4_v3_d5m_h11_p-26_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_4_v4_d5m_h59_p-26_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_4_v5_d5m_h107_p-26_f60.jpg
+[SCRIPT] Analyse du Point 5 (50.7590925037024, 2.724934413962284)...
+[SCRIPT] Point 5 : distance=3.1m, cap_centre=133.0°, 6 image(s) prévue(s) pour couvrir la zone de recherche.
+[SCRIPT]   -> Image enregistrée : POINT_5_v0_d3m_h16_p-39_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_5_v1_d3m_h64_p-39_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_5_v2_d3m_h112_p-39_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_5_v3_d3m_h160_p-39_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_5_v4_d3m_h208_p-39_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_5_v5_d3m_h256_p-39_f60.jpg
+[SCRIPT] Analyse du Point 6 (50.75732636958182, 2.72920161575061)...
+[SCRIPT] Point 6 : distance=4.7m, cap_centre=227.9°, 6 image(s) prévue(s) pour couvrir la zone de recherche.
+[SCRIPT]   -> Image enregistrée : POINT_6_v0_d4m_h110_p-27_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_6_v1_d4m_h158_p-27_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_6_v2_d4m_h206_p-27_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_6_v3_d4m_h254_p-27_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_6_v4_d4m_h302_p-27_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_6_v5_d4m_h350_p-27_f60.jpg
+[SCRIPT] Analyse du Point 7 (50.75743462787899, 2.72922804120084)...
+[SCRIPT] Point 7 : distance=9.0m, cap_centre=349.4°, 6 image(s) prévue(s) pour couvrir la zone de recherche.
+[SCRIPT]   -> Image enregistrée : POINT_7_v0_d9m_h232_p-15_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_7_v1_d9m_h280_p-15_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_7_v2_d9m_h328_p-15_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_7_v3_d9m_h16_p-15_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_7_v4_d9m_h64_p-15_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_7_v5_d9m_h112_p-15_f60.jpg
+[SCRIPT] Analyse du Point 8 (50.78039996753164, 2.713849905995973)...
+[SCRIPT] Point 8 : distance=6.5m, cap_centre=242.8°, 6 image(s) prévue(s) pour couvrir la zone de recherche.
+[SCRIPT]   -> Image enregistrée : POINT_8_v0_d6m_h125_p-21_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_8_v1_d6m_h173_p-21_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_8_v2_d6m_h221_p-21_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_8_v3_d6m_h269_p-21_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_8_v4_d6m_h317_p-21_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_8_v5_d6m_h5_p-21_f60.jpg
+[SCRIPT] Analyse du Point 9 (50.77830484591032, 2.717755576241092)...
+[SCRIPT] Point 9 : distance=6.8m, cap_centre=7.8°, 6 image(s) prévue(s) pour couvrir la zone de recherche.
+[SCRIPT]   -> Image enregistrée : POINT_9_v0_d6m_h250_p-20_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_9_v1_d6m_h298_p-20_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_9_v2_d6m_h346_p-20_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_9_v3_d6m_h34_p-20_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_9_v4_d6m_h82_p-20_f60.jpg
+[SCRIPT]   -> Image enregistrée : POINT_9_v5_d6m_h130_p-20_f60.jpg

@@ -1,0 +1,42 @@
+[
+  {
+    "file_name": "POINT_0_dist4m.jpg",
+    "nom_base": "POINT_0_dist4m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_1_dist6m.jpg",
+    "nom_base": "POINT_1_dist6m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_2_dist6m.jpg",
+    "nom_base": "POINT_2_dist6m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_3_dist13m.jpg",
+    "nom_base": "POINT_3_dist13m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_4_dist5m.jpg",
+    "nom_base": "POINT_4_dist5m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_5_dist3m.jpg",
+    "nom_base": "POINT_5_dist3m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_6_dist4m.jpg",
+    "nom_base": "POINT_6_dist4m",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_7_dist9m.jpg",
+    "nom_base": "POINT_7_dist9m",
+    "chambre_detectee": false
+  }
+]

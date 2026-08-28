@@ -1,0 +1,168 @@
+[
+  {
+    "meta": {
+      "chambre_id": "1064983",
+      "type_chambre": "L2T",
+      "distance_m": 5.0,
+      "chemin_image": "dataset_test_pnp/CH_1064983_L2T_dist5m_2024-06.jpg"
+    },
+    "coverage_pct": 91.6,
+    "precision_pct": 95.7,
+    "taux_occlusion_estime_pct": 0.0,
+    "nb_coins_visibles_diagnostic": 4,
+    "visibilite_coins_detail": {
+      "TL": {
+        "visible": true,
+        "distance_contour_px": 2.48914883252686,
+        "seuil_applique_px": 10.398537338336931,
+        "raison": "confirme"
+      },
+      "TR": {
+        "visible": true,
+        "distance_contour_px": 0.6984100341796875,
+        "seuil_applique_px": 10.398537338336931,
+        "raison": "confirme"
+      },
+      "BR": {
+        "visible": true,
+        "distance_contour_px": 1.4831374838547184,
+        "seuil_applique_px": 10.398537338336931,
+        "raison": "confirme"
+      },
+      "BL": {
+        "visible": true,
+        "distance_contour_px": 1.4337191286531996,
+        "seuil_applique_px": 10.398537338336931,
+        "raison": "confirme"
+      }
+    },
+    "cout_chamfer": 0.38,
+    "echelle_ajustement": 0.803,
+    "dimensions_utilisees_m": {
+      "longueur_m": 1.405,
+      "largeur_m": 0.635,
+      "hauteur_m": 0.66,
+      "source": "MODOP_exterieur",
+      "fiabilite": "haute"
+    },
+    "strategie": "CAS_1_PNP_DIRECT",
+    "statut": "TRAITE",
+    "pose_pnp": {
+      "succes": true,
+      "rvec": [
+        1.0694892115553136,
+        -2.0655557011980648,
+        1.2765836289965258
+      ],
+      "tvec": [
+        0.9905006478169721,
+        0.45202298738642005,
+        6.056543380469081
+      ],
+      "distance_camera_objet_m": 6.153627713305008,
+      "erreur_reprojection_px": 5.02429586778808e-14
+    },
+    "coins_finaux_px": [
+      [
+        493.6088246711696,
+        278.41355754735457
+      ],
+      [
+        447.6287709247781,
+        254.30158814837037
+      ],
+      [
+        344.22969262546457,
+        293.67283205468533
+      ],
+      [
+        387.535426708459,
+        324.3299766303124
+      ]
+    ],
+    "visualisation": "resultats_test_pnp/CH_1064983_L2T_dist5m_2024-06_ajustement.jpg"
+  },
+  {
+    "meta": {
+      "chambre_id": "2416805",
+      "type_chambre": "K2C",
+      "distance_m": 6.0,
+      "chemin_image": "dataset_test_pnp/CH_2416805_K2C_dist6m_2024-06.jpg"
+    },
+    "coverage_pct": 83.0,
+    "precision_pct": 97.3,
+    "taux_occlusion_estime_pct": 31.2,
+    "nb_coins_visibles_diagnostic": 2,
+    "visibilite_coins_detail": {
+      "TL": {
+        "visible": true,
+        "distance_contour_px": 0.146270751953125,
+        "seuil_applique_px": 11.840222291611937,
+        "raison": "confirme"
+      },
+      "TR": {
+        "visible": true,
+        "distance_contour_px": 0.044281005859375,
+        "seuil_applique_px": 11.840222291611937,
+        "raison": "confirme"
+      },
+      "BR": {
+        "visible": false,
+        "distance_contour_px": 24.489288330078125,
+        "seuil_applique_px": 11.840222291611937,
+        "raison": "extrapole_non_confirme"
+      },
+      "BL": {
+        "visible": false,
+        "distance_contour_px": 25.80933855046813,
+        "seuil_applique_px": 11.840222291611937,
+        "raison": "extrapole_non_confirme"
+      }
+    },
+    "cout_chamfer": 0.14,
+    "echelle_ajustement": 0.759,
+    "dimensions_utilisees_m": {
+      "longueur_m": 1.825,
+      "largeur_m": 1.075,
+      "hauteur_m": 0.84,
+      "source": "MODOP_exterieur",
+      "fiabilite": "haute"
+    },
+    "strategie": "CAS_2_TEMPLATE_MATCHING",
+    "statut": "TRAITE",
+    "pose_pnp": {
+      "succes": true,
+      "rvec": [
+        1.9655872874177978,
+        0.0009034834931615477,
+        -0.000602322328774567
+      ],
+      "tvec": [
+        0.6192090765623696,
+        1.3701140646624854,
+        5.270724076410328
+      ],
+      "distance_camera_objet_m": 5.480982094509586,
+      "erreur_reprojection_px": 1.3330963383348913e-13
+    },
+    "coins_finaux_px": [
+      [
+        331.2245749303584,
+        478.85373766334453
+      ],
+      [
+        480.464341893847,
+        478.95571229932887
+      ],
+      [
+        436.4093813510014,
+        342.51072546760713
+      ],
+      [
+        328.30026007719584,
+        342.4572104251741
+      ]
+    ],
+    "visualisation": "resultats_test_pnp/CH_2416805_K2C_dist6m_2024-06_ajustement.jpg"
+  }
+]

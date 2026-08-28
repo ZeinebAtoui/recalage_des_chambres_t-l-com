@@ -1,0 +1,3 @@
+ERREUR CRITIQUE : Le script de téléchargement est introuvable au chemin attendu :
+/mnt/c/Users/zatoui/dataset_chambres/telechargement_interface.py
+Veuillez vérifier que le fichier existe à la racine de 'dataset_chambres'.

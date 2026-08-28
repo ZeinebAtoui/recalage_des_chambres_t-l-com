@@ -1,12 +1,12 @@
 <section class="upload">
   <h2>Télécharger des images depuis une carte SIG</h2>
   <p class="aide">
-    Envoie un CSV de points (colonnes <code>latitude</code>, <code>longitude</code>) — par exemple un extrait de
-    <code>points_A_prets.csv</code> — pour lancer la collecte Street View correspondante.
+     
+    
   </p>
 
   <div class="formulaire">
-    <input type="file" accept=".csv" (change)="onFichierSelectionne($event)" [disabled]="envoiEnCours()" />
+    <input type="file" accept=".zip" (change)="onFichierSelectionne($event)" [disabled]="envoiEnCours()" />
 
     <label class="max-points">
       Nombre max de points
@@ -24,15 +24,46 @@
 
   @if (job(); as j) {
     <div class="statut-job" [class]="'statut-' + j.status">
-      <div class="ligne">
-        <span class="badge">{{ j.status }}</span>
-        <span>job {{ j.job_id }}</span>
-        <span>{{ j.images_telechargees }} / {{ j.max_points }} images</span>
+      <div class="etapes">
+        <span class="etape" [class.active]="j.phase === 'telechargement'" [class.done]="j.images_telechargees > 0 && j.phase !== 'telechargement'">
+          1. Téléchargement Street View
+        </span>
+        <span class="fleche">→</span>
+        <span class="etape" [class.active]="j.phase === 'inference'" [class.done]="j.phase === 'termine'">
+          2. Détection (Faster R-CNN + DeepLab + SAM2)
+        </span>
       </div>
+
+      <div class="ligne">
+        <span class="badge">{{ j.phase }}</span>
+        <span>{{ j.images_telechargees }} image(s) téléchargée(s)</span>
+        @if (j.phase === 'inference' || j.phase === 'termine') {
+          <span>{{ j.predictions_generees }} traitée(s)</span>
+          <span>{{ j.chambres_detectees }} chambre(s) détectée(s)</span>
+        }
+      </div>
+
+      @if (j.phase === 'inference') {
+        <p class="note"> compter environ 15 à 30 secondes par image.</p>
+      }
 
       @if (j.status === 'failed' && j.log_tail.length) {
         <pre class="log">{{ j.log_tail.join('\n') }}</pre>
       }
+    </div>
+  }
+
+  @if (predictions().length) {
+    <div class="predictions">
+      <h3>Chambres détectées</h3>
+      <div class="grille-predictions">
+        @for (p of predictions(); track p.nom_base) {
+          <figure [class.non-detectee]="!p.chambre_detectee">
+            <img [src]="getUrlPrediction(p.overlay)" [alt]="p.nom_base" />
+            <figcaption>{{ p.nom_base }} — {{ p.chambre_detectee ? 'chambre détectée' : 'aucune détection' }}</figcaption>
+          </figure>
+        }
+      </div>
     </div>
   }
 </section>

@@ -1,0 +1,202 @@
+[
+  {
+    "meta": {
+      "chambre_id": "1064983",
+      "type_chambre": "L2T",
+      "distance_m": 5.0,
+      "chemin_image": "dataset_test_pnp/images copy/CH_1064983_L2T_dist5m_2024-06.jpg"
+    },
+    "statut": "TRAITE",
+    "strategie": "CAS_1_PNP_DIRECT",
+    "pose_pnp": {
+      "succes": true,
+      "rvec": [
+        1.0694892115553136,
+        -2.0655557011980648,
+        1.2765836289965258
+      ],
+      "tvec": [
+        0.9905006478169721,
+        0.45202298738642005,
+        6.056543380469081
+      ],
+      "distance_camera_objet_m": 6.153627713305008,
+      "erreur_reprojection_px": 5.02429586778808e-14
+    },
+    "coins_finaux_px": [
+      [
+        493.6088246711696,
+        278.41355754735457
+      ],
+      [
+        447.6287709247781,
+        254.30158814837037
+      ],
+      [
+        344.22969262546457,
+        293.67283205468533
+      ],
+      [
+        387.535426708459,
+        324.3299766303124
+      ]
+    ],
+    "coverage_pct": 91.6,
+    "precision_pct": 95.7,
+    "taux_occlusion_estime_pct": 0.0,
+    "nb_coins_visibles_diagnostic": 4,
+    "visibilite_coins_detail": {
+      "TL": {
+        "visible": true,
+        "distance_contour_px": 2.48914883252686,
+        "seuil_applique_px": 10.398537338336931,
+        "raison": "confirme"
+      },
+      "TR": {
+        "visible": true,
+        "distance_contour_px": 0.6984100341796875,
+        "seuil_applique_px": 10.398537338336931,
+        "raison": "confirme"
+      },
+      "BR": {
+        "visible": true,
+        "distance_contour_px": 1.4831374838547184,
+        "seuil_applique_px": 10.398537338336931,
+        "raison": "confirme"
+      },
+      "BL": {
+        "visible": true,
+        "distance_contour_px": 1.4337191286531996,
+        "seuil_applique_px": 10.398537338336931,
+        "raison": "confirme"
+      }
+    },
+    "cout_chamfer": 0.38,
+    "echelle_ajustement": 0.803,
+    "dimensions_utilisees_m": {
+      "longueur_m": 1.405,
+      "largeur_m": 0.635,
+      "hauteur_m": 0.66,
+      "source": "MODOP_exterieur",
+      "fiabilite": "haute"
+    },
+    "visualisation": "resultats_test_pnp1/CH_1064983_L2T_dist5m_2024-06_ajustement.jpg",
+    "comparaison_pnp_gt": {
+      "comparable": true,
+      "erreur_translation_m": 0.4201,
+      "tvec_predit": [
+        0.9905006478169721,
+        0.45202298738642005,
+        6.056543380469081
+      ],
+      "tvec_verite_terrain": [
+        0.9173914956436355,
+        0.416112368224346,
+        5.644398040552331
+      ],
+      "strategie_verite_terrain": "GT_REFERENCE",
+      "coverage_pct_verite_terrain": 92.9,
+      "precision_pct_verite_terrain": 99.0,
+      "visualisation_gt": "resultats_test_pnp1/CH_1064983_L2T_dist5m_2024-06_ajustement_GT.jpg"
+    }
+  },
+  {
+    "meta": {
+      "chambre_id": "1499645",
+      "type_chambre": "L2T",
+      "distance_m": 9.0,
+      "chemin_image": "dataset_test_pnp/images copy/CH_1499645_L2T_dist9m_2024-06.jpg"
+    },
+    "statut": "TRAITE",
+    "strategie": "CAS_2_TEMPLATE_MATCHING",
+    "pose_pnp": {
+      "succes": true,
+      "rvec": [
+        1.6008900189799458,
+        -1.0635602811898857,
+        0.8083969071856241
+      ],
+      "tvec": [
+        3.6402972106385922,
+        0.5034074395997765,
+        10.631975337838082
+      ],
+      "distance_camera_objet_m": 11.249181410948296,
+      "erreur_reprojection_px": 1.556721137788958e-13
+    },
+    "coins_finaux_px": [
+      [
+        638.9585909818647,
+        290.13272480590945
+      ],
+      [
+        639.9192756937159,
+        276.1150913609597
+      ],
+      [
+        535.3727135486657,
+        264.34546218259726
+      ],
+      [
+        528.9031799245539,
+        277.04454477315994
+      ]
+    ],
+    "coverage_pct": 67.8,
+    "precision_pct": 99.5,
+    "taux_occlusion_estime_pct": 11.2,
+    "nb_coins_visibles_diagnostic": 3,
+    "visibilite_coins_detail": {
+      "TL": {
+        "visible": true,
+        "distance_contour_px": 3.132720947265625,
+        "seuil_applique_px": 9.308285162692233,
+        "raison": "confirme"
+      },
+      "TR": {
+        "visible": false,
+        "raison": "hors_cadre"
+      },
+      "BR": {
+        "visible": true,
+        "distance_contour_px": 4.494840462599522,
+        "seuil_applique_px": 9.308285162692233,
+        "raison": "confirme"
+      },
+      "BL": {
+        "visible": true,
+        "distance_contour_px": 8.650290046980542,
+        "seuil_applique_px": 9.308285162692233,
+        "raison": "confirme"
+      }
+    },
+    "cout_chamfer": 1.12,
+    "echelle_ajustement": 0.751,
+    "dimensions_utilisees_m": {
+      "longueur_m": 1.405,
+      "largeur_m": 0.635,
+      "hauteur_m": 0.66,
+      "source": "MODOP_exterieur",
+      "fiabilite": "haute"
+    },
+    "visualisation": "resultats_test_pnp1/CH_1499645_L2T_dist9m_2024-06_ajustement.jpg",
+    "comparaison_pnp_gt": {
+      "comparable": true,
+      "erreur_translation_m": 0.0129,
+      "tvec_predit": [
+        3.6402972106385922,
+        0.5034074395997765,
+        10.631975337838082
+      ],
+      "tvec_verite_terrain": [
+        3.6275984280501024,
+        0.5014772758165645,
+        10.630899230067536
+      ],
+      "strategie_verite_terrain": "GT_REFERENCE",
+      "coverage_pct_verite_terrain": 74.5,
+      "precision_pct_verite_terrain": 99.8,
+      "visualisation_gt": "resultats_test_pnp1/CH_1499645_L2T_dist9m_2024-06_ajustement_GT.jpg"
+    }
+  }
+]

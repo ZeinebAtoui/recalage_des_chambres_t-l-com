@@ -1,0 +1,67 @@
+--- DÉMARRAGE DE L'INFÉRENCE POUR LE JOB 091a72f0f085 ---
+Script : /mnt/c/Users/zatoui/dataset_chambres/inference_nouvelles_images.py
+Dossier images : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/downloads/091a72f0f085/images
+Dossier de sortie : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/downloads/091a72f0f085/predictions
+
+/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/mmseg/models/builder.py:36: UserWarning: ``build_loss`` would be deprecated soon, please use ``mmseg.registry.MODELS.build()`` 
+  warnings.warn('``build_loss`` would be deprecated soon, please use '
+/mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/lib/python3.11/site-packages/mmseg/models/losses/cross_entropy_loss.py:250: UserWarning: Default ``avg_non_ignore`` is False, if you would like to ignore the certain label and average loss over non-ignore labels, which is the same with PyTorch official cross_entropy, set ``avg_non_ignore=True``.
+  warnings.warn(
+
+======================================================================
+DEVICE
+======================================================================
+Device utilise : cpu
+18 images trouvees dans /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/downloads/091a72f0f085/images
+
+======================================================================
+CHARGEMENT FASTER R-CNN
+======================================================================
+Faster R-CNN charge avec succes.
+
+======================================================================
+CHARGEMENT DEEPLABV3+
+======================================================================
+Loads checkpoint by local backend from path: /mnt/c/Users/zatoui/dataset_chambres/best_mIoU_iter_2000.pth
+DeepLabV3+ charge avec succes.
+
+======================================================================
+ETAPE 1 : COLLECTE FASTER R-CNN + DEEPLABV3+ (sans verite terrain)
+======================================================================
+  [5/18] images traitees (0 detections collectees)
+  [10/18] images traitees (2 detections collectees)
+  [15/18] images traitees (3 detections collectees)
+  [18/18] images traitees (4 detections collectees)
+Total detections collectees : 4
+
+======================================================================
+ETAPE 2 : APPEL DE SAM2 (subprocess vers sam2_env)
+======================================================================
+Nombre de requetes envoyees a SAM2 : 4
+Commande executee :
+/home/zeineb/envs/sam2_env/bin/python3 /mnt/c/Users/zatoui/dataset_chambres/sam2_worker.py --requetes /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/downloads/091a72f0f085/predictions/_temp_ipc/requetes_sam2.json --resultats /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/downloads/091a72f0f085/predictions/_temp_ipc/resultats_sam2.json --masques_dir /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/downloads/091a72f0f085/predictions/_temp_ipc/masques_sam2 --sam2_repo /home/zeineb/projets/sam2 --checkpoint /home/zeineb/projets/sam2/checkpoints/sam2.1_hiera_tiny.pt --config configs/sam2.1/sam2.1_hiera_t.yaml
+
+--- Sortie standard de sam2_worker.py ---
+Nombre de requetes recues : 4
+Chargement de SAM2 ...
+SAM2 charge en 3.15s
+  [4/4] requetes traitees
+Traitement SAM2 termine en 29.70s (7.42s/requete en moyenne)
+Resultats ecrits dans : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/downloads/091a72f0f085/predictions/_temp_ipc/resultats_sam2.json
+
+Resultats SAM2 recus : 4
+
+======================================================================
+ETAPE 3 : FUSION SEMANTIQUE ET CONSTRUCTION DES MASQUES FINAUX
+======================================================================
+Detections validees semantiquement : 4
+Detections rejetees : 0
+
+======================================================================
+SAUVEGARDE DES MASQUES ET OVERLAYS
+======================================================================
+
+Termine : 4/18 images avec au moins une chambre detectee.
+Masques  : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/downloads/091a72f0f085/predictions/masks
+Overlays : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/downloads/091a72f0f085/predictions/overlays
+Manifest : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/downloads/091a72f0f085/predictions/manifest.json

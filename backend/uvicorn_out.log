@@ -1,0 +1,5 @@
+⚠️  JWT_SECRET_KEY non defini : cle de developpement utilisee (a ne pas utiliser en production).
+INFO:     127.0.0.1:50654 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50655 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50658 - "POST /api/auth/register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50660 - "POST /api/carte-sig/upload?max_points=1 HTTP/1.1" 200 OK

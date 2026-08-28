@@ -1,0 +1,1248 @@
+--- DÉMARRAGE DU JOB c9ec919e2b2d ---
+Script : /mnt/c/Users/zatoui/dataset_chambres/backend/services/telechargement_interface.py
+CSV source : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/cartes/Exp-Avant-IA-Saint-jans-Cappel.csv
+Dossier de sortie : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/downloads/c9ec919e2b2d
+Points max : 10
+Interprète Python : /mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/bin/python3
+Clé API transmise : Oui
+Lancement du sous-processus...
+
+[SCRIPT] Démarrage du script de téléchargement...
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)
+[SCRIPT]   -> Distance 0.0m hors bornes [3.0-12.0], point ignoré.
+[SCRIPT]   -> Échec image satellite (Code HTTP 403)

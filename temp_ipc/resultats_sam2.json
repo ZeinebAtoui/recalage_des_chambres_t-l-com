@@ -1,0 +1,12 @@
+[
+  {
+    "id": 0,
+    "mask_path": "/mnt/c/Users/zatoui/dataset_chambres/temp_ipc/masques_sam2/mask_0.png",
+    "score": 0.9352734684944153
+  },
+  {
+    "id": 1,
+    "mask_path": "/mnt/c/Users/zatoui/dataset_chambres/temp_ipc/masques_sam2/mask_1.png",
+    "score": 0.8574150204658508
+  }
+]

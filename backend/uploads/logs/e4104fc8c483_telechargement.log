@@ -1,0 +1,110 @@
+--- DÉMARRAGE DU JOB e4104fc8c483 ---
+Script : /mnt/c/Users/zatoui/dataset_chambres/backend/services/telechargement_interface.py
+CSV source : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/cartes/Exp-Avant-IA-Saint-jans-Cappel.csv
+Dossier de sortie : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/downloads/e4104fc8c483
+Points max : 8
+Interprète Python : /mnt/c/Users/zatoui/dataset_chambres/env_hybrid_311/bin/python3
+Clé API transmise : Oui
+Lancement du sous-processus...
+
+[SCRIPT] Démarrage du script de téléchargement...
+[SCRIPT] Execution via ligne de commande.
+[SCRIPT] Lecture du fichier CSV : /mnt/c/Users/zatoui/dataset_chambres/backend/uploads/cartes/Exp-Avant-IA-Saint-jans-Cappel.csv
+[SCRIPT] Clé API détectée : AIzaSy...
+[SCRIPT] CSV chargé : 888 lignes trouvées.
+[SCRIPT] Analyse du Point 0 (50.76609618984319, 2.7156906700856136)...
+[SCRIPT] Image enregistrée : POINT_0_ANGLE0_dist4m.jpg
+[SCRIPT] Point 0 - angle 36° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 0 - angle 72° : panorama déjà utilisé, ignoré.
+[SCRIPT] Image enregistrée : POINT_0_ANGLE108_dist11m.jpg
+[SCRIPT] Point 0 - angle 144° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 0 - angle 180° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 0 - angle 216° : panorama déjà utilisé, ignoré.
+[SCRIPT] Image enregistrée : POINT_0_ANGLE252_dist10m.jpg
+[SCRIPT] Point 0 - angle 288° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 0 - angle 324° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 0 terminé : 3 image(s) obtenue(s) sur 10 angles testés.
+[SCRIPT] Analyse du Point 1 (50.765265439991175, 2.7252577198371752)...
+[SCRIPT] Image enregistrée : POINT_1_ANGLE0_dist6m.jpg
+[SCRIPT] Image enregistrée : POINT_1_ANGLE36_dist9m.jpg
+[SCRIPT] Point 1 - angle 72° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 1 - angle 108° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 1 - angle 144° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 1 - angle 180° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 1 - angle 216° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 1 - angle 252° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 1 - angle 288° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 1 - angle 324° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 1 terminé : 2 image(s) obtenue(s) sur 10 angles testés.
+[SCRIPT] Analyse du Point 2 (50.76796292903358, 2.7186271375885767)...
+[SCRIPT] Image enregistrée : POINT_2_ANGLE0_dist13m.jpg
+[SCRIPT] Point 2 - angle 36° : panorama déjà utilisé, ignoré.
+[SCRIPT] Image enregistrée : POINT_2_ANGLE72_dist6m.jpg
+[SCRIPT] Point 2 - angle 108° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 2 - angle 144° : panorama déjà utilisé, ignoré.
+[SCRIPT] Image enregistrée : POINT_2_ANGLE180_dist13m.jpg
+[SCRIPT] Point 2 - angle 216° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 2 - angle 252° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 2 - angle 288° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 2 - angle 324° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 2 terminé : 3 image(s) obtenue(s) sur 10 angles testés.
+[SCRIPT] Analyse du Point 3 (50.7656609945417, 2.70876037887413)...
+[SCRIPT] Image enregistrée : POINT_3_ANGLE0_dist13m.jpg
+[SCRIPT] Point 3 - angle 36° : aucun panorama trouvé (Statut: ZERO_RESULTS)
+[SCRIPT] Point 3 - angle 72° : aucun panorama trouvé (Statut: ZERO_RESULTS)
+[SCRIPT] Point 3 - angle 108° : aucun panorama trouvé (Statut: ZERO_RESULTS)
+[SCRIPT] Point 3 - angle 144° : aucun panorama trouvé (Statut: ZERO_RESULTS)
+[SCRIPT] Image enregistrée : POINT_3_ANGLE180_dist14m.jpg
+[SCRIPT] Point 3 - angle 216° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 3 - angle 252° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 3 - angle 288° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 3 - angle 324° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 3 terminé : 2 image(s) obtenue(s) sur 10 angles testés.
+[SCRIPT] Analyse du Point 4 (50.78021933226435, 2.729517551666634)...
+[SCRIPT] Image enregistrée : POINT_4_ANGLE0_dist7m.jpg
+[SCRIPT] Point 4 - angle 36° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 4 - angle 72° : panorama déjà utilisé, ignoré.
+[SCRIPT] Image enregistrée : POINT_4_ANGLE108_dist5m.jpg
+[SCRIPT] Point 4 - angle 144° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 4 - angle 180° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 4 - angle 216° : panorama déjà utilisé, ignoré.
+[SCRIPT] Image enregistrée : POINT_4_ANGLE252_dist10m.jpg
+[SCRIPT] Point 4 - angle 288° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 4 - angle 324° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 4 terminé : 3 image(s) obtenue(s) sur 10 angles testés.
+[SCRIPT] Analyse du Point 5 (50.7590925037024, 2.724934413962284)...
+[SCRIPT] Image enregistrée : POINT_5_ANGLE0_dist3m.jpg
+[SCRIPT] Point 5 - angle 36° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 5 - angle 72° : panorama déjà utilisé, ignoré.
+[SCRIPT] Image enregistrée : POINT_5_ANGLE108_dist6m.jpg
+[SCRIPT] Point 5 - angle 144° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 5 - angle 180° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 5 - angle 216° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 5 - angle 252° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 5 - angle 288° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 5 - angle 324° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 5 terminé : 2 image(s) obtenue(s) sur 10 angles testés.
+[SCRIPT] Analyse du Point 6 (50.75732636958182, 2.72920161575061)...
+[SCRIPT] Image enregistrée : POINT_6_ANGLE0_dist4m.jpg
+[SCRIPT] Point 6 - angle 36° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 6 - angle 72° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 6 - angle 108° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 6 - angle 144° : panorama déjà utilisé, ignoré.
+[SCRIPT] Image enregistrée : POINT_6_ANGLE180_dist6m.jpg
+[SCRIPT] Point 6 - angle 216° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 6 - angle 252° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 6 - angle 288° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 6 - angle 324° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 6 terminé : 2 image(s) obtenue(s) sur 10 angles testés.
+[SCRIPT] Analyse du Point 7 (50.75743462787899, 2.72922804120084)...
+[SCRIPT] Point 7 - angle 0° : aucun panorama trouvé (Statut: ZERO_RESULTS)
+[SCRIPT] Image enregistrée : POINT_7_ANGLE36_dist12m.jpg
+[SCRIPT] Point 7 - angle 72° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 7 - angle 108° : panorama déjà utilisé, ignoré.
+[SCRIPT] Image enregistrée : POINT_7_ANGLE144_dist9m.jpg
+[SCRIPT] Point 7 - angle 180° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 7 - angle 216° : panorama déjà utilisé, ignoré.
+[SCRIPT] Image enregistrée : POINT_7_ANGLE252_dist14m.jpg
+[SCRIPT] Point 7 - angle 288° : panorama déjà utilisé, ignoré.
+[SCRIPT] Point 7 - angle 324° : aucun panorama trouvé (Statut: ZERO_RESULTS)
+[SCRIPT] Point 7 terminé : 3 image(s) obtenue(s) sur 10 angles testés.

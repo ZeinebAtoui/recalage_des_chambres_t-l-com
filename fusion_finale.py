@@ -683,7 +683,7 @@ def construire_masques_finaux(detections_completes, resultats_sam2, images):
  
         masque_sam_crop = cv2.imread(resultat_sam["mask_path"], cv2.IMREAD_GRAYSCALE)
         if masque_sam_crop is None:
-            nb_rejetees += 1
+            nb_rejetees += 1   
             continue
         masque_sam_crop = (masque_sam_crop > 127).astype(np.uint8)
 

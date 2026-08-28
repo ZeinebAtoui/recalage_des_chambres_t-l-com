@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(wsl.exe -e bash -lc 'ps aux | grep -i \"ng serve\\\\|node\" | grep -v grep')",
+      "PowerShell(wsl.exe -e bash -lc 'cat /mnt/c/Users/zatoui/dataset_chambres/frontend/ng_serve.log; echo \"---end---\"; ls -la /mnt/c/Users/zatoui/dataset_chambres/frontend/ng_serve.log')",
+      "Bash(powershell.exe -NoProfile -Command 'wsl.exe -e bash -lc '\\\\''export NVM_DIR=\"$HOME/.nvm\"; . \"$NVM_DIR/nvm.sh\"; cd /mnt/c/Users/zatoui/dataset_chambres/frontend && ng serve --port 4200 --host 0.0.0.0'\\\\''')",
+      "PowerShell(curl.exe -s -o NUL -w \"%{http_code}\" http://localhost:4200/)",
+      "PowerShell(wsl.exe -e bash -lc 'export NVM_DIR=\"$HOME/.nvm\"; . \"$NVM_DIR/nvm.sh\"; cd /mnt/c/Users/zatoui/dataset_chambres/frontend && ng serve --port 4200 --host 0.0.0.0')"
+    ]
+  }
+}
