@@ -1,0 +1,217 @@
+--- DÉMARRAGE DU JOB 7018217723ab ---
+Script : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/services/telechargement_interface.py
+CSV source : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/cartes/Exp-Avant-IA.csv
+Dossier de sortie : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/7018217723ab
+Points max : 10
+Options de recherche : {"rayon_recherche": 15.0, "max_images_par_point": 6}
+Interprète Python : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/env_hybrid_311/bin/python3
+Clé API transmise : Oui
+Lancement du sous-processus...
+
+[SCRIPT] Exécution via ligne de commande.
+[SCRIPT] Options reçues : {'rayon_recherche': 15.0, 'max_images_par_point': 6}
+[SCRIPT] Démarrage du script de téléchargement...
+[SCRIPT] Configuration de recherche :
+[SCRIPT]   rayon de recherche   : 15.0 m
+[SCRIPT]   échantillons cercle  : 12
+[SCRIPT]   max images / point   : 6
+[SCRIPT]   distance             : [2.0 ; 50.0] m
+[SCRIPT]   bearing              : [0° ; 360°]
+[SCRIPT]   pitch                : [-60° ; 0°]
+[SCRIPT]   FOV                  : dynamique (35/45/55°)
+[SCRIPT]   bonus candidats      : +2 (best-of-N)
+[SCRIPT]   seuil aplats (rejet) : 0.40
+[SCRIPT] Clé API détectée : AIzaSy...
+[SCRIPT] Lecture du CSV : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/cartes/Exp-Avant-IA.csv
+[SCRIPT] 185 ligne(s) trouvée(s).
+[SCRIPT] Colonne latitude  : latitude
+[SCRIPT] Colonne longitude : longitude
+[SCRIPT] Colonne ID        : OBJECTID
+[SCRIPT] Colonne type      : REF_CHAMBR
+[SCRIPT] Points à traiter : 10
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 1/10 - ID : 1149007
+[SCRIPT] Coordonnées : 50.76452472723148, 2.719859510038881
+[SCRIPT] Rayon de recherche : 15.0 m
+[SCRIPT] ========================================
+[SCRIPT] Candidats valides : 8 (rejets : 0)
+[SCRIPT] Qualité POINT_0_c0_dist2.9m.jpg : netteté 624 | aplats 0.846 | pano 2025-03 | score 0.342 (aplats trop élevés)
+[SCRIPT] Qualité POINT_0_c1_dist8.1m.jpg : netteté 1924 | aplats 0.631 | pano 2025-03 | score 0.591 (aplats trop élevés)
+[SCRIPT] Qualité POINT_0_c2_dist10.3m.jpg : netteté 2003 | aplats 0.051 | pano 2025-03 | score 0.861
+[SCRIPT] Qualité POINT_0_c3_dist11.9m.jpg : netteté 1927 | aplats 0.003 | pano 2021-06 | score 0.873
+[SCRIPT] Qualité POINT_0_c4_dist16.0m.jpg : netteté 1439 | aplats 0.020 | pano 2025-03 | score 0.809
+[SCRIPT] Qualité POINT_0_c5_dist17.8m.jpg : netteté 1247 | aplats 0.308 | pano 2025-03 | score 0.657
+[SCRIPT] Qualité POINT_0_c6_dist18.3m.jpg : netteté 3824 | aplats 0.161 | pano 2025-03 | score 0.928
+[SCRIPT] Qualité POINT_0_c7_dist18.8m.jpg : netteté 2346 | aplats 0.022 | pano 2021-06 | score 0.914
+[SCRIPT] Image retenue : POINT_0_v0_dist10.3m.jpg (dist 10.3 m, score 0.861, bearing 268.0°, pitch -13.6°, FOV 35°)
+[SCRIPT] Image retenue : POINT_0_v1_dist11.9m.jpg (dist 11.9 m, score 0.873, bearing 69.6°, pitch -11.9°, FOV 35°)
+[SCRIPT] Image retenue : POINT_0_v2_dist16.0m.jpg (dist 16.0 m, score 0.809, bearing 307.4°, pitch -8.9°, FOV 35°)
+[SCRIPT] Image retenue : POINT_0_v3_dist17.8m.jpg (dist 17.8 m, score 0.657, bearing 118.6°, pitch -8.0°, FOV 35°)
+[SCRIPT] Image retenue : POINT_0_v4_dist18.3m.jpg (dist 18.3 m, score 0.928, bearing 241.8°, pitch -7.8°, FOV 35°)
+[SCRIPT] Image retenue : POINT_0_v5_dist18.8m.jpg (dist 18.8 m, score 0.914, bearing 81.5°, pitch -7.6°, FOV 35°)
+[SCRIPT] ✓ ID 1149007 : 6 image(s) validée(s).
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 2/10 - ID : 1149009
+[SCRIPT] Coordonnées : 50.763092894670415, 2.720401021499844
+[SCRIPT] Rayon de recherche : 15.0 m
+[SCRIPT] ========================================
+[SCRIPT] Candidats valides : 4 (rejets : 0)
+[SCRIPT] Qualité POINT_1_c0_dist4.7m.jpg : netteté 2568 | aplats 0.005 | pano 2021-06 | score 0.947
+[SCRIPT] Qualité POINT_1_c1_dist12.0m.jpg : netteté 1865 | aplats 0.007 | pano 2021-06 | score 0.864
+[SCRIPT] Qualité POINT_1_c2_dist14.2m.jpg : netteté 2630 | aplats 0.004 | pano 2021-06 | score 0.955
+[SCRIPT] Qualité POINT_1_c3_dist15.7m.jpg : netteté 911 | aplats 0.227 | pano 2019-04 | score 0.634
+[SCRIPT] Image retenue : POINT_1_v0_dist4.7m.jpg (dist 4.7 m, score 0.947, bearing 301.8°, pitch -28.1°, FOV 55°)
+[SCRIPT] Image retenue : POINT_1_v1_dist12.0m.jpg (dist 12.0 m, score 0.864, bearing 258.3°, pitch -11.8°, FOV 35°)
+[SCRIPT] Image retenue : POINT_1_v2_dist14.2m.jpg (dist 14.2 m, score 0.955, bearing 103.3°, pitch -10.0°, FOV 35°)
+[SCRIPT] Image retenue : POINT_1_v3_dist15.7m.jpg (dist 15.7 m, score 0.634, bearing 42.7°, pitch -9.1°, FOV 35°)
+[SCRIPT] ✓ ID 1149009 : 4 image(s) validée(s).
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 3/10 - ID : 1149015
+[SCRIPT] Coordonnées : 50.765961042443216, 2.7191723857480072
+[SCRIPT] Rayon de recherche : 15.0 m
+[SCRIPT] ========================================
+[SCRIPT] Candidats valides : 3 (rejets : 0)
+[SCRIPT] Qualité POINT_2_c0_dist2.1m.jpg : netteté 308 | aplats 0.959 | pano 2025-03 | score 0.254 (aplats trop élevés)
+[SCRIPT] Qualité POINT_2_c1_dist10.1m.jpg : netteté 848 | aplats 0.541 | pano 2025-03 | score 0.505 (aplats trop élevés)
+[SCRIPT] Qualité POINT_2_c2_dist10.8m.jpg : netteté 956 | aplats 0.123 | pano 2025-03 | score 0.706
+[SCRIPT] Image retenue : POINT_2_v0_dist10.8m.jpg (dist 10.8 m, score 0.706, bearing 3.0°, pitch -13.0°, FOV 35°)
+[SCRIPT] ✓ ID 1149015 : 1 image(s) validée(s).
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 4/10 - ID : 1149027
+[SCRIPT] Coordonnées : 50.763350483403, 2.7213389532132566
+[SCRIPT] Rayon de recherche : 15.0 m
+[SCRIPT] ========================================
+[SCRIPT] Candidats valides : 4 (rejets : 0)
+[SCRIPT] Qualité POINT_3_c0_dist5.9m.jpg : netteté 875 | aplats 0.116 | pano 2021-06 | score 0.700
+[SCRIPT] Qualité POINT_3_c1_dist7.2m.jpg : netteté 1422 | aplats 0.014 | pano 2021-06 | score 0.810
+[SCRIPT] Qualité POINT_3_c2_dist15.4m.jpg : netteté 1163 | aplats 0.072 | pano 2021-06 | score 0.753
+[SCRIPT] Qualité POINT_3_c3_dist17.0m.jpg : netteté 1200 | aplats 0.056 | pano 2021-06 | score 0.765
+[SCRIPT] Image retenue : POINT_3_v0_dist5.9m.jpg (dist 5.9 m, score 0.700, bearing 204.6°, pitch -22.9°, FOV 55°)
+[SCRIPT] Image retenue : POINT_3_v1_dist7.2m.jpg (dist 7.2 m, score 0.810, bearing 96.0°, pitch -19.1°, FOV 45°)
+[SCRIPT] Image retenue : POINT_3_v2_dist15.4m.jpg (dist 15.4 m, score 0.753, bearing 231.7°, pitch -9.2°, FOV 35°)
+[SCRIPT] Image retenue : POINT_3_v3_dist17.0m.jpg (dist 17.0 m, score 0.765, bearing 76.1°, pitch -8.4°, FOV 35°)
+[SCRIPT] ✓ ID 1149027 : 4 image(s) validée(s).
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 5/10 - ID : 1149028
+[SCRIPT] Coordonnées : 50.76286202274774, 2.7215840573114467
+[SCRIPT] Rayon de recherche : 15.0 m
+[SCRIPT] ========================================
+[SCRIPT] Candidats valides : 0 (rejets : 0)
+[SCRIPT] ✗ ID 1149028 : aucune image validant les critères (bearing / pitch / FOV / distance).
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 6/10 - ID : 1149034
+[SCRIPT] Coordonnées : 50.76401559818213, 2.7189070416728423
+[SCRIPT] Rayon de recherche : 15.0 m
+[SCRIPT] ========================================
+[SCRIPT] Candidats valides : 7 (rejets : 0)
+[SCRIPT] Qualité POINT_5_c0_dist6.9m.jpg : netteté 1335 | aplats 0.026 | pano 2021-06 | score 0.794
+[SCRIPT] Qualité POINT_5_c1_dist8.4m.jpg : netteté 2012 | aplats 0.001 | pano 2021-06 | score 0.884
+[SCRIPT] Qualité POINT_5_c2_dist12.3m.jpg : netteté 1065 | aplats 0.006 | pano 2021-06 | score 0.772
+[SCRIPT] Qualité POINT_5_c3_dist14.5m.jpg : netteté 1539 | aplats 0.012 | pano 2021-06 | score 0.824
+[SCRIPT] Qualité POINT_5_c4_dist15.0m.jpg : netteté 1883 | aplats 0.005 | pano 2021-06 | score 0.867
+[SCRIPT] Qualité POINT_5_c5_dist17.0m.jpg : netteté 2439 | aplats 0.005 | pano 2021-06 | score 0.932
+[SCRIPT] Qualité POINT_5_c6_dist17.2m.jpg : netteté 1996 | aplats 0.019 | pano 2021-06 | score 0.874
+[SCRIPT] Image retenue : POINT_5_v0_dist6.9m.jpg (dist 6.9 m, score 0.794, bearing 274.5°, pitch -20.0°, FOV 55°)
+[SCRIPT] Image retenue : POINT_5_v1_dist8.4m.jpg (dist 8.4 m, score 0.884, bearing 356.4°, pitch -16.6°, FOV 45°)
+[SCRIPT] Image retenue : POINT_5_v2_dist14.5m.jpg (dist 14.5 m, score 0.824, bearing 273.9°, pitch -9.8°, FOV 35°)
+[SCRIPT] Image retenue : POINT_5_v3_dist15.0m.jpg (dist 15.0 m, score 0.867, bearing 241.0°, pitch -9.4°, FOV 35°)
+[SCRIPT] Image retenue : POINT_5_v4_dist17.0m.jpg (dist 17.0 m, score 0.932, bearing 19.4°, pitch -8.3°, FOV 35°)
+[SCRIPT] Image retenue : POINT_5_v5_dist17.2m.jpg (dist 17.2 m, score 0.874, bearing 352.3°, pitch -8.3°, FOV 35°)
+[SCRIPT] ✓ ID 1149034 : 6 image(s) validée(s).
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 7/10 - ID : 1149038
+[SCRIPT] Coordonnées : 50.7642733643776, 2.7195244727576693
+[SCRIPT] Rayon de recherche : 15.0 m
+[SCRIPT] ========================================
+[SCRIPT] Candidats valides : 6 (rejets : 0)
+[SCRIPT] Qualité POINT_6_c0_dist6.8m.jpg : netteté 1570 | aplats 0.002 | pano 2021-06 | score 0.832
+[SCRIPT] Qualité POINT_6_c1_dist7.7m.jpg : netteté 3586 | aplats 0.009 | pano 2021-06 | score 0.996
+[SCRIPT] Qualité POINT_6_c2_dist15.9m.jpg : netteté 1813 | aplats 0.023 | pano 2021-06 | score 0.851
+[SCRIPT] Qualité POINT_6_c3_dist15.9m.jpg : netteté 2385 | aplats 0.003 | pano 2021-06 | score 0.927
+[SCRIPT] Qualité POINT_6_c4_dist18.4m.jpg : netteté 2444 | aplats 0.013 | pano 2021-06 | score 0.929
+[SCRIPT] Qualité POINT_6_c5_dist20.6m.jpg : netteté 2444 | aplats 0.076 | pano 2021-06 | score 0.901
+[SCRIPT] Image retenue : POINT_6_v0_dist6.8m.jpg (dist 6.8 m, score 0.832, bearing 168.9°, pitch -20.3°, FOV 55°)
+[SCRIPT] Image retenue : POINT_6_v1_dist7.7m.jpg (dist 7.7 m, score 0.996, bearing 78.9°, pitch -17.9°, FOV 45°)
+[SCRIPT] Image retenue : POINT_6_v2_dist15.9m.jpg (dist 15.9 m, score 0.851, bearing 200.4°, pitch -9.0°, FOV 35°)
+[SCRIPT] Image retenue : POINT_6_v3_dist15.9m.jpg (dist 15.9 m, score 0.927, bearing 173.5°, pitch -8.9°, FOV 35°)
+[SCRIPT] Image retenue : POINT_6_v4_dist18.4m.jpg (dist 18.4 m, score 0.929, bearing 72.7°, pitch -7.7°, FOV 35°)
+[SCRIPT] Image retenue : POINT_6_v5_dist20.6m.jpg (dist 20.6 m, score 0.901, bearing 51.6°, pitch -6.9°, FOV 35°)
+[SCRIPT] ✓ ID 1149038 : 6 image(s) validée(s).
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 8/10 - ID : 1149039
+[SCRIPT] Coordonnées : 50.76421291785884, 2.719446619680655
+[SCRIPT] Rayon de recherche : 15.0 m
+[SCRIPT] ========================================
+[SCRIPT] Candidats valides : 5 (rejets : 0)
+[SCRIPT] Qualité POINT_7_c0_dist5.6m.jpg : netteté 1251 | aplats 0.081 | pano 2021-06 | score 0.759
+[SCRIPT] Qualité POINT_7_c1_dist12.2m.jpg : netteté 1887 | aplats 0.040 | pano 2021-06 | score 0.852
+[SCRIPT] Qualité POINT_7_c2_dist12.3m.jpg : netteté 2042 | aplats 0.053 | pano 2021-06 | score 0.864
+[SCRIPT] Qualité POINT_7_c3_dist14.0m.jpg : netteté 1812 | aplats 0.008 | pano 2021-06 | score 0.858
+[SCRIPT] Qualité POINT_7_c4_dist24.2m.jpg : netteté 2087 | aplats 0.023 | pano 2021-06 | score 0.883
+[SCRIPT] Image retenue : POINT_7_v0_dist5.6m.jpg (dist 5.6 m, score 0.759, bearing 158.0°, pitch -23.9°, FOV 55°)
+[SCRIPT] Image retenue : POINT_7_v1_dist12.2m.jpg (dist 12.2 m, score 0.852, bearing 95.8°, pitch -11.6°, FOV 35°)
+[SCRIPT] Image retenue : POINT_7_v2_dist12.3m.jpg (dist 12.3 m, score 0.864, bearing 60.4°, pitch -11.5°, FOV 35°)
+[SCRIPT] Image retenue : POINT_7_v3_dist14.0m.jpg (dist 14.0 m, score 0.858, bearing 197.4°, pitch -10.1°, FOV 35°)
+[SCRIPT] Image retenue : POINT_7_v4_dist24.2m.jpg (dist 24.2 m, score 0.883, bearing 207.0°, pitch -5.9°, FOV 35°)
+[SCRIPT] ✓ ID 1149039 : 5 image(s) validée(s).
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 9/10 - ID : 1149047
+[SCRIPT] Coordonnées : 50.764175548894016, 2.719089188419972
+[SCRIPT] Rayon de recherche : 15.0 m
+[SCRIPT] ========================================
+[SCRIPT] Candidats valides : 8 (rejets : 0)
+[SCRIPT] Qualité POINT_8_c0_dist7.2m.jpg : netteté 1914 | aplats 0.017 | pano 2021-06 | score 0.866
+[SCRIPT] Qualité POINT_8_c1_dist10.5m.jpg : netteté 3068 | aplats 0.005 | pano 2021-06 | score 0.998
+[SCRIPT] Qualité POINT_8_c2_dist13.2m.jpg : netteté 2361 | aplats 0.009 | pano 2021-06 | score 0.921
+[SCRIPT] Qualité POINT_8_c3_dist14.1m.jpg : netteté 3241 | aplats 0.053 | pano 2021-06 | score 0.976
+[SCRIPT] Qualité POINT_8_c4_dist14.6m.jpg : netteté 2794 | aplats 0.002 | pano 2021-06 | score 0.975
+[SCRIPT] Qualité POINT_8_c5_dist18.8m.jpg : netteté 2455 | aplats 0.022 | pano 2021-06 | score 0.927
+[SCRIPT] Qualité POINT_8_c6_dist19.3m.jpg : netteté 2958 | aplats 0.004 | pano 2021-06 | score 0.993
+[SCRIPT] Qualité POINT_8_c7_dist34.1m.jpg : netteté 3600 | aplats 0.009 | pano 2021-06 | score 0.996
+[SCRIPT] Image retenue : POINT_8_v0_dist10.5m.jpg (dist 10.5 m, score 0.998, bearing 358.2°, pitch -13.4°, FOV 35°)
+[SCRIPT] Image retenue : POINT_8_v1_dist14.1m.jpg (dist 14.1 m, score 0.976, bearing 247.5°, pitch -10.1°, FOV 35°)
+[SCRIPT] Image retenue : POINT_8_v2_dist14.6m.jpg (dist 14.6 m, score 0.975, bearing 277.6°, pitch -9.7°, FOV 35°)
+[SCRIPT] Image retenue : POINT_8_v3_dist18.8m.jpg (dist 18.8 m, score 0.927, bearing 355.0°, pitch -7.6°, FOV 35°)
+[SCRIPT] Image retenue : POINT_8_v4_dist19.3m.jpg (dist 19.3 m, score 0.993, bearing 18.0°, pitch -7.4°, FOV 35°)
+[SCRIPT] Image retenue : POINT_8_v5_dist34.1m.jpg (dist 34.1 m, score 0.996, bearing 239.1°, pitch -4.2°, FOV 35°)
+[SCRIPT] ✓ ID 1149047 : 6 image(s) validée(s).
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 10/10 - ID : 1149053
+[SCRIPT] Coordonnées : 50.76376362143801, 2.7185641881619893
+[SCRIPT] Rayon de recherche : 15.0 m
+[SCRIPT] ========================================
+[SCRIPT] Candidats valides : 6 (rejets : 0)
+[SCRIPT] Qualité POINT_9_c0_dist7.5m.jpg : netteté 6327 | aplats 0.000 | pano 2021-06 | score 1.000
+[SCRIPT] Qualité POINT_9_c1_dist13.2m.jpg : netteté 2950 | aplats 0.006 | pano 2021-06 | score 0.991
+[SCRIPT] Qualité POINT_9_c2_dist14.4m.jpg : netteté 2166 | aplats 0.003 | pano 2021-06 | score 0.901
+[SCRIPT] Qualité POINT_9_c3_dist15.9m.jpg : netteté 3252 | aplats 0.007 | pano 2021-06 | score 0.997
+[SCRIPT] Qualité POINT_9_c4_dist16.9m.jpg : netteté 2855 | aplats 0.011 | pano 2021-06 | score 0.978
+[SCRIPT] Qualité POINT_9_c5_dist21.9m.jpg : netteté 2658 | aplats 0.000 | pano 2021-06 | score 0.960
+[SCRIPT] Image retenue : POINT_9_v0_dist7.5m.jpg (dist 7.5 m, score 1.000, bearing 327.3°, pitch -18.4°, FOV 45°)
+[SCRIPT] Image retenue : POINT_9_v1_dist13.2m.jpg (dist 13.2 m, score 0.991, bearing 250.7°, pitch -10.8°, FOV 35°)
+[SCRIPT] Image retenue : POINT_9_v2_dist14.4m.jpg (dist 14.4 m, score 0.901, bearing 294.5°, pitch -9.8°, FOV 35°)
+[SCRIPT] Image retenue : POINT_9_v3_dist15.9m.jpg (dist 15.9 m, score 0.997, bearing 334.0°, pitch -9.0°, FOV 35°)
+[SCRIPT] Image retenue : POINT_9_v4_dist16.9m.jpg (dist 16.9 m, score 0.978, bearing 10.4°, pitch -8.4°, FOV 35°)
+[SCRIPT] Image retenue : POINT_9_v5_dist21.9m.jpg (dist 21.9 m, score 0.960, bearing 34.9°, pitch -6.5°, FOV 35°)
+[SCRIPT] ✓ ID 1149053 : 6 image(s) validée(s).
+[SCRIPT] Métadonnées écrites : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/7018217723ab/points.json
+
+[SCRIPT] ========================================
+[SCRIPT] TERMINÉ
+[SCRIPT] Points traités       : 10
+[SCRIPT] Points avec images   : 9
+[SCRIPT] Images téléchargées  : 51
+[SCRIPT] Dossier images       : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/7018217723ab/images
+[SCRIPT] ========================================
+
+[SCRIPT] Terminé : 51 image(s) pour 10 point(s).

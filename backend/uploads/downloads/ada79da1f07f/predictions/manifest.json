@@ -1,0 +1,47 @@
+[
+  {
+    "file_name": "oid_1149007_r10_dist2.9m.jpg",
+    "nom_base": "oid_1149007_r10_dist2.9m",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "oid_1149009_r10_dist4.7m.jpg",
+    "nom_base": "oid_1149009_r10_dist4.7m",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "oid_1149015_r10_dist2.1m.jpg",
+    "nom_base": "oid_1149015_r10_dist2.1m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "oid_1149027_r10_dist5.9m.jpg",
+    "nom_base": "oid_1149027_r10_dist5.9m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "oid_1149034_r10_dist6.9m.jpg",
+    "nom_base": "oid_1149034_r10_dist6.9m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "oid_1149038_r10_dist6.8m.jpg",
+    "nom_base": "oid_1149038_r10_dist6.8m",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "oid_1149039_r10_dist5.6m.jpg",
+    "nom_base": "oid_1149039_r10_dist5.6m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "oid_1149047_r10_dist7.2m.jpg",
+    "nom_base": "oid_1149047_r10_dist7.2m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "oid_1149053_r10_dist7.5m.jpg",
+    "nom_base": "oid_1149053_r10_dist7.5m",
+    "chambre_detectee": true
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "nb_images_total": 2,
+  "nb_images_traitees": 1,
+  "nb_images_rejetees": 1,
+  "nb_cas_1_pnp_direct": 1,
+  "nb_cas_2_template_matching": 0,
+  "nb_images_comparables": 1,
+  "erreur_translation_moyenne_m": 0.4201,
+  "erreur_translation_mediane_m": 0.4201,
+  "erreur_translation_min_m": 0.4201,
+  "erreur_translation_max_m": 0.4201,
+  "erreur_translation_ecart_type_m": null,
+  "detail_par_image": [
+    {
+      "image": "CH_1064983_L2T_dist5m_2024-06.jpg",
+      "statut": "TRAITE",
+      "strategie": "CAS_1_PNP_DIRECT",
+      "erreur_translation_m": 0.4201
+    }
+  ],
+  "duree_traitement_s": 61.4,
+  "seuils_utilises": {
+    "pourcentage_chambre_visible_min": 50.0,
+    "nb_coins_visibles_min": 4,
+    "comparaison_gt": true
+  }
+}

@@ -4,3 +4,5 @@ mon_env/
 venv/
 .venv/
 env/
+
+/env_sam2/

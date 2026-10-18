@@ -1,0 +1,203 @@
+{
+  "job_id": "018348022cf5",
+  "seuils": {
+    "pourcentage_chambre_visible_min": 80.0,
+    "nb_coins_visibles_min": 3
+  },
+  "resume": {
+    "points_total": 2,
+    "points_traitees": 0,
+    "images_total": 4,
+    "images_traitees": 0,
+    "cas_1": 0,
+    "cas_2": 0,
+    "rejets": 2,
+    "aucune_chambre": 2
+  },
+  "points": [
+    {
+      "point_index": 0,
+      "point_id": "1149007",
+      "type_chambre": "A2",
+      "latitude": 50.76452472723148,
+      "longitude": 2.719859510038881,
+      "images": [
+        {
+          "fichier": "POINT_0_v0_dist10.3m.jpg",
+          "nom_base": "POINT_0_v0_dist10.3m",
+          "statut": "REJET",
+          "strategie": "AUCUNE",
+          "raison": "Image abandonnee, seuils utilisateur non atteints : chambre visible = 67.5% (seuil choisi 80%)",
+          "precision_pct": 67.5,
+          "coverage_pct": 87.3,
+          "nb_coins_visibles": 3,
+          "seuils_utilises": {
+            "pourcentage_chambre_visible_min": 80.0,
+            "nb_coins_visibles_min": 3
+          },
+          "distance_m": 10.33,
+          "type_chambre": "A2",
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": {
+            "comparable": false,
+            "raison": "Masque de verite terrain introuvable : dataset_test_pnp/masks_3classes/POINT_0_v0_dist10.3m.png"
+          },
+          "visibilite_coins": {
+            "TL": {
+              "visible": true,
+              "distance_contour_px": 0.3799878939793065,
+              "seuil_applique_px": 9.819684038128656,
+              "raison": "confirme"
+            },
+            "TR": {
+              "visible": true,
+              "distance_contour_px": 0.9437872980339003,
+              "seuil_applique_px": 9.819684038128656,
+              "raison": "confirme"
+            },
+            "BR": {
+              "visible": false,
+              "distance_contour_px": 20.353927612304688,
+              "seuil_applique_px": 9.819684038128656,
+              "raison": "extrapole_non_confirme"
+            },
+            "BL": {
+              "visible": true,
+              "distance_contour_px": 1.1435560329048198,
+              "seuil_applique_px": 9.819684038128656,
+              "raison": "confirme"
+            }
+          }
+        },
+        {
+          "fichier": "POINT_0_v1_dist11.9m.jpg",
+          "nom_base": "POINT_0_v1_dist11.9m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "A2",
+          "distance_m": 11.87,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        }
+      ],
+      "distances": {
+        "POINT_0_v0_dist10.3m.jpg": 10.33,
+        "POINT_0_v1_dist11.9m.jpg": 11.87
+      },
+      "statut_point": "REJET",
+      "resume_point": {
+        "images_total": 2,
+        "images_traitees": 0,
+        "cas_1": 0,
+        "cas_2": 0,
+        "rejets": 1,
+        "aucune_chambre": 1,
+        "coordonnees_moyennes_m": null,
+        "ecart_type_m": null,
+        "distance_camera_moyenne_m": null
+      }
+    },
+    {
+      "point_index": 1,
+      "point_id": "1149009",
+      "type_chambre": "A3",
+      "latitude": 50.763092894670415,
+      "longitude": 2.720401021499844,
+      "images": [
+        {
+          "fichier": "POINT_1_v0_dist6.8m.jpg",
+          "nom_base": "POINT_1_v0_dist6.8m",
+          "statut": "REJET",
+          "strategie": "AUCUNE",
+          "raison": "Image abandonnee, seuils utilisateur non atteints : chambre visible = 39.8% (seuil choisi 80%) ; coins visibles = 2/4 (seuil choisi 3/4)",
+          "precision_pct": 39.8,
+          "coverage_pct": 49.6,
+          "nb_coins_visibles": 2,
+          "seuils_utilises": {
+            "pourcentage_chambre_visible_min": 80.0,
+            "nb_coins_visibles_min": 3
+          },
+          "distance_m": 6.79,
+          "type_chambre": "A3",
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": {
+            "comparable": false,
+            "raison": "Masque de verite terrain introuvable : dataset_test_pnp/masks_3classes/POINT_1_v0_dist6.8m.png"
+          },
+          "visibilite_coins": {
+            "TL": {
+              "visible": true,
+              "distance_contour_px": 4.956991726937186,
+              "seuil_applique_px": 9.398270494173254,
+              "raison": "confirme"
+            },
+            "TR": {
+              "visible": true,
+              "distance_contour_px": 7.1764691797399855,
+              "seuil_applique_px": 9.398270494173254,
+              "raison": "confirme"
+            },
+            "BR": {
+              "visible": false,
+              "distance_contour_px": 19.27142333984375,
+              "seuil_applique_px": 9.398270494173254,
+              "raison": "extrapole_non_confirme"
+            },
+            "BL": {
+              "visible": false,
+              "distance_contour_px": 22.291549431665345,
+              "seuil_applique_px": 9.398270494173254,
+              "raison": "extrapole_non_confirme"
+            }
+          }
+        },
+        {
+          "fichier": "POINT_1_v1_dist14.2m.jpg",
+          "nom_base": "POINT_1_v1_dist14.2m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "A3",
+          "distance_m": 14.25,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        }
+      ],
+      "distances": {
+        "POINT_1_v0_dist6.8m.jpg": 6.79,
+        "POINT_1_v1_dist14.2m.jpg": 14.25
+      },
+      "statut_point": "REJET",
+      "resume_point": {
+        "images_total": 2,
+        "images_traitees": 0,
+        "cas_1": 0,
+        "cas_2": 0,
+        "rejets": 1,
+        "aucune_chambre": 1,
+        "coordonnees_moyennes_m": null,
+        "ecart_type_m": null,
+        "distance_camera_moyenne_m": null
+      }
+    }
+  ]
+}

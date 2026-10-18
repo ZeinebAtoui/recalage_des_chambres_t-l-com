@@ -1,0 +1,60 @@
+--- DÉMARRAGE DU JOB ed801a0a98b9 ---
+Script : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/services/telechargement_interface.py
+CSV source : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/cartes/Exp-Avant-IA-Saint-jans-Cappel (2).csv
+Dossier de sortie : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/ed801a0a98b9
+Points max : 2
+Options de recherche : {"rayon_recherche": 10.0, "max_images_par_point": 2}
+Interprète Python : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/env_hybrid_311/bin/python3
+Clé API transmise : Oui
+Lancement du sous-processus...
+
+[SCRIPT] Exécution via ligne de commande.
+[SCRIPT] Options reçues : {'rayon_recherche': 10.0, 'max_images_par_point': 2}
+[SCRIPT] Démarrage du script de téléchargement...
+[SCRIPT] Configuration de recherche :
+[SCRIPT]   rayon de recherche   : 10.0 m
+[SCRIPT]   échantillons cercle  : 12
+[SCRIPT]   max images / point   : 2
+[SCRIPT]   distance             : [2.0 ; 50.0] m
+[SCRIPT]   bearing              : [0° ; 360°]
+[SCRIPT]   pitch                : [-60° ; 0°]
+[SCRIPT]   FOV                  : dynamique (35/45/55°)
+[SCRIPT] Clé API détectée : AIzaSy...
+[SCRIPT] Lecture du CSV : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/cartes/Exp-Avant-IA-Saint-jans-Cappel (2).csv
+[SCRIPT] 185 ligne(s) trouvée(s).
+[SCRIPT] Colonne latitude  : latitude
+[SCRIPT] Colonne longitude : longitude
+[SCRIPT] Colonne ID        : OBJECTID
+[SCRIPT] Colonne type      : REF_CHAMBR
+[SCRIPT] Points à traiter : 2
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 1/2 - ID : 1149007
+[SCRIPT] Coordonnées : 50.76452472723148, 2.719859510038881
+[SCRIPT] Rayon de recherche : 10.0 m
+[SCRIPT] ========================================
+[SCRIPT] Candidats valides : 4 (rejets : 0)
+[SCRIPT] Image enregistrée : POINT_0_v0_dist2.9m.jpg (dist 2.9 m, bearing 330.9°, pitch -40.7°, FOV 55°)
+[SCRIPT] Image enregistrée : POINT_0_v1_dist8.1m.jpg (dist 8.1 m, bearing 107.2°, pitch -17.2°, FOV 45°)
+[SCRIPT] ✓ ID 1149007 : 2 image(s) validée(s).
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 2/2 - ID : 1149009
+[SCRIPT] Coordonnées : 50.763092894670415, 2.720401021499844
+[SCRIPT] Rayon de recherche : 10.0 m
+[SCRIPT] ========================================
+[SCRIPT] Candidats valides : 4 (rejets : 0)
+[SCRIPT] Image enregistrée : POINT_1_v0_dist4.7m.jpg (dist 4.7 m, bearing 301.8°, pitch -28.1°, FOV 55°)
+[SCRIPT] Image enregistrée : POINT_1_v1_dist6.8m.jpg (dist 6.8 m, bearing 61.2°, pitch -20.2°, FOV 55°)
+[SCRIPT] ✓ ID 1149009 : 2 image(s) validée(s).
+[SCRIPT] Métadonnées écrites : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/ed801a0a98b9/points.json
+
+[SCRIPT] ========================================
+[SCRIPT] TERMINÉ
+[SCRIPT] Points traités       : 2
+[SCRIPT] Points avec images   : 2
+[SCRIPT] Images téléchargées  : 4
+[SCRIPT] Dossier images       : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/ed801a0a98b9/images
+[SCRIPT] ========================================
+
+[SCRIPT] Terminé : 4 image(s) pour 2 point(s).

@@ -41,7 +41,100 @@ export interface UploadCarteReponse {
   job_id: string;
   fichier: string;
   max_points: number;
+  rayon_recherche: number;
+  max_images_par_point: number;
   statut: string;
+}
+
+export interface CoordonneesM {
+  x: number;
+  y: number;
+  z: number;
+}
+
+export interface EntreeImagePnp {
+  fichier: string;
+  nom_base: string;
+  statut: string;
+  strategie: string | null;
+  raison: string | null;
+  precision_pct: number | null;
+  coverage_pct: number | null;
+  nb_coins_visibles: number | null;
+  type_chambre: string | null;
+  distance_m: number | null;
+  pose_pnp: Record<string, unknown> | null;
+  coordonnees_m: CoordonneesM | null;
+  distance_camera_chambre_m: number | null;
+  visualisation: string | null;
+  comparaison_pnp_gt: Record<string, unknown> | null;
+}
+
+export interface ResumePointPnp {
+  images_total: number;
+  images_traitees: number;
+  cas_1: number;
+  cas_2: number;
+  rejets: number;
+  aucune_chambre: number;
+  coordonnees_moyennes_m: CoordonneesM | null;
+  ecart_type_m: CoordonneesM | null;
+  distance_camera_moyenne_m: number | null;
+}
+
+export interface PointPnp {
+  point_index: number;
+  point_id: string;
+  type_chambre: string | null;
+  latitude: number | null;
+  longitude: number | null;
+  images: EntreeImagePnp[];
+  statut_point: string;
+  resume_point: ResumePointPnp;
+}
+
+export interface ResultatsPnp {
+  job_id: string;
+  seuils: {
+    pourcentage_chambre_visible_min: number;
+    nb_coins_visibles_min: number;
+  };
+  resume: {
+    points_total: number;
+    points_traitees: number;
+    images_total: number;
+    images_traitees: number;
+    cas_1: number;
+    cas_2: number;
+    rejets: number;
+    aucune_chambre: number;
+  };
+  points: PointPnp[];
+}
+
+export interface EtatPnp {
+  statut: 'inconnu' | 'en_cours' | 'termine' | 'echec';
+  phase?: string;
+  job_id?: string;
+  images_traitees?: number;
+  images_total?: number;
+  points_traitees?: number;
+  points_total?: number;
+  seuils?: {
+    pourcentage_chambre_visible_min: number;
+    nb_coins_visibles_min: number;
+  };
+  debut?: string | null;
+  fin?: string | null;
+  erreur?: string | null;
+  duree_s?: number;
+  resultats?: ResultatsPnp;
+}
+
+export interface ReponseLancementPnp {
+  job_id: string;
+  statut: string;
+  message: string;
 }
 
 export type JobPhase = 'pending' | 'telechargement' | 'inference' | 'termine' | 'echec_telechargement' | 'echec_inference';
@@ -95,13 +188,37 @@ export class Api {
     return `${this.baseUrl}/visualisations/comparaison-globale?token=${this.auth.getToken()}`;
   }
 
-  uploaderCarteSig(fichier: File, maxPoints: number): Observable<UploadCarteReponse> {
+  uploaderCarteSig(
+    fichier: File,
+    maxPoints: number,
+    rayonRecherche: number,
+    maxImagesParPoint = 6,
+  ): Observable<UploadCarteReponse> {
     const formData = new FormData();
     formData.append('fichier', fichier);
     return this.http.post<UploadCarteReponse>(
-      `${this.baseUrl}/carte-sig/upload?max_points=${maxPoints}`,
+      `${this.baseUrl}/carte-sig/upload?max_points=${maxPoints}` +
+        `&rayon_recherche=${rayonRecherche}&max_images_par_point=${maxImagesParPoint}`,
       formData,
     );
+  }
+
+  lancerPnp(
+    jobId: string,
+    seuilPourcentage: number,
+    seuilNbCoins: number,
+  ): Observable<ReponseLancementPnp> {
+    return this.http.post<ReponseLancementPnp>(
+      `${this.baseUrl}/carte-sig/jobs/${jobId}/pnp`,
+      {
+        seuil_pourcentage_chambre_visible: seuilPourcentage,
+        seuil_nb_coins_visibles: seuilNbCoins,
+      },
+    );
+  }
+
+  getEtatPnp(jobId: string): Observable<EtatPnp> {
+    return this.http.get<EtatPnp>(`${this.baseUrl}/carte-sig/jobs/${jobId}/pnp`);
   }
 
   getJobStatus(jobId: string): Observable<JobStatus> {

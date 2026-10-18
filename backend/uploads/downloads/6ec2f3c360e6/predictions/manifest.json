@@ -1,0 +1,22 @@
+[
+  {
+    "file_name": "oid_1149007_r10_dist2.9m.jpg",
+    "nom_base": "oid_1149007_r10_dist2.9m",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "oid_1149009_r10_dist4.7m.jpg",
+    "nom_base": "oid_1149009_r10_dist4.7m",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "oid_1149015_r10_dist2.1m.jpg",
+    "nom_base": "oid_1149015_r10_dist2.1m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "oid_1149027_r10_dist5.9m.jpg",
+    "nom_base": "oid_1149027_r10_dist5.9m",
+    "chambre_detectee": false
+  }
+]

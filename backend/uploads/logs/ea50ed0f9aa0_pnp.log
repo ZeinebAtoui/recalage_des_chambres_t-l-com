@@ -1,0 +1,126 @@
+--- JOB PnP ea50ed0f9aa0 ---
+Commande : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/env_hybrid_311/bin/python3 -u /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/services/pnp_runner.py --images_dir /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/pnp/ea50ed0f9aa0/images --output_dir /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/pnp/ea50ed0f9aa0/resultats --seuil_pourcentage 99.0 --seuil_coins 3 --comparaison_gt 1
+Interpreteur : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/env_hybrid_311/bin/python3
+Images : 1
+Seuils : chambre visible >= 99.0% ; coins visibles >= 3/4
+
+
+======================================================================
+DEVICE
+======================================================================
+Device utilise : cpu
+======================================================================
+PIPELINE PnP - TRAITEMENT DES IMAGES
+  Images              : 1
+  Seuil chambre visible : 99%
+  Seuil coins visibles : 3/4
+  Comparaison GT       : oui
+  Dossier de sortie    : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/pnp/ea50ed0f9aa0/resultats
+======================================================================
+
+--- [1/1] CH_1064983_L2T_dist5m_2024-06.jpg ---
+OK: L2T -> 1.405m x 0.635m (MODOP)
+======================================================================
+TRAITEMENT PNP : CH_1064983_L2T_dist5m_2024-06.jpg
+  Seuils utilisateur : chambre visible >= 99% ; coins visibles >= 3/4
+======================================================================
+Chargement Faster R-CNN...
+
+======================================================================
+CHARGEMENT FASTER R-CNN
+======================================================================
+Faster R-CNN charge avec succes.
+Chargement DeepLabV3+...
+
+======================================================================
+CHARGEMENT DEEPLABV3+
+======================================================================
+/mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/env_hybrid_311/lib/python3.11/site-packages/mmseg/models/builder.py:36: UserWarning: ``build_loss`` would be deprecated soon, please use ``mmseg.registry.MODELS.build()`` 
+  warnings.warn('``build_loss`` would be deprecated soon, please use '
+/mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/env_hybrid_311/lib/python3.11/site-packages/mmseg/models/losses/cross_entropy_loss.py:250: UserWarning: Default ``avg_non_ignore`` is False, if you would like to ignore the certain label and average loss over non-ignore labels, which is the same with PyTorch official cross_entropy, set ``avg_non_ignore=True``.
+  warnings.warn(
+Loads checkpoint by local backend from path: /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/best_mIoU_iter_2000.pth
+DeepLabV3+ charge avec succes.
+[Faster R-CNN] CH_1064983_L2T_dist5m_2024-06.jpg -> box=(344, 252, 498, 326), score=0.999
+
+Appel de SAM2 pour 1 detection(s)...
+
+======================================================================
+ETAPE 2 : APPEL DE SAM2 (subprocess vers sam2_env)
+======================================================================
+Nombre de requetes envoyees a SAM2 : 1
+Commande executee :
+/home/zeineb/env_sam2/bin/python /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/sam2_worker.py --requetes /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/temp_ipc/requetes_sam2.json --resultats /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/temp_ipc/resultats_sam2.json --masques_dir /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/temp_ipc/masques_sam2 --sam2_repo /home/zeineb/sam2 --checkpoint /home/zeineb/sam2/sam2.1_hiera_tiny.pt --config configs/sam2.1/sam2.1_hiera_t.yaml
+
+Repertoire de travail SAM2 : /tmp
+Python SAM2 : /home/zeineb/env_sam2/bin/python
+Depot SAM2 : /home/zeineb/sam2
+Checkpoint SAM2 : /home/zeineb/sam2/sam2.1_hiera_tiny.pt
+
+--- Sortie standard de sam2_worker.py ---
+
+======================================================================
+SAM2 WORKER
+======================================================================
+Python SAM2 : /home/zeineb/env_sam2/bin/python
+Depot SAM2  : /home/zeineb/sam2
+Checkpoint  : /home/zeineb/sam2/sam2.1_hiera_tiny.pt
+Config      : configs/sam2.1/sam2.1_hiera_t.yaml
+Requetes    : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/temp_ipc/requetes_sam2.json
+Resultats   : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/temp_ipc/resultats_sam2.json
+Masques     : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/temp_ipc/masques_sam2
+
+Nombre de requetes recues : 1
+======================================================================
+CHARGEMENT SAM2
+======================================================================
+Depot SAM2  : /home/zeineb/sam2
+Checkpoint  : /home/zeineb/sam2/sam2.1_hiera_tiny.pt
+Config      : configs/sam2.1/sam2.1_hiera_t.yaml
+Device      : cpu
+
+Checkpoint trouve.
+Package SAM2 : /home/zeineb/env_sam2/lib/python3.11/site-packages/sam2
+Configuration Hydra utilisee :
+   configs/sam2.1/sam2.1_hiera_t.yaml
+Configuration trouvee :
+   /home/zeineb/env_sam2/lib/python3.11/site-packages/sam2/configs/sam2.1/sam2.1_hiera_t.yaml
+
+Construction du modele SAM2...
+
+SAM2 charge avec succes en 0.57s
+
+
+[SAM2] Requete 1/1
+  ID   : 0
+  Crop : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/temp_ipc/crops/crop_0.png
+  Box  : [30, 15, 184, 89]
+  Masque sauvegarde : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/temp_ipc/masques_sam2/mask_0.png
+  Score SAM2 : 0.9353
+  [1/1] requetes traitees
+
+======================================================================
+TRAITEMENT SAM2 TERMINE
+======================================================================
+Temps total : 1.19s
+Temps moyen : 1.19s/requete
+Masques produits : 1/1
+
+Resultats ecrits dans : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/temp_ipc/resultats_sam2.json
+
+
+Resultats SAM2 recus : 1
+[FUSION OK] id=0 proportion_chambre=0.79
+    [init] offset estime : dx0=0.78m, dy0=-0.83m (r=5.59m, plausibilite=OK)
+    [passe 1 - robuste] theta=125.3deg, echelle=0.78, cout=0.00, occlusion_estimee=0%, trim_ratio_fin_adapte=0.05
+    [passe 2 - raffinee] theta=125.3deg, echelle=0.80, cout=0.38
+  Statut    : REJET
+  Strategie : AUCUNE
+  Raison    : Image abandonnee, seuils utilisateur non atteints : chambre visible = 95.7% (seuil choisi 99%)
+
+======================================================================
+RESUME
+  Traitees / total : 0/1
+  Cas 1 / Cas 2 / Rejet : 0 / 0 / 1
+  Duree : 49.6 s
+======================================================================

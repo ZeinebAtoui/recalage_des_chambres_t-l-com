@@ -1,6 +1,7 @@
 import subprocess
 import sys
 import os
+import json
 import threading
 import uuid
 from pathlib import Path
@@ -24,7 +25,7 @@ def _update_job(job_id: str, **kwargs):
         _jobs[job_id].update(kwargs)
 
 
-def _run_telechargement(job_id: str, csv_path: Path, output_dir: Path, max_points: int):
+def _run_telechargement(job_id: str, csv_path: Path, output_dir: Path, max_points: int, options: dict | None = None):
     log_path = LOG_DIR / f"{job_id}_telechargement.log"
     _update_job(job_id, phase="telechargement", telechargement_log_file=str(log_path))
 
@@ -77,6 +78,11 @@ def _run_telechargement(job_id: str, csv_path: Path, output_dir: Path, max_point
             str(max_points),
         ]
 
+        # --- Options de recherche (rayon, nb d'images, seuils...) ---
+        # transmises au script en 4e argument JSON.
+        if options:
+            commande.append(json.dumps(options))
+
         # Ouverture du fichier de log et écriture de l'entête
         with open(log_path, "w", encoding="utf-8") as log_file:
             log_file.write(f"--- DÉMARRAGE DU JOB {job_id} ---\n")
@@ -84,6 +90,7 @@ def _run_telechargement(job_id: str, csv_path: Path, output_dir: Path, max_point
             log_file.write(f"CSV source : {csv_path}\n")
             log_file.write(f"Dossier de sortie : {output_dir}\n")
             log_file.write(f"Points max : {max_points}\n")
+            log_file.write(f"Options de recherche : {json.dumps(options) if options else 'défaut'}\n")
             log_file.write(f"Interprète Python : {ENV_HYBRID_PYTHON}\n")
             log_file.write(f"Clé API transmise : {'Oui' if api_key else 'NON - Variable absente'}\n")
             log_file.write("Lancement du sous-processus...\n\n")
@@ -177,7 +184,7 @@ def _run_inference(job_id: str, images_dir: Path, predictions_dir: Path):
     _update_job(job_id, status="completed" if returncode == 0 else "failed")
 
 
-def lancer_telechargement(csv_path: Path, max_points: int) -> str:
+def lancer_telechargement(csv_path: Path, max_points: int, options: dict | None = None) -> str:
     job_id = uuid.uuid4().hex[:12]
     output_dir = BASE_DIR / "backend" / "uploads" / "downloads" / job_id
 
@@ -189,6 +196,7 @@ def lancer_telechargement(csv_path: Path, max_points: int) -> str:
             "csv_path": str(csv_path),
             "output_dir": str(output_dir),
             "max_points": max_points,
+            "options": options or {},
             "telechargement_pid": None,
             "telechargement_returncode": None,
             "telechargement_log_file": None,
@@ -200,7 +208,7 @@ def lancer_telechargement(csv_path: Path, max_points: int) -> str:
 
     thread = threading.Thread(
         target=_run_telechargement,
-        args=(job_id, csv_path, output_dir, max_points),
+        args=(job_id, csv_path, output_dir, max_points, options),
         daemon=True,
     )
     thread.start()

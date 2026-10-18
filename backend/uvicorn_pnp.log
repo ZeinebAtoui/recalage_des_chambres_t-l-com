@@ -1,0 +1,659 @@
+INFO:     Started server process [3299]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+
+======================================================================
+DEVICE
+======================================================================
+Device utilise : cpu
+⚠️  JWT_SECRET_KEY non defini : cle de developpement utilisee (a ne pas utiliser en production).
+INFO:     127.0.0.1:48324 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38816 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45466 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35744 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35746 - "POST /api/auth/register HTTP/1.1" 409 Conflict
+INFO:     127.0.0.1:35752 - "POST /api/auth/register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40126 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40138 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40138 - "POST /api/pnp/batch/upload HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40138 - "GET /api/pnp/batch/jobs/4a2006978379 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54250 - "GET /api/pnp/batch/jobs/4a2006978379 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59298 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58554 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55936 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41162 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38774 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38780 - "GET /api/pnp/batch/jobs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38784 - "GET /api/pnp/batch/jobs/4a2006978379 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34784 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57866 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57870 - "GET /api/pnp/batch/jobs/4a2006978379/resultats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56122 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37588 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58760 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45868 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45884 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36964 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59258 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43078 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44070 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46174 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52992 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33092 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40760 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54098 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36724 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48092 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52152 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41074 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59406 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57656 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43158 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37956 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48418 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59184 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:42432 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44626 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50478 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60132 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57214 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43788 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54778 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44828 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58896 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:32962 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37246 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58468 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43184 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58436 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40412 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45550 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49816 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43042 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56496 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:42186 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54442 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44778 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59002 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59070 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51442 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41594 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56956 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55500 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45008 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57012 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39652 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46980 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50578 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41864 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47760 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51972 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52402 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51776 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44624 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52014 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34222 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47280 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60674 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54772 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40510 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35006 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33162 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34192 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:42482 - "OPTIONS /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42482 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52698 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48146 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58314 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56862 - "OPTIONS /api/pnp/upload HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56862 - "POST /api/pnp/upload HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56862 - "OPTIONS /api/pnp/5944a763/etape1-segmentation HTTP/1.1" 200 OK
+Chargement Faster R-CNN...
+
+======================================================================
+CHARGEMENT FASTER R-CNN
+======================================================================
+INFO:     127.0.0.1:35984 - "GET /health HTTP/1.1" 404 Not Found
+/mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/env_hybrid_311/lib/python3.11/site-packages/mmseg/models/builder.py:36: UserWarning: ``build_loss`` would be deprecated soon, please use ``mmseg.registry.MODELS.build()`` 
+  warnings.warn('``build_loss`` would be deprecated soon, please use '
+/mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/env_hybrid_311/lib/python3.11/site-packages/mmseg/models/losses/cross_entropy_loss.py:250: UserWarning: Default ``avg_non_ignore`` is False, if you would like to ignore the certain label and average loss over non-ignore labels, which is the same with PyTorch official cross_entropy, set ``avg_non_ignore=True``.
+  warnings.warn(
+Faster R-CNN charge avec succes.
+Chargement DeepLabV3+...
+
+======================================================================
+CHARGEMENT DEEPLABV3+
+======================================================================
+Loads checkpoint by local backend from path: /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/best_mIoU_iter_2000.pth
+DeepLabV3+ charge avec succes.
+[Faster R-CNN] CH_1064983_L2T_dist5m_2024-06.jpg -> box=(344, 252, 498, 326), score=0.999
+
+Appel de SAM2 pour 1 detection(s)...
+
+======================================================================
+ETAPE 2 : APPEL DE SAM2 (subprocess vers sam2_env)
+======================================================================
+Nombre de requetes envoyees a SAM2 : 1
+Commande executee :
+/home/zeineb/env_sam2/bin/python /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/sam2_worker.py --requetes /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/temp_ipc/requetes_sam2.json --resultats /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/temp_ipc/resultats_sam2.json --masques_dir /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/temp_ipc/masques_sam2 --sam2_repo /home/zeineb/sam2 --checkpoint /home/zeineb/sam2/sam2.1_hiera_tiny.pt --config configs/sam2.1/sam2.1_hiera_t.yaml
+
+Repertoire de travail SAM2 : /tmp
+Python SAM2 : /home/zeineb/env_sam2/bin/python
+Depot SAM2 : /home/zeineb/sam2
+Checkpoint SAM2 : /home/zeineb/sam2/sam2.1_hiera_tiny.pt
+
+--- Sortie standard de sam2_worker.py ---
+
+======================================================================
+SAM2 WORKER
+======================================================================
+Python SAM2 : /home/zeineb/env_sam2/bin/python
+Depot SAM2  : /home/zeineb/sam2
+Checkpoint  : /home/zeineb/sam2/sam2.1_hiera_tiny.pt
+Config      : configs/sam2.1/sam2.1_hiera_t.yaml
+Requetes    : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/temp_ipc/requetes_sam2.json
+Resultats   : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/temp_ipc/resultats_sam2.json
+Masques     : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/temp_ipc/masques_sam2
+
+Nombre de requetes recues : 1
+======================================================================
+CHARGEMENT SAM2
+======================================================================
+Depot SAM2  : /home/zeineb/sam2
+Checkpoint  : /home/zeineb/sam2/sam2.1_hiera_tiny.pt
+Config      : configs/sam2.1/sam2.1_hiera_t.yaml
+Device      : cpu
+
+Checkpoint trouve.
+Package SAM2 : /home/zeineb/env_sam2/lib/python3.11/site-packages/sam2
+Configuration Hydra utilisee :
+   configs/sam2.1/sam2.1_hiera_t.yaml
+Configuration trouvee :
+   /home/zeineb/env_sam2/lib/python3.11/site-packages/sam2/configs/sam2.1/sam2.1_hiera_t.yaml
+
+Construction du modele SAM2...
+
+SAM2 charge avec succes en 0.67s
+
+
+[SAM2] Requete 1/1
+  ID   : 0
+  Crop : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/temp_ipc/crops/crop_0.png
+  Box  : [30, 15, 184, 89]
+  Masque sauvegarde : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/temp_ipc/masques_sam2/mask_0.png
+  Score SAM2 : 0.9353
+  [1/1] requetes traitees
+
+======================================================================
+TRAITEMENT SAM2 TERMINE
+======================================================================
+Temps total : 1.16s
+Temps moyen : 1.16s/requete
+Masques produits : 1/1
+
+Resultats ecrits dans : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/temp_ipc/resultats_sam2.json
+
+
+Resultats SAM2 recus : 1
+[FUSION OK] id=0 proportion_chambre=0.79
+INFO:     127.0.0.1:56862 - "POST /api/pnp/5944a763/etape1-segmentation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56862 - "OPTIONS /api/pnp/5944a763/etape2-analyse-coins HTTP/1.1" 200 OK
+OK: L2T -> 1.405m x 0.635m (MODOP)
+    [init] offset estime : dx0=0.78m, dy0=-0.83m (r=5.59m, plausibilite=OK)
+    [passe 1 - robuste] theta=125.3deg, echelle=0.78, cout=0.00, occlusion_estimee=0%, trim_ratio_fin_adapte=0.05
+    [passe 2 - raffinee] theta=125.3deg, echelle=0.80, cout=0.38
+INFO:     127.0.0.1:56870 - "POST /api/pnp/5944a763/etape2-analyse-coins HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57336 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48408 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40826 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46784 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50292 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53606 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43724 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:42808 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54612 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40228 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41026 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48288 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46580 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48090 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:42146 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37200 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59828 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56264 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56298 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46106 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44986 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34120 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55126 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44490 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50734 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52602 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44728 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53426 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58382 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46564 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52710 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35394 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53430 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45002 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60570 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49400 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56084 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46130 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38814 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39668 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43116 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55400 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54488 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:42234 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50502 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39460 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35932 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38396 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41238 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51924 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33238 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45650 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48300 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41642 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54466 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43240 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59970 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47066 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40968 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47590 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56206 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50296 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59770 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55588 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55332 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50278 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45358 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43890 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39916 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:42360 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56742 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58328 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37986 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45768 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38610 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45160 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39462 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45290 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43208 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38990 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48750 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47852 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40248 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41064 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38682 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:42714 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52436 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46998 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45258 - "OPTIONS /api/metriques/final HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45262 - "OPTIONS /api/metriques/ablation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45280 - "OPTIONS /api/visualisations/liste HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45278 - "GET /api/visualisations/comparaison-globale?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhYWFAZ21haWwuY29tIiwiZXhwIjoxNzkxMDI2MTc4fQ.x2svv-ptnuX8ye57vIrNxT6SjA0za6rHSBY-QhgXi3I HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45258 - "GET /api/metriques/final HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45262 - "GET /api/metriques/ablation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45280 - "GET /api/visualisations/liste HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45278 - "GET /api/visualisations/image/LYON_1637_dist9m_fov45_2015-05_gt.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhYWFAZ21haWwuY29tIiwiZXhwIjoxNzkxMDI2MTc4fQ.x2svv-ptnuX8ye57vIrNxT6SjA0za6rHSBY-QhgXi3I HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45278 - "GET /api/visualisations/image/LYON_1637_dist9m_fov45_2015-05_overlay.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhYWFAZ21haWwuY29tIiwiZXhwIjoxNzkxMDI2MTc4fQ.x2svv-ptnuX8ye57vIrNxT6SjA0za6rHSBY-QhgXi3I HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45330 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59474 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45296 - "OPTIONS /api/pnp/upload HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45296 - "POST /api/pnp/upload HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45296 - "OPTIONS /api/pnp/9e7b8549/etape1-segmentation HTTP/1.1" 200 OK
+[Faster R-CNN] CH_1064983_L2T_dist5m_2024-06.jpg -> box=(344, 252, 498, 326), score=0.999
+
+Appel de SAM2 pour 1 detection(s)...
+
+======================================================================
+ETAPE 2 : APPEL DE SAM2 (subprocess vers sam2_env)
+======================================================================
+Nombre de requetes envoyees a SAM2 : 1
+Commande executee :
+/home/zeineb/env_sam2/bin/python /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/sam2_worker.py --requetes /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/temp_ipc/requetes_sam2.json --resultats /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/temp_ipc/resultats_sam2.json --masques_dir /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/temp_ipc/masques_sam2 --sam2_repo /home/zeineb/sam2 --checkpoint /home/zeineb/sam2/sam2.1_hiera_tiny.pt --config configs/sam2.1/sam2.1_hiera_t.yaml
+
+Repertoire de travail SAM2 : /tmp
+Python SAM2 : /home/zeineb/env_sam2/bin/python
+Depot SAM2 : /home/zeineb/sam2
+Checkpoint SAM2 : /home/zeineb/sam2/sam2.1_hiera_tiny.pt
+
+--- Sortie standard de sam2_worker.py ---
+
+======================================================================
+SAM2 WORKER
+======================================================================
+Python SAM2 : /home/zeineb/env_sam2/bin/python
+Depot SAM2  : /home/zeineb/sam2
+Checkpoint  : /home/zeineb/sam2/sam2.1_hiera_tiny.pt
+Config      : configs/sam2.1/sam2.1_hiera_t.yaml
+Requetes    : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/temp_ipc/requetes_sam2.json
+Resultats   : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/temp_ipc/resultats_sam2.json
+Masques     : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/temp_ipc/masques_sam2
+
+Nombre de requetes recues : 1
+======================================================================
+CHARGEMENT SAM2
+======================================================================
+Depot SAM2  : /home/zeineb/sam2
+Checkpoint  : /home/zeineb/sam2/sam2.1_hiera_tiny.pt
+Config      : configs/sam2.1/sam2.1_hiera_t.yaml
+Device      : cpu
+
+Checkpoint trouve.
+Package SAM2 : /home/zeineb/env_sam2/lib/python3.11/site-packages/sam2
+Configuration Hydra utilisee :
+   configs/sam2.1/sam2.1_hiera_t.yaml
+Configuration trouvee :
+   /home/zeineb/env_sam2/lib/python3.11/site-packages/sam2/configs/sam2.1/sam2.1_hiera_t.yaml
+
+Construction du modele SAM2...
+
+SAM2 charge avec succes en 0.95s
+
+
+[SAM2] Requete 1/1
+  ID   : 0
+  Crop : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/temp_ipc/crops/crop_0.png
+  Box  : [30, 15, 184, 89]
+  Masque sauvegarde : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/temp_ipc/masques_sam2/mask_0.png
+  Score SAM2 : 0.9353
+  [1/1] requetes traitees
+
+======================================================================
+TRAITEMENT SAM2 TERMINE
+======================================================================
+Temps total : 1.33s
+Temps moyen : 1.33s/requete
+Masques produits : 1/1
+
+Resultats ecrits dans : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/temp_ipc/resultats_sam2.json
+
+
+Resultats SAM2 recus : 1
+[FUSION OK] id=0 proportion_chambre=0.79
+INFO:     127.0.0.1:45296 - "POST /api/pnp/9e7b8549/etape1-segmentation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45296 - "OPTIONS /api/pnp/9e7b8549/etape2-analyse-coins HTTP/1.1" 200 OK
+OK: L2T -> 1.405m x 0.635m (MODOP)
+    [init] offset estime : dx0=0.78m, dy0=-0.83m (r=5.59m, plausibilite=OK)
+    [passe 1 - robuste] theta=125.3deg, echelle=0.78, cout=0.00, occlusion_estimee=0%, trim_ratio_fin_adapte=0.05
+    [passe 2 - raffinee] theta=125.3deg, echelle=0.80, cout=0.38
+INFO:     127.0.0.1:35746 - "POST /api/pnp/9e7b8549/etape2-analyse-coins HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45088 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47664 - "GET /api/metriques/final HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47674 - "GET /api/metriques/ablation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47680 - "GET /api/visualisations/liste HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49696 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47690 - "OPTIONS /api/carte-sig/upload?max_points=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "POST /api/carte-sig/upload?max_points=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "OPTIONS /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35252 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60542 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60124 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59100 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "OPTIONS /api/carte-sig/jobs/2f51ea4b106d/predictions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47690 - "GET /api/carte-sig/jobs/2f51ea4b106d/predictions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53874 - "GET /api/carte-sig/jobs/2f51ea4b106d/predictions/image/oid_1149039_r10_dist5.6m_overlay.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhYWFAZ21haWwuY29tIiwiZXhwIjoxNzkxMDI2MTc4fQ.x2svv-ptnuX8ye57vIrNxT6SjA0za6rHSBY-QhgXi3I HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53868 - "GET /api/carte-sig/jobs/2f51ea4b106d/predictions/image/oid_1149047_r10_dist7.2m_overlay.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhYWFAZ21haWwuY29tIiwiZXhwIjoxNzkxMDI2MTc4fQ.x2svv-ptnuX8ye57vIrNxT6SjA0za6rHSBY-QhgXi3I HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53880 - "GET /api/carte-sig/jobs/2f51ea4b106d/predictions/image/oid_1149009_r10_dist4.7m_overlay.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhYWFAZ21haWwuY29tIiwiZXhwIjoxNzkxMDI2MTc4fQ.x2svv-ptnuX8ye57vIrNxT6SjA0za6rHSBY-QhgXi3I HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53892 - "GET /api/carte-sig/jobs/2f51ea4b106d/predictions/image/oid_1149027_r10_dist5.9m_overlay.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhYWFAZ21haWwuY29tIiwiZXhwIjoxNzkxMDI2MTc4fQ.x2svv-ptnuX8ye57vIrNxT6SjA0za6rHSBY-QhgXi3I HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53888 - "GET /api/carte-sig/jobs/2f51ea4b106d/predictions/image/oid_1149015_r10_dist2.1m_overlay.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhYWFAZ21haWwuY29tIiwiZXhwIjoxNzkxMDI2MTc4fQ.x2svv-ptnuX8ye57vIrNxT6SjA0za6rHSBY-QhgXi3I HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53876 - "GET /api/carte-sig/jobs/2f51ea4b106d/predictions/image/oid_1149007_r10_dist2.9m_overlay.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhYWFAZ21haWwuY29tIiwiZXhwIjoxNzkxMDI2MTc4fQ.x2svv-ptnuX8ye57vIrNxT6SjA0za6rHSBY-QhgXi3I HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53888 - "GET /api/carte-sig/jobs/2f51ea4b106d/predictions/image/oid_1149034_r10_dist6.9m_overlay.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhYWFAZ21haWwuY29tIiwiZXhwIjoxNzkxMDI2MTc4fQ.x2svv-ptnuX8ye57vIrNxT6SjA0za6rHSBY-QhgXi3I HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53876 - "GET /api/carte-sig/jobs/2f51ea4b106d/predictions/image/oid_1149038_r10_dist6.8m_overlay.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhYWFAZ21haWwuY29tIiwiZXhwIjoxNzkxMDI2MTc4fQ.x2svv-ptnuX8ye57vIrNxT6SjA0za6rHSBY-QhgXi3I HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53892 - "GET /api/carte-sig/jobs/2f51ea4b106d/predictions/image/oid_1149053_r10_dist7.5m_overlay.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhYWFAZ21haWwuY29tIiwiZXhwIjoxNzkxMDI2MTc4fQ.x2svv-ptnuX8ye57vIrNxT6SjA0za6rHSBY-QhgXi3I HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56828 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37638 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45140 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45186 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45476 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39108 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49416 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45240 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52914 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60724 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39604 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54234 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48426 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38248 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58688 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44520 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56646 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47890 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44918 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51728 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47586 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43254 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48818 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45748 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44376 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46156 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56400 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53384 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56400 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33848 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45040 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34010 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41760 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57700 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55802 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33284 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34836 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36980 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43212 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38544 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52044 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38118 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41738 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60764 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38194 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:42878 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44428 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40828 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55474 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44510 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52928 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52146 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:42598 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39838 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40182 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50216 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33058 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34776 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38786 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45178 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51724 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48564 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37678 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59926 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49174 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59782 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57324 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39250 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47594 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45708 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57274 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38508 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54858 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60740 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58844 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34784 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44666 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60698 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33916 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49396 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:42734 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56132 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53866 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58964 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43432 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49718 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34742 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49144 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38826 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41342 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36444 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34312 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48090 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59852 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53396 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46286 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35116 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38298 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43970 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54432 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59376 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33376 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46042 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52970 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57650 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38116 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60538 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49942 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44502 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48968 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:42182 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34802 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53174 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48514 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55152 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46084 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44896 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45034 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48854 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36330 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46578 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49462 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39652 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49104 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41752 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56040 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38758 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55250 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34432 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53520 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34212 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60064 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36494 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52018 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52638 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35140 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52324 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34428 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34524 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34416 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49190 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39768 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33082 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38354 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59968 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43462 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49570 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44560 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35166 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43030 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56752 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43988 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57976 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41136 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36150 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47698 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46572 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55424 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43618 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54732 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44448 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41110 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39094 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57380 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38828 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60314 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55312 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:42758 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47946 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51830 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36700 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54008 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60412 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39812 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54256 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49102 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54730 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36092 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60282 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36398 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53256 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57570 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40790 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51890 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47550 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47696 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56712 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39416 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49374 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49374 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51556 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51436 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:42810 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46114 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44126 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43348 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41570 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36218 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45152 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36866 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48060 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52486 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:32934 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53784 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49728 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51452 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51452 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39640 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53724 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46206 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36836 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47814 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49544 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35342 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33094 - "GET /health HTTP/1.1" 404 Not Found

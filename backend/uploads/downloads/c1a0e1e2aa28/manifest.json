@@ -1,0 +1,169 @@
+[
+  {
+    "objectid": 2766115,
+    "images_obtenues": 0,
+    "images": []
+  },
+  {
+    "objectid": 2878562,
+    "images_obtenues": 2,
+    "images": [
+      {
+        "filename": "CH_2878562_ANGLE0_dist8m_2025-03.jpg",
+        "pano_id": "xXtjHndGOZgCCnQmwsKPTg",
+        "capture_date": "2025-03",
+        "dist": 8.9,
+        "heading": 150.9,
+        "pitch": -15.7,
+        "fov": 75,
+        "angle_recherche": 0.0
+      },
+      {
+        "filename": "CH_2878562_ANGLE108_dist6m_2025-03.jpg",
+        "pano_id": "soJzKl7APVrJ3vVp3t16Ng",
+        "capture_date": "2025-03",
+        "dist": 6.1,
+        "heading": 68.9,
+        "pitch": -22.3,
+        "fov": 75,
+        "angle_recherche": 108.0
+      }
+    ]
+  },
+  {
+    "objectid": 3143860,
+    "images_obtenues": 2,
+    "images": [
+      {
+        "filename": "CH_3143860_ANGLE0_dist3m_2025-02.jpg",
+        "pano_id": "hBEvDx1cszLmJFUFwHhJkg",
+        "capture_date": "2025-02",
+        "dist": 3.17,
+        "heading": 161.9,
+        "pitch": -38.2,
+        "fov": 75,
+        "angle_recherche": 0.0
+      },
+      {
+        "filename": "CH_3143860_ANGLE108_dist7m_2025-02.jpg",
+        "pano_id": "EV08vetar72l-SsH1dcLBw",
+        "capture_date": "2025-02",
+        "dist": 7.53,
+        "heading": 356.9,
+        "pitch": -18.4,
+        "fov": 75,
+        "angle_recherche": 108.0
+      }
+    ]
+  },
+  {
+    "objectid": 2056801,
+    "images_obtenues": 2,
+    "images": [
+      {
+        "filename": "CH_2056801_ANGLE0_dist4m_2025-03.jpg",
+        "pano_id": "0BVyjMnOMox7hOTkY98Evw",
+        "capture_date": "2025-03",
+        "dist": 4.7,
+        "heading": 133.0,
+        "pitch": -28.0,
+        "fov": 75,
+        "angle_recherche": 0.0
+      },
+      {
+        "filename": "CH_2056801_ANGLE108_dist7m_2025-03.jpg",
+        "pano_id": "hPZ9ZhwCMAGJRNlykZQg4A",
+        "capture_date": "2025-03",
+        "dist": 7.19,
+        "heading": 23.8,
+        "pitch": -19.2,
+        "fov": 75,
+        "angle_recherche": 108.0
+      }
+    ]
+  },
+  {
+    "objectid": 1149406,
+    "images_obtenues": 2,
+    "images": [
+      {
+        "filename": "CH_1149406_ANGLE0_dist10m_2025-03.jpg",
+        "pano_id": "vAtHu5I-xjG4N8T7Qtka_Q",
+        "capture_date": "2025-03",
+        "dist": 10.33,
+        "heading": 250.1,
+        "pitch": -13.6,
+        "fov": 75,
+        "angle_recherche": 0.0
+      },
+      {
+        "filename": "CH_1149406_ANGLE108_dist10m_2025-03.jpg",
+        "pano_id": "MrIWeMBNDKlTvwVlA22EVA",
+        "capture_date": "2025-03",
+        "dist": 10.92,
+        "heading": 307.0,
+        "pitch": -12.9,
+        "fov": 75,
+        "angle_recherche": 108.0
+      }
+    ]
+  },
+  {
+    "objectid": 1619464,
+    "images_obtenues": 2,
+    "images": [
+      {
+        "filename": "CH_1619464_ANGLE0_dist7m_2025-03.jpg",
+        "pano_id": "NrkssidAPjeujKu2yyV-3g",
+        "capture_date": "2025-03",
+        "dist": 7.38,
+        "heading": 150.6,
+        "pitch": -18.7,
+        "fov": 75,
+        "angle_recherche": 0.0
+      },
+      {
+        "filename": "CH_1619464_ANGLE108_dist5m_2025-03.jpg",
+        "pano_id": "WPXDRhHS2fH1vTf-YLaA3w",
+        "capture_date": "2025-03",
+        "dist": 5.04,
+        "heading": 38.8,
+        "pitch": -26.4,
+        "fov": 75,
+        "angle_recherche": 108.0
+      }
+    ]
+  },
+  {
+    "objectid": 1149022,
+    "images_obtenues": 1,
+    "images": [
+      {
+        "filename": "CH_1149022_ANGLE0_dist11m_2022-08.jpg",
+        "pano_id": "I0jBMkkM6iVy_wm7L7FJYg",
+        "capture_date": "2022-08",
+        "dist": 11.78,
+        "heading": 194.4,
+        "pitch": -12.0,
+        "fov": 75,
+        "angle_recherche": 0.0
+      }
+    ]
+  },
+  {
+    "objectid": 1149020,
+    "images_obtenues": 1,
+    "images": [
+      {
+        "filename": "CH_1149020_ANGLE0_dist2m_2022-08.jpg",
+        "pano_id": "gSMlLKCY_pqtv-v0p5oR1g",
+        "capture_date": "2022-08",
+        "dist": 2.29,
+        "heading": 276.1,
+        "pitch": -47.5,
+        "fov": 75,
+        "angle_recherche": 0.0
+      }
+    ]
+  }
+]

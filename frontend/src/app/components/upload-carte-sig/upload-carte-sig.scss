@@ -182,3 +182,134 @@ button {
     }
   }
 }
+
+// ---------------------------------------------------------------
+// Étape 3 — recalage PnP par point
+// ---------------------------------------------------------------
+
+.pnp {
+  margin-top: 1.5rem;
+  border-top: 1px solid #eee;
+  padding-top: 1rem;
+
+  h3 {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.progression {
+  font-size: 0.85rem;
+  color: #1e40af;
+  font-weight: 600;
+}
+
+.resume-pnp {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin: 0.75rem 0;
+
+  .seuils-utilises {
+    font-size: 0.8rem;
+    color: #666;
+    font-style: italic;
+  }
+}
+
+.badge-cas1 {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.badge-cas2 {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.badge-rejet {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.badge-info {
+  background: #f4f6f9;
+  color: #555;
+}
+
+.tableau-points {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+
+  th,
+  td {
+    padding: 0.45rem 0.6rem;
+    border-bottom: 1px solid #eee;
+    text-align: right;
+
+    &:first-child,
+    &:nth-child(2) {
+      text-align: left;
+    }
+  }
+
+  thead th {
+    background: #f4f6f9;
+    color: #444;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+}
+
+.ligne-point {
+  cursor: pointer;
+
+  &:hover {
+    background: #f8fafc;
+  }
+
+  &.point-ouverte {
+    background: #eff6ff;
+  }
+}
+
+.ligne-detail {
+  background: #fafbfc;
+
+  td {
+    text-align: left;
+  }
+}
+
+.detail-images {
+  margin: 0;
+  padding-left: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+
+  li {
+    font-size: 0.8rem;
+    color: #444;
+
+    &.statut-rejet {
+      color: #991b1b;
+    }
+
+    &.statut-aucune_chambre {
+      color: #888;
+    }
+
+    .raison {
+      font-style: italic;
+    }
+
+    a {
+      margin-left: 0.5rem;
+      color: #1e40af;
+      font-weight: 600;
+    }
+  }
+}

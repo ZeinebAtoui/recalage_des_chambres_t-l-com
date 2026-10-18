@@ -1,0 +1,212 @@
+--- DÉMARRAGE DU JOB 62c111832e28 ---
+Script : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/services/telechargement_interface.py
+CSV source : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/cartes/Exp-Avant-IA.csv
+Dossier de sortie : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/62c111832e28
+Points max : 8
+Options de recherche : {"rayon_recherche": 15.0, "max_images_par_point": 6}
+Interprète Python : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/env_hybrid_311/bin/python3
+Clé API transmise : Oui
+Lancement du sous-processus...
+
+[SCRIPT] Exécution via ligne de commande.
+[SCRIPT] Options reçues : {'rayon_recherche': 15.0, 'max_images_par_point': 6}
+[SCRIPT] Démarrage du script de téléchargement...
+[SCRIPT] Configuration de recherche :
+[SCRIPT]   rayon de recherche   : 15.0 m
+[SCRIPT]   échantillons cercle  : 12
+[SCRIPT]   max images / point   : 6
+[SCRIPT]   distance             : [2.0 ; 50.0] m
+[SCRIPT]   bearing              : [0° ; 360°]
+[SCRIPT]   pitch                : [-60° ; 0°]
+[SCRIPT]   FOV                  : dynamique (35/45/55°)
+[SCRIPT]   bonus candidats      : +2 (best-of-N)
+[SCRIPT]   seuil aplats (rejet) : 0.40
+[SCRIPT] Clé API détectée : AIzaSy...
+[SCRIPT] Lecture du CSV : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/cartes/Exp-Avant-IA.csv
+[SCRIPT] 185 ligne(s) trouvée(s).
+[SCRIPT] Colonne latitude  : latitude
+[SCRIPT] Colonne longitude : longitude
+[SCRIPT] Colonne ID        : OBJECTID
+[SCRIPT] Colonne type      : REF_CHAMBR
+[SCRIPT] Points à traiter : 8
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 1/8 - ID : 1149007
+[SCRIPT] Coordonnées : 50.76452472723148, 2.719859510038881
+[SCRIPT] Rayon de recherche : 15.0 m
+[SCRIPT] ========================================
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Candidats valides : 0 (rejets : 0)
+[SCRIPT] ✗ ID 1149007 : aucune image validant les critères (bearing / pitch / FOV / distance).
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 2/8 - ID : 1149009
+[SCRIPT] Coordonnées : 50.763092894670415, 2.720401021499844
+[SCRIPT] Rayon de recherche : 15.0 m
+[SCRIPT] ========================================
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Candidats valides : 0 (rejets : 0)
+[SCRIPT] ✗ ID 1149009 : aucune image validant les critères (bearing / pitch / FOV / distance).
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 3/8 - ID : 1149015
+[SCRIPT] Coordonnées : 50.765961042443216, 2.7191723857480072
+[SCRIPT] Rayon de recherche : 15.0 m
+[SCRIPT] ========================================
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Candidats valides : 0 (rejets : 0)
+[SCRIPT] ✗ ID 1149015 : aucune image validant les critères (bearing / pitch / FOV / distance).
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 4/8 - ID : 1149027
+[SCRIPT] Coordonnées : 50.763350483403, 2.7213389532132566
+[SCRIPT] Rayon de recherche : 15.0 m
+[SCRIPT] ========================================
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Candidats valides : 0 (rejets : 0)
+[SCRIPT] ✗ ID 1149027 : aucune image validant les critères (bearing / pitch / FOV / distance).
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 5/8 - ID : 1149028
+[SCRIPT] Coordonnées : 50.76286202274774, 2.7215840573114467
+[SCRIPT] Rayon de recherche : 15.0 m
+[SCRIPT] ========================================
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Candidats valides : 0 (rejets : 0)
+[SCRIPT] ✗ ID 1149028 : aucune image validant les critères (bearing / pitch / FOV / distance).
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 6/8 - ID : 1149034
+[SCRIPT] Coordonnées : 50.76401559818213, 2.7189070416728423
+[SCRIPT] Rayon de recherche : 15.0 m
+[SCRIPT] ========================================
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Candidats valides : 0 (rejets : 0)
+[SCRIPT] ✗ ID 1149034 : aucune image validant les critères (bearing / pitch / FOV / distance).
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 7/8 - ID : 1149038
+[SCRIPT] Coordonnées : 50.7642733643776, 2.7195244727576693
+[SCRIPT] Rayon de recherche : 15.0 m
+[SCRIPT] ========================================
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Candidats valides : 0 (rejets : 0)
+[SCRIPT] ✗ ID 1149038 : aucune image validant les critères (bearing / pitch / FOV / distance).
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 8/8 - ID : 1149039
+[SCRIPT] Coordonnées : 50.76421291785884, 2.719446619680655
+[SCRIPT] Rayon de recherche : 15.0 m
+[SCRIPT] ========================================
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Candidats valides : 0 (rejets : 0)
+[SCRIPT] ✗ ID 1149039 : aucune image validant les critères (bearing / pitch / FOV / distance).
+[SCRIPT] Métadonnées écrites : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/62c111832e28/points.json
+
+[SCRIPT] ========================================
+[SCRIPT] TERMINÉ
+[SCRIPT] Points traités       : 8
+[SCRIPT] Points avec images   : 0
+[SCRIPT] Images téléchargées  : 0
+[SCRIPT] Dossier images       : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/62c111832e28/images
+[SCRIPT] ========================================
+
+[SCRIPT] Terminé : 0 image(s) pour 8 point(s).
+
+Statut : Terminé avec succès, mais 0 image n'a été téléchargée.

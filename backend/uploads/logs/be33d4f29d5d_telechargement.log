@@ -1,0 +1,107 @@
+--- DÉMARRAGE DU JOB be33d4f29d5d ---
+Script : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/services/telechargement_interface.py
+CSV source : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/cartes/Exp-Avant-IA.csv
+Dossier de sortie : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/be33d4f29d5d
+Points max : 3
+Options de recherche : {"rayon_recherche": 15.0, "max_images_par_point": 6}
+Interprète Python : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/env_hybrid_311/bin/python3
+Clé API transmise : Oui
+Lancement du sous-processus...
+
+[SCRIPT] Exécution via ligne de commande.
+[SCRIPT] Options reçues : {'rayon_recherche': 15.0, 'max_images_par_point': 6}
+[SCRIPT] Démarrage du script de téléchargement...
+[SCRIPT] Configuration de recherche :
+[SCRIPT]   rayon de recherche   : 15.0 m
+[SCRIPT]   échantillons cercle  : 12
+[SCRIPT]   max images / point   : 6
+[SCRIPT]   distance             : [2.0 ; 50.0] m
+[SCRIPT]   bearing              : [0° ; 360°]
+[SCRIPT]   pitch                : [-60° ; 0°]
+[SCRIPT]   FOV                  : dynamique (35/45/55°)
+[SCRIPT]   bonus candidats      : +2 (best-of-N)
+[SCRIPT]   seuil aplats (rejet) : 0.40
+[SCRIPT] Clé API détectée : AIzaSy...
+[SCRIPT] Lecture du CSV : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/cartes/Exp-Avant-IA.csv
+[SCRIPT] 185 ligne(s) trouvée(s).
+[SCRIPT] Colonne latitude  : latitude
+[SCRIPT] Colonne longitude : longitude
+[SCRIPT] Colonne ID        : OBJECTID
+[SCRIPT] Colonne type      : REF_CHAMBR
+[SCRIPT] Points à traiter : 3
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 1/3 - ID : 1149007
+[SCRIPT] Coordonnées : 50.76452472723148, 2.719859510038881
+[SCRIPT] Rayon de recherche : 15.0 m
+[SCRIPT] ========================================
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Candidats valides : 0 (rejets : 0)
+[SCRIPT] ✗ ID 1149007 : aucune image validant les critères (bearing / pitch / FOV / distance).
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 2/3 - ID : 1149009
+[SCRIPT] Coordonnées : 50.763092894670415, 2.720401021499844
+[SCRIPT] Rayon de recherche : 15.0 m
+[SCRIPT] ========================================
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Candidats valides : 0 (rejets : 0)
+[SCRIPT] ✗ ID 1149009 : aucune image validant les critères (bearing / pitch / FOV / distance).
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 3/3 - ID : 1149015
+[SCRIPT] Coordonnées : 50.765961042443216, 2.7191723857480072
+[SCRIPT] Rayon de recherche : 15.0 m
+[SCRIPT] ========================================
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Metadata refusée : REQUEST_DENIED The provided API key is invalid.
+[SCRIPT] Candidats valides : 0 (rejets : 0)
+[SCRIPT] ✗ ID 1149015 : aucune image validant les critères (bearing / pitch / FOV / distance).
+[SCRIPT] Métadonnées écrites : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/be33d4f29d5d/points.json
+
+[SCRIPT] ========================================
+[SCRIPT] TERMINÉ
+[SCRIPT] Points traités       : 3
+[SCRIPT] Points avec images   : 0
+[SCRIPT] Images téléchargées  : 0
+[SCRIPT] Dossier images       : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/be33d4f29d5d/images
+[SCRIPT] ========================================
+
+[SCRIPT] Terminé : 0 image(s) pour 3 point(s).
+
+Statut : Terminé avec succès, mais 0 image n'a été téléchargée.

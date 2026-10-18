@@ -1,0 +1,215 @@
+--- DÉMARRAGE DE L'INFÉRENCE POUR LE JOB 8ccdd0ebc0f2 ---
+Script : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/inference_nouvelles_images.py
+Dossier images : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/images
+Dossier de sortie : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions
+
+/mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/env_hybrid_311/lib/python3.11/site-packages/mmseg/models/builder.py:36: UserWarning: ``build_loss`` would be deprecated soon, please use ``mmseg.registry.MODELS.build()`` 
+  warnings.warn('``build_loss`` would be deprecated soon, please use '
+/mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/env_hybrid_311/lib/python3.11/site-packages/mmseg/models/losses/cross_entropy_loss.py:250: UserWarning: Default ``avg_non_ignore`` is False, if you would like to ignore the certain label and average loss over non-ignore labels, which is the same with PyTorch official cross_entropy, set ``avg_non_ignore=True``.
+  warnings.warn(
+
+======================================================================
+DEVICE
+======================================================================
+Device utilise : cpu
+11 images trouvees dans /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/images
+
+======================================================================
+CHARGEMENT FASTER R-CNN
+======================================================================
+Faster R-CNN charge avec succes.
+
+======================================================================
+CHARGEMENT DEEPLABV3+
+======================================================================
+Loads checkpoint by local backend from path: /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/best_mIoU_iter_2000.pth
+DeepLabV3+ charge avec succes.
+
+======================================================================
+ETAPE 1 : COLLECTE FASTER R-CNN + DEEPLABV3+ (sans verite terrain)
+======================================================================
+  [5/11] images traitees (9 detections collectees)
+  [10/11] images traitees (15 detections collectees)
+  [11/11] images traitees (15 detections collectees)
+Total detections collectees : 15
+
+======================================================================
+ETAPE 2 : APPEL DE SAM2 (subprocess vers sam2_env)
+======================================================================
+Nombre de requetes envoyees a SAM2 : 15
+Commande executee :
+/home/zeineb/env_sam2/bin/python /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/sam2_worker.py --requetes /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/requetes_sam2.json --resultats /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/resultats_sam2.json --masques_dir /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/masques_sam2 --sam2_repo /home/zeineb/sam2 --checkpoint /home/zeineb/sam2/sam2.1_hiera_tiny.pt --config configs/sam2.1/sam2.1_hiera_t.yaml
+
+Repertoire de travail SAM2 : /tmp
+Python SAM2 : /home/zeineb/env_sam2/bin/python
+Depot SAM2 : /home/zeineb/sam2
+Checkpoint SAM2 : /home/zeineb/sam2/sam2.1_hiera_tiny.pt
+
+--- Sortie standard de sam2_worker.py ---
+
+======================================================================
+SAM2 WORKER
+======================================================================
+Python SAM2 : /home/zeineb/env_sam2/bin/python
+Depot SAM2  : /home/zeineb/sam2
+Checkpoint  : /home/zeineb/sam2/sam2.1_hiera_tiny.pt
+Config      : configs/sam2.1/sam2.1_hiera_t.yaml
+Requetes    : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/requetes_sam2.json
+Resultats   : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/resultats_sam2.json
+Masques     : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/masques_sam2
+
+Nombre de requetes recues : 15
+======================================================================
+CHARGEMENT SAM2
+======================================================================
+Depot SAM2  : /home/zeineb/sam2
+Checkpoint  : /home/zeineb/sam2/sam2.1_hiera_tiny.pt
+Config      : configs/sam2.1/sam2.1_hiera_t.yaml
+Device      : cpu
+
+Checkpoint trouve.
+Package SAM2 : /home/zeineb/env_sam2/lib/python3.11/site-packages/sam2
+Configuration Hydra utilisee :
+   configs/sam2.1/sam2.1_hiera_t.yaml
+Configuration trouvee :
+   /home/zeineb/env_sam2/lib/python3.11/site-packages/sam2/configs/sam2.1/sam2.1_hiera_t.yaml
+
+Construction du modele SAM2...
+
+SAM2 charge avec succes en -0.41s
+
+
+[SAM2] Requete 1/15
+  ID   : 0
+  Crop : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/crops/crop_0.png
+  Box  : [15, 15, 88, 67]
+  Masque sauvegarde : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/masques_sam2/mask_0.png
+  Score SAM2 : 0.9769
+
+[SAM2] Requete 2/15
+  ID   : 1
+  Crop : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/crops/crop_1.png
+  Box  : [15, 15, 57, 54]
+  Masque sauvegarde : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/masques_sam2/mask_1.png
+  Score SAM2 : 0.9685
+
+[SAM2] Requete 3/15
+  ID   : 2
+  Crop : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/crops/crop_2.png
+  Box  : [15, 15, 56, 53]
+  Masque sauvegarde : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/masques_sam2/mask_2.png
+  Score SAM2 : 0.9690
+
+[SAM2] Requete 4/15
+  ID   : 3
+  Crop : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/crops/crop_3.png
+  Box  : [17, 15, 105, 75]
+  Masque sauvegarde : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/masques_sam2/mask_3.png
+  Score SAM2 : 0.9216
+
+[SAM2] Requete 5/15
+  ID   : 4
+  Crop : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/crops/crop_4.png
+  Box  : [30, 15, 181, 44]
+  Masque sauvegarde : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/masques_sam2/mask_4.png
+  Score SAM2 : 0.9567
+  [5/15] requetes traitees
+
+[SAM2] Requete 6/15
+  ID   : 5
+  Crop : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/crops/crop_5.png
+  Box  : [15, 15, 67, 44]
+  Masque sauvegarde : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/masques_sam2/mask_5.png
+  Score SAM2 : 0.9224
+
+[SAM2] Requete 7/15
+  ID   : 6
+  Crop : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/crops/crop_6.png
+  Box  : [15, 15, 78, 48]
+  Masque sauvegarde : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/masques_sam2/mask_6.png
+  Score SAM2 : 0.9289
+
+[SAM2] Requete 8/15
+  ID   : 7
+  Crop : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/crops/crop_7.png
+  Box  : [15, 15, 47, 76]
+  Masque sauvegarde : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/masques_sam2/mask_7.png
+  Score SAM2 : 0.9638
+
+[SAM2] Requete 9/15
+  ID   : 8
+  Crop : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/crops/crop_8.png
+  Box  : [20, 15, 121, 78]
+  Masque sauvegarde : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/masques_sam2/mask_8.png
+  Score SAM2 : 0.9282
+
+[SAM2] Requete 10/15
+  ID   : 9
+  Crop : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/crops/crop_9.png
+  Box  : [15, 15, 64, 36]
+  Masque sauvegarde : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/masques_sam2/mask_9.png
+  Score SAM2 : 0.9181
+  [10/15] requetes traitees
+
+[SAM2] Requete 11/15
+  ID   : 10
+  Crop : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/crops/crop_10.png
+  Box  : [15, 15, 79, 39]
+  Masque sauvegarde : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/masques_sam2/mask_10.png
+  Score SAM2 : 0.9350
+
+[SAM2] Requete 12/15
+  ID   : 11
+  Crop : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/crops/crop_11.png
+  Box  : [15, 15, 60, 39]
+  Masque sauvegarde : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/masques_sam2/mask_11.png
+  Score SAM2 : 0.9635
+
+[SAM2] Requete 13/15
+  ID   : 12
+  Crop : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/crops/crop_12.png
+  Box  : [21, 15, 130, 57]
+  Masque sauvegarde : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/masques_sam2/mask_12.png
+  Score SAM2 : 0.9507
+
+[SAM2] Requete 14/15
+  ID   : 13
+  Crop : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/crops/crop_13.png
+  Box  : [15, 15, 75, 28]
+  Masque sauvegarde : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/masques_sam2/mask_13.png
+  Score SAM2 : 0.8811
+
+[SAM2] Requete 15/15
+  ID   : 14
+  Crop : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/crops/crop_14.png
+  Box  : [25, 15, 153, 94]
+  Masque sauvegarde : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/masques_sam2/mask_14.png
+  Score SAM2 : 0.8935
+  [15/15] requetes traitees
+
+======================================================================
+TRAITEMENT SAM2 TERMINE
+======================================================================
+Temps total : 23.23s
+Temps moyen : 1.55s/requete
+Masques produits : 15/15
+
+Resultats ecrits dans : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/_temp_ipc/resultats_sam2.json
+
+
+Resultats SAM2 recus : 15
+
+======================================================================
+ETAPE 3 : FUSION SEMANTIQUE ET CONSTRUCTION DES MASQUES FINAUX
+======================================================================
+Detections validees semantiquement : 13
+Detections rejetees : 2
+
+======================================================================
+SAUVEGARDE DES MASQUES ET OVERLAYS
+======================================================================
+
+Termine : 6/11 images avec au moins une chambre detectee.
+Masques  : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/masks
+Overlays : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/overlays
+Manifest : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/8ccdd0ebc0f2/predictions/manifest.json

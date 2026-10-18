@@ -1,0 +1,222 @@
+[
+  {
+    "file_name": "POINT_0_v0_dist10.3m.jpg",
+    "nom_base": "POINT_0_v0_dist10.3m",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_0_v1_dist11.9m.jpg",
+    "nom_base": "POINT_0_v1_dist11.9m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_0_v2_dist16.0m.jpg",
+    "nom_base": "POINT_0_v2_dist16.0m",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_0_v3_dist17.8m.jpg",
+    "nom_base": "POINT_0_v3_dist17.8m",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_0_v4_dist18.3m.jpg",
+    "nom_base": "POINT_0_v4_dist18.3m",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_0_v5_dist18.8m.jpg",
+    "nom_base": "POINT_0_v5_dist18.8m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_1_v0_dist4.7m.jpg",
+    "nom_base": "POINT_1_v0_dist4.7m",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_1_v1_dist12.0m.jpg",
+    "nom_base": "POINT_1_v1_dist12.0m",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_1_v2_dist14.2m.jpg",
+    "nom_base": "POINT_1_v2_dist14.2m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_1_v3_dist15.7m.jpg",
+    "nom_base": "POINT_1_v3_dist15.7m",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_2_v0_dist10.8m.jpg",
+    "nom_base": "POINT_2_v0_dist10.8m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_3_v0_dist5.9m.jpg",
+    "nom_base": "POINT_3_v0_dist5.9m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_3_v1_dist7.2m.jpg",
+    "nom_base": "POINT_3_v1_dist7.2m",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_3_v2_dist15.4m.jpg",
+    "nom_base": "POINT_3_v2_dist15.4m",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_3_v3_dist17.0m.jpg",
+    "nom_base": "POINT_3_v3_dist17.0m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_5_v0_dist6.9m.jpg",
+    "nom_base": "POINT_5_v0_dist6.9m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_5_v1_dist8.4m.jpg",
+    "nom_base": "POINT_5_v1_dist8.4m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_5_v2_dist14.5m.jpg",
+    "nom_base": "POINT_5_v2_dist14.5m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_5_v3_dist15.0m.jpg",
+    "nom_base": "POINT_5_v3_dist15.0m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_5_v4_dist17.0m.jpg",
+    "nom_base": "POINT_5_v4_dist17.0m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_5_v5_dist17.2m.jpg",
+    "nom_base": "POINT_5_v5_dist17.2m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_6_v0_dist6.8m.jpg",
+    "nom_base": "POINT_6_v0_dist6.8m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_6_v1_dist7.7m.jpg",
+    "nom_base": "POINT_6_v1_dist7.7m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_6_v2_dist15.9m.jpg",
+    "nom_base": "POINT_6_v2_dist15.9m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_6_v3_dist15.9m.jpg",
+    "nom_base": "POINT_6_v3_dist15.9m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_6_v4_dist18.4m.jpg",
+    "nom_base": "POINT_6_v4_dist18.4m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_6_v5_dist20.6m.jpg",
+    "nom_base": "POINT_6_v5_dist20.6m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_7_v0_dist5.6m.jpg",
+    "nom_base": "POINT_7_v0_dist5.6m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_7_v1_dist12.2m.jpg",
+    "nom_base": "POINT_7_v1_dist12.2m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_7_v2_dist12.3m.jpg",
+    "nom_base": "POINT_7_v2_dist12.3m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_7_v3_dist14.0m.jpg",
+    "nom_base": "POINT_7_v3_dist14.0m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_7_v4_dist24.2m.jpg",
+    "nom_base": "POINT_7_v4_dist24.2m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_8_v0_dist10.5m.jpg",
+    "nom_base": "POINT_8_v0_dist10.5m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_8_v1_dist14.1m.jpg",
+    "nom_base": "POINT_8_v1_dist14.1m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_8_v2_dist14.6m.jpg",
+    "nom_base": "POINT_8_v2_dist14.6m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_8_v3_dist18.8m.jpg",
+    "nom_base": "POINT_8_v3_dist18.8m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_8_v4_dist19.3m.jpg",
+    "nom_base": "POINT_8_v4_dist19.3m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_8_v5_dist34.1m.jpg",
+    "nom_base": "POINT_8_v5_dist34.1m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_9_v0_dist7.5m.jpg",
+    "nom_base": "POINT_9_v0_dist7.5m",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_9_v1_dist13.2m.jpg",
+    "nom_base": "POINT_9_v1_dist13.2m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_9_v2_dist14.4m.jpg",
+    "nom_base": "POINT_9_v2_dist14.4m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_9_v3_dist15.9m.jpg",
+    "nom_base": "POINT_9_v3_dist15.9m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_9_v4_dist16.9m.jpg",
+    "nom_base": "POINT_9_v4_dist16.9m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_9_v5_dist21.9m.jpg",
+    "nom_base": "POINT_9_v5_dist21.9m",
+    "chambre_detectee": false
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "point_index": 0,
+    "point_id": "1149007",
+    "latitude": 50.76452472723148,
+    "longitude": 2.719859510038881,
+    "type_chambre": "A2",
+    "images": [],
+    "rejets": []
+  },
+  {
+    "point_index": 1,
+    "point_id": "1149009",
+    "latitude": 50.763092894670415,
+    "longitude": 2.720401021499844,
+    "type_chambre": "A3",
+    "images": [],
+    "rejets": []
+  },
+  {
+    "point_index": 2,
+    "point_id": "1149015",
+    "latitude": 50.765961042443216,
+    "longitude": 2.7191723857480072,
+    "type_chambre": "A2",
+    "images": [],
+    "rejets": []
+  }
+]

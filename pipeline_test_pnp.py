@@ -105,6 +105,24 @@ SEUIL_PRECISION_CAS2 = 0.80  # ce qui est visible colle au gabarit -> fit fiable
 # le comportement observe sur davantage d'images.
 SEUIL_PRECISION_MIN_GT = 0.80
 
+# --- Seuils configurables par l'utilisateur (interface web) ---
+# Ces deux valeurs remplacent les seuils codes en dur dans la decision
+# Cas 1 / Cas 2 / Rejet lorsque le pipeline est appele depuis le backend.
+#
+#   seuil_pourcentage_chambre_visible (%)
+#       Part minimale de la portion VISIBLE de la chambre qui doit
+#       coller au gabarit theorique (= precision_mask) pour accepter
+#       l'image. Sous ce seuil -> image ABANDONNEE.
+#       80% = valeur historique (SEUIL_PRECISION_CAS2).
+#
+#   seuil_nb_coins_visibles (1..4)
+#       Nombre minimum de coins confirmes par le masque predit pour
+#       accepter l'image. Sous ce seuil -> image ABANDONNEE.
+#       3 = valeur par defaut proposee ; abaisser a 1 pour retrouver
+#       le comportement historique (aucun filtre sur les coins).
+SEUIL_POURCENTAGE_CHAMBRE_VISIBLE_DEFAUT = 80.0
+SEUIL_NB_COINS_VISIBLES_DEFAUT = 3
+
 
 # =====================================================================
 # 1. Parsing des metadonnees depuis le nom de fichier
@@ -212,10 +230,15 @@ def calculer_pose_pnp(coins_image, largeur_m, longueur_m, focale_px, cx, cy) -> 
     rvec, tvec = rvecs[0], tvecs[0]
     erreur_reproj = float(reproj_errors[0]) if reproj_errors is not None else None
 
+    tvec_list = tvec.flatten().tolist()
+
     return {
         "succes": True,
         "rvec": rvec.flatten().tolist(),
-        "tvec": tvec.flatten().tolist(),
+        "tvec": tvec_list,
+        # Coordonnees du centre de la chambre dans le repere de la camera :
+        # X = droite (m), Y = bas (m), Z = avant / profondeur (m)
+        "coordonnees_chambre_m": {"x": tvec_list[0], "y": tvec_list[1], "z": tvec_list[2]},
         "distance_camera_objet_m": float(np.linalg.norm(tvec.flatten())),
         "erreur_reprojection_px": erreur_reproj,
     }
@@ -228,15 +251,28 @@ def calculer_pose_pnp(coins_image, largeur_m, longueur_m, focale_px, cx, cy) -> 
 # =====================================================================
 
 def ajuster_et_calculer_pose(image: np.ndarray, meta: MetadonneesImage, mask: np.ndarray,
-                              gabarits: dict, mode: str = "prediction") -> dict:
+                              gabarits: dict, mode: str = "prediction",
+                              seuil_pourcentage_chambre_visible: float = SEUIL_POURCENTAGE_CHAMBRE_VISIBLE_DEFAUT,
+                              seuil_nb_coins_visibles: int = SEUIL_NB_COINS_VISIBLES_DEFAUT) -> dict:
     """
     mode = "prediction"     : applique la logique de decision
-                               Cas1/Cas2/Rejet (SEUIL_COVERAGE_CAS1 /
-                               SEUIL_PRECISION_CAS2).
-    mode = "verite_terrain" : ne filtre pas selon ces seuils -- des que
-                               l'ajustement du gabarit reussit, la pose
-                               est calculee directement (le masque GT
-                               sert de reference, pas de resultat a
+                               Cas1/Cas2/Rejet a partir des DEUX seuils
+                               choisis par l'utilisateur :
+                                 - seuil_pourcentage_chambre_visible (%)
+                                   = part minimale de la portion visible
+                                     de la chambre conforme au gabarit
+                                     (precision_mask) ;
+                                 - seuil_nb_coins_visibles (1..4)
+                                   = nombre minimal de coins confirmes.
+                               Si l'un des deux seuils n'est pas atteint,
+                               l'image est ABANDONNEE (statut REJET).
+                               Si les deux sont atteints : PnP direct
+                               (Cas 1, chambre quasi entierement visible)
+                               sinon Template Matching (Cas 2).
+    mode = "verite_terrain" : ne filtre pas selon ces seuils utilisateur
+                               -- des que l'ajustement du gabarit reussit,
+                               la pose est calculee directement (le masque
+                               GT sert de reference, pas de resultat a
                                valider). Un garde-fou minimal
                                (SEUIL_PRECISION_MIN_GT) est neanmoins
                                applique pour ecarter les fits ayant
@@ -279,23 +315,38 @@ def ajuster_et_calculer_pose(image: np.ndarray, meta: MetadonneesImage, mask: np
         "cout_chamfer": round(ajustement["cout_chamfer"], 2),
         "echelle_ajustement": round(ajustement.get("echelle_ajustement", 1.0), 3),
         "dimensions_utilisees_m": dims,
+        "seuils_utilises": {
+            "pourcentage_chambre_visible_min": round(float(seuil_pourcentage_chambre_visible), 1),
+            "nb_coins_visibles_min": int(seuil_nb_coins_visibles),
+        },
     }
 
     if mode == "prediction":
-        if coverage >= SEUIL_COVERAGE_CAS1 and nb_visibles == 4:
-            strategie = "CAS_1_PNP_DIRECT"
-        elif precision >= SEUIL_PRECISION_CAS2:
-            strategie = "CAS_2_TEMPLATE_MATCHING"
-        else:
+        # --- Decision fondee sur les deux seuils choisis par l'utilisateur ---
+        motifs_rejet = []
+        if precision * 100 < float(seuil_pourcentage_chambre_visible):
+            motifs_rejet.append(
+                f"chambre visible = {precision:.1%} "
+                f"(seuil choisi {float(seuil_pourcentage_chambre_visible):.0f}%)"
+            )
+        if nb_visibles < int(seuil_nb_coins_visibles):
+            motifs_rejet.append(
+                f"coins visibles = {nb_visibles}/4 "
+                f"(seuil choisi {int(seuil_nb_coins_visibles)}/4)"
+            )
+
+        if motifs_rejet:
             return {
                 "statut": "REJET",
                 "strategie": "AUCUNE",
-                "raison": (
-                    f"Fit peu fiable : precision={precision:.1%} "
-                    f"(le contour visible ne correspond pas assez au gabarit theorique)"
-                ),
+                "raison": "Image abandonnee, seuils utilisateur non atteints : " + " ; ".join(motifs_rejet),
                 **base_info,
             }
+
+        if coverage >= SEUIL_COVERAGE_CAS1 and nb_visibles == 4:
+            strategie = "CAS_1_PNP_DIRECT"
+        else:
+            strategie = "CAS_2_TEMPLATE_MATCHING"
     else:  # mode == "verite_terrain"
         # Garde-fou : un fit GT dont la precision est trop faible signale
         # tres probablement un contour parasite (ex. bordure de trottoir)
@@ -345,7 +396,8 @@ def ajuster_et_calculer_pose(image: np.ndarray, meta: MetadonneesImage, mask: np
 # =====================================================================
 
 def comparer_pose_avec_verite_terrain(image: np.ndarray, meta: MetadonneesImage,
-                                       gabarits: dict, resultat_prediction: dict) -> dict:
+                                       gabarits: dict, resultat_prediction: dict,
+                                       dossier_sortie: str = DOSSIER_SORTIE) -> dict:
     """
     Recalcule la pose PnP depuis le masque de verite terrain et la
     compare a la pose obtenue depuis le masque predit, via l'erreur
@@ -377,9 +429,9 @@ def comparer_pose_avec_verite_terrain(image: np.ndarray, meta: MetadonneesImage,
     # pour faciliter le diagnostic visuel de type "contour parasite".
     chemin_viz_gt = None
     if resultat_gt.get("ajustement_complet") is not None:
-        os.makedirs(DOSSIER_SORTIE, exist_ok=True)
+        os.makedirs(dossier_sortie, exist_ok=True)
         nom_base = Path(meta.chemin_image).stem
-        chemin_viz_gt = os.path.join(DOSSIER_SORTIE, f"{nom_base}_ajustement_GT.jpg")
+        chemin_viz_gt = os.path.join(dossier_sortie, f"{nom_base}_ajustement_GT.jpg")
         visualiser_ajustement(image, resultat_gt["ajustement_complet"], save_path=chemin_viz_gt)
 
     if resultat_gt.get("statut") != "TRAITE" or not resultat_gt.get("pose_pnp", {}).get("succes"):
@@ -409,7 +461,11 @@ def comparer_pose_avec_verite_terrain(image: np.ndarray, meta: MetadonneesImage,
 # 5. Traitement d'une image (masque predit deja calcule)
 # =====================================================================
 
-def traiter_une_image_avec_masque(meta: MetadonneesImage, mask: np.ndarray, gabarits: dict) -> dict:
+def traiter_une_image_avec_masque(meta: MetadonneesImage, mask: np.ndarray, gabarits: dict,
+                                  seuil_pourcentage_chambre_visible: float = SEUIL_POURCENTAGE_CHAMBRE_VISIBLE_DEFAUT,
+                                  seuil_nb_coins_visibles: int = SEUIL_NB_COINS_VISIBLES_DEFAUT,
+                                  comparer_gt: bool = True,
+                                  dossier_sortie: str = DOSSIER_SORTIE) -> dict:
     resultat = {"meta": meta.__dict__.copy()}
 
     image = cv2.imread(meta.chemin_image)
@@ -419,14 +475,18 @@ def traiter_une_image_avec_masque(meta: MetadonneesImage, mask: np.ndarray, gaba
         resultat["comparaison_pnp_gt"] = {"comparable": False, "raison": "Image illisible"}
         return resultat
 
-    resultat_traitement = ajuster_et_calculer_pose(image, meta, mask, gabarits, mode="prediction")
+    resultat_traitement = ajuster_et_calculer_pose(
+        image, meta, mask, gabarits, mode="prediction",
+        seuil_pourcentage_chambre_visible=seuil_pourcentage_chambre_visible,
+        seuil_nb_coins_visibles=seuil_nb_coins_visibles,
+    )
     resultat.update(resultat_traitement)
 
     # --- Visualisation de controle (uniquement si un ajustement a ete obtenu) ---
     if resultat.get("statut") == "TRAITE":
-        os.makedirs(DOSSIER_SORTIE, exist_ok=True)
+        os.makedirs(dossier_sortie, exist_ok=True)
         nom_base = Path(meta.chemin_image).stem
-        chemin_viz = os.path.join(DOSSIER_SORTIE, f"{nom_base}_ajustement.jpg")
+        chemin_viz = os.path.join(dossier_sortie, f"{nom_base}_ajustement.jpg")
         visualiser_ajustement(image, resultat["ajustement_complet"], save_path=chemin_viz)
         resultat["visualisation"] = chemin_viz
 
@@ -434,12 +494,98 @@ def traiter_une_image_avec_masque(meta: MetadonneesImage, mask: np.ndarray, gaba
     # et n'est pas serialisable proprement -> on le retire avant export.
     resultat.pop("ajustement_complet", None)
 
-    # --- Comparaison avec le masque de verite terrain ---
-    resultat["comparaison_pnp_gt"] = comparer_pose_avec_verite_terrain(
-        image, meta, gabarits, resultat
-    )
+    # --- Comparaison avec le masque de verite terrain (evaluation) ---
+    if comparer_gt:
+        resultat["comparaison_pnp_gt"] = comparer_pose_avec_verite_terrain(
+            image, meta, gabarits, resultat, dossier_sortie=dossier_sortie
+        )
+    else:
+        resultat["comparaison_pnp_gt"] = {
+            "comparable": False,
+            "raison": "Comparaison avec la verite terrain desactivee",
+        }
 
     return resultat
+
+
+# =====================================================================
+# 5bis. Point d'entree "une image" (utilise par le backend)
+# =====================================================================
+
+# Les modeles (Faster R-CNN + DeepLabV3+) sont charges UNE SEULE FOIS
+# puis conserves en memoire : chaque appel reutilise le meme chargement.
+_MODELES_CACHE: tuple | None = None
+
+
+def obtenir_modeles() -> tuple:
+    global _MODELES_CACHE
+    if _MODELES_CACHE is None:
+        _MODELES_CACHE = initialiser_modeles()
+    return _MODELES_CACHE
+
+
+def traiter_une_image(chemin_image: str,
+                      seuil_pourcentage_chambre_visible: float = SEUIL_POURCENTAGE_CHAMBRE_VISIBLE_DEFAUT,
+                      seuil_nb_coins_visibles: int = SEUIL_NB_COINS_VISIBLES_DEFAUT,
+                      comparer_gt: bool = True,
+                      dossier_sortie: str = DOSSIER_SORTIE) -> dict:
+    """
+    Traite une image complete : segmentation (chaine fusion_finale via
+    fusion_adapter) -> extraction de coins -> decision Cas1/Cas2/Rejet
+    selon les seuils choisis par l'utilisateur -> pose PnP ->
+    coordonnees de la chambre -> (optionnel) comparaison GT.
+
+    Retourne un dict entierement serialisable en JSON (aucun np.ndarray).
+    Ne lancer qu'avec un interpreteur disposeant de torch/cv2 (env_hybrid_311).
+    """
+    try:
+        meta = parser_nom_fichier(chemin_image)
+    except ValueError as exc:
+        return _convertir_pour_json({
+            "meta": {"chemin_image": chemin_image},
+            "statut": "REJET",
+            "raison": str(exc),
+            "comparaison_pnp_gt": {"comparable": False, "raison": "Nom de fichier non conforme"},
+        })
+
+    if not os.path.exists(chemin_image):
+        return _convertir_pour_json({
+            "meta": meta.__dict__.copy(),
+            "statut": "REJET",
+            "raison": f"Image introuvable : {chemin_image}",
+            "comparaison_pnp_gt": {"comparable": False, "raison": "Image introuvable"},
+        })
+
+    gabarits = charger_gabarits_pour_dataset([meta.type_chambre])
+
+    print("=" * 70)
+    print(f"TRAITEMENT PNP : {os.path.basename(chemin_image)}")
+    print(f"  Seuils utilisateur : chambre visible >= "
+          f"{float(seuil_pourcentage_chambre_visible):.0f}% ; "
+          f"coins visibles >= {int(seuil_nb_coins_visibles)}/4")
+    print("=" * 70)
+
+    faster_model, deeplab_model = obtenir_modeles()
+    masques = generer_masques_pour_images([chemin_image], faster_model, deeplab_model)
+    mask = masques.get(chemin_image)
+
+    if mask is None:
+        resultat = {
+            "meta": meta.__dict__.copy(),
+            "statut": "REJET",
+            "raison": "Aucune chambre detectee/validee par la chaine de segmentation",
+            "comparaison_pnp_gt": {"comparable": False, "raison": "Aucune segmentation"},
+        }
+        return _convertir_pour_json(resultat)
+
+    resultat = traiter_une_image_avec_masque(
+        meta, mask, gabarits,
+        seuil_pourcentage_chambre_visible=seuil_pourcentage_chambre_visible,
+        seuil_nb_coins_visibles=seuil_nb_coins_visibles,
+        comparer_gt=comparer_gt,
+        dossier_sortie=dossier_sortie,
+    )
+    return _convertir_pour_json(resultat)
 
 
 # =====================================================================

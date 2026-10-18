@@ -1,0 +1,642 @@
+<div class="pnp-container">
+  <!-- Header -->
+  <div class="pnp-header">
+    <h1>Pipeline PnP - Recalage Chambres</h1>
+    <p class="subtitle">Segmentation → Analyse Coins → Décision PnP</p>
+  </div>
+
+  <!-- Choix du mode -->
+  <div class="mode-switch">
+    <button class="btn" [class.btn-primary]="mode === 'image'" [class.btn-outline-primary]="mode !== 'image'"
+            (click)="mode = 'image'">Image unique</button>
+    <button class="btn" [class.btn-primary]="mode === 'lot'" [class.btn-outline-primary]="mode !== 'lot'"
+            (click)="mode = 'lot'">Plusieurs images (lot)</button>
+  </div>
+
+  <!-- Indicateur d'étapes -->
+  <div class="step-indicator" *ngIf="mode === 'image'">
+    <div class="step" [class.active]="currentStep >= 1" [class.completed]="currentStep > 1">
+      <span class="step-number">1</span>
+      <span class="step-label">Upload & Segmentation</span>
+    </div>
+    <div class="step-connector" [class.completed]="currentStep > 1"></div>
+    <div class="step" [class.active]="currentStep >= 2" [class.completed]="currentStep > 2">
+      <span class="step-number">2</span>
+      <span class="step-label">Analyse Coins</span>
+    </div>
+    <div class="step-connector" [class.completed]="currentStep > 2"></div>
+    <div class="step" [class.active]="currentStep >= 3" [class.completed]="currentStep > 3">
+      <span class="step-number">3</span>
+      <span class="step-label">Décision PnP</span>
+    </div>
+    <div class="step-connector" [class.completed]="currentStep > 3"></div>
+    <div class="step" [class.active]="currentStep >= 4">
+      <span class="step-number">4</span>
+      <span class="step-label">Résultats</span>
+    </div>
+  </div>
+
+  <!-- Messages d'erreur -->
+  <div class="alert alert-danger" *ngIf="error">
+    {{ error }}
+    <button class="btn-close" (click)="error = null">×</button>
+  </div>
+
+  <!-- ÉTAPE 1: UPLOAD IMAGE -->
+  <div class="step-content" *ngIf="mode === 'image' && currentStep === 1">
+    <div class="card">
+      <div class="card-header">
+        <h3>Étape 1 : Upload de l'image</h3>
+      </div>
+      <div class="card-body">
+        <div class="upload-zone" (click)="fileInput.click()" [class.dragover]="isDragOver" 
+             (dragover)="onDragOver($event)" (dragleave)="onDragLeave($event)" (drop)="onDrop($event)">
+          <input #fileInput type="file" accept=".jpg,.jpeg,.png" style="display:none" (change)="onFileSelected($event)">
+          
+          <div class="upload-content" *ngIf="!selectedFile">
+            <i class="upload-icon">📁</i>
+            <p>Glissez-déposez une image ici</p>
+            <p class="text-muted">ou cliquez pour parcourir</p>
+            <p class="text-muted small">Formats acceptés : JPG, PNG</p>
+          </div>
+          
+          <div class="upload-preview" *ngIf="selectedFile">
+            <img [src]="getObjectUrl(selectedFile)" alt="Aperçu">
+            <div class="file-info">
+              <strong>{{ selectedFile.name }}</strong>
+              <span>{{ formatFileSize(selectedFile.size) }}</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="progress-container" *ngIf="uploadProgress > 0 && uploadProgress < 100">
+          <div class="progress-bar">
+            <div class="progress-fill" [style.width.%]="uploadProgress"></div>
+          </div>
+          <span>{{ uploadProgress }}%</span>
+        </div>
+
+        <div class="card-actions">
+          <button class="btn btn-primary btn-lg" 
+                  (click)="uploadImage()" 
+                  [disabled]="!selectedFile || loadingEtape1 || uploadProgress > 0">
+            <span *ngIf="loadingEtape1" class="spinner"></span>
+            {{ loadingEtape1 ? 'Traitement...' : 'Uploader et segmenter' }}
+          </button>
+          <button class="btn btn-secondary" (click)="reset()" *ngIf="selectedFile">
+            Annuler
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ÉTAPE 2: SEGMENTATION RESULT -->
+  <div class="step-content" *ngIf="mode === 'image' && currentStep === 2">
+    <div class="card">
+      <div class="card-header">
+        <h3>Segmentation en cours...</h3>
+        <span class="spinner" *ngIf="loadingEtape1"></span>
+      </div>
+      <div class="card-body text-center">
+        <div class="spinner-large" *ngIf="loadingEtape1"></div>
+        <p *ngIf="loadingEtape1">Faster R-CNN → DeepLabV3+ → SAM2 → Fusion sémantique</p>
+        <p *ngIf="!loadingEtape1 && etape1Result" [class.text-success]="etape1Result.succes" [class.text-danger]="!etape1Result.succes">
+          {{ etape1Result?.message }}
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ÉTAPE 3: ANALYSE COINS -->
+  <div class="step-content" *ngIf="mode === 'image' && currentStep === 3">
+    <div class="row">
+      <!-- Visualisation -->
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h4>Visualisation Ajustement Gabarit</h4>
+            <span class="spinner" *ngIf="loadingEtape2"></span>
+          </div>
+          <div class="card-body">
+            <div class="image-container" *ngIf="etape2Result?.visualisation_url">
+              <img [src]="getImageUrl(etape2Result.visualisation_url)" alt="Ajustement gabarit" class="img-fluid">
+            </div>
+            <div class="text-center text-muted" *ngIf="!etape2Result?.visualisation_url && !loadingEtape2">
+              En attente...
+            </div>
+            <div class="spinner-large" *ngIf="loadingEtape2"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Métriques de décision -->
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h4>Métriques de Décision</h4>
+          </div>
+          <div class="card-body" *ngIf="etape2Result">
+            <div class="metrics-grid">
+              <div class="metric-card">
+                <div class="metric-value" [class.text-success]="(etape2Result.coverage_pct || 0) >= 90" 
+                     [class.text-warning]="(etape2Result.coverage_pct || 0) >= 70 && (etape2Result.coverage_pct || 0) < 90"
+                     [class.text-danger]="(etape2Result.coverage_pct || 0) < 70">
+                  {{ etape2Result.coverage_pct?.toFixed(1) }}%
+                </div>
+                <div class="metric-label">Chambre visible (couverture)</div>
+                <div class="metric-help">Cas 1 (PnP direct) : ≥ 90% et 4/4 coins</div>
+              </div>
+
+              <div class="metric-card">
+                <div class="metric-value" [class.text-success]="(etape2Result.precision_pct || 0) >= seuilPourcentageChambreVisible"
+                     [class.text-warning]="(etape2Result.precision_pct || 0) >= seuilPourcentageChambreVisible - 20 && (etape2Result.precision_pct || 0) < seuilPourcentageChambreVisible"
+                     [class.text-danger]="(etape2Result.precision_pct || 0) < seuilPourcentageChambreVisible - 20">
+                  {{ etape2Result.precision_pct?.toFixed(1) }}%
+                </div>
+                <div class="metric-label">Fit masque / gabarit (précision)</div>
+                <div class="metric-help">Seuil choisi : ≥ {{ seuilPourcentageChambreVisible }}%</div>
+              </div>
+
+              <div class="metric-card">
+                <div class="metric-value" [class.text-success]="(etape2Result.nb_coins_visibles || 0) >= seuilNbCoinsVisibles"
+                     [class.text-warning]="(etape2Result.nb_coins_visibles || 0) === seuilNbCoinsVisibles - 1"
+                     [class.text-danger]="(etape2Result.nb_coins_visibles || 0) < seuilNbCoinsVisibles - 1">
+                  {{ etape2Result.nb_coins_visibles }}/4
+                </div>
+                <div class="metric-label">Coins Visibles</div>
+                <div class="metric-help">Seuil choisi : ≥ {{ seuilNbCoinsVisibles }}/4</div>
+              </div>
+
+              <div class="metric-card">
+                <div class="metric-value text-info">
+                  {{ etape2Result.taux_occlusion_estime_pct?.toFixed(1) }}%
+                </div>
+                <div class="metric-label">Occlusion Estimée</div>
+              </div>
+            </div>
+
+            <hr>
+
+            <h5>Détail Visibilité par Coin</h5>
+            <div class="table-responsive">
+              <table class="table table-sm">
+                <thead>
+                  <tr><th>Coin</th><th>Visible</th><th>Distance au contour (px)</th><th>Seuil (px)</th></tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let coin of etape2Result.visibilite_coins_detail">
+                    <td>{{ coin.coin }}</td>
+                    <td>
+                      <span class="badge" [class.bg-success]="coin.visible" [class.bg-secondary]="!coin.visible">
+                        {{ coin.visible ? 'Oui' : 'Non' }}
+                      </span>
+                    </td>
+                    <td>{{ coin.distance_contour_px?.toFixed(1) || '-' }}</td>
+                    <td>{{ coin.seuil_applique_px?.toFixed(1) || '-' }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <hr>
+
+            <div class="info-box">
+              <h6>Informations Gabarit</h6>
+              <p><strong>Type :</strong> {{ meta?.type_chambre }}</p>
+              <p><strong>Dimensions :</strong> {{ etape2Result.dimensions_utilisees_m?.largeur_m }}m × {{ etape2Result.dimensions_utilisees_m?.longueur_m }}m</p>
+              <p><strong>Distance caméra :</strong> {{ meta?.distance_m }}m</p>
+              <p><strong>Coût Chamfer :</strong> {{ etape2Result.cout_chamfer }}</p>
+              <p><strong>Échelle ajustement :</strong> {{ etape2Result.echelle_ajustement }}</p>
+            </div>
+
+            <div class="card-actions mt-3">
+              <button class="btn btn-primary" (click)="lancerPnP()" [disabled]="loadingEtape3 || !etape2Result?.succes">
+                <span *ngIf="loadingEtape3" class="spinner"></span>
+                Calculer PnP
+              </button>
+              <button class="btn btn-secondary ms-2" (click)="currentStep = 2; lancerAnalyseCoins()">
+                Recalculer
+              </button>
+            </div>
+          </div>
+          <div class="card-body text-center" *ngIf="!etape2Result && !loadingEtape2">
+            <p class="text-muted">Lancement de l'analyse...</p>
+            <div class="spinner-large"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ÉTAPE 4: DÉCISION PnP -->
+  <div class="step-content" *ngIf="mode === 'image' && currentStep === 4">
+    <div class="row">
+      <!-- Paramètres utilisateur -->
+      <div class="col-md-5">
+        <div class="card">
+          <div class="card-header">
+            <h4>⚙️ Paramètres de Décision</h4>
+          </div>
+          <div class="card-body">
+            <div class="mb-3">
+              <label class="form-label">Pourcentage de chambre visible minimal</label>
+              <input type="range" class="form-range" min="40" max="100" step="1"
+                     [(ngModel)]="seuilPourcentageChambreVisible" (ngModelChange)="updateSeuilPrecision()">
+              <div class="d-flex justify-content-between">
+                <span>40%</span>
+                <strong>{{ seuilPourcentageChambreVisible }}%</strong>
+                <span>100%</span>
+              </div>
+              <small class="text-muted">Part de la chambre visible qui doit coller au gabarit.
+                En dessous → image abandonnée. Défaut : 80%</small>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Nombre de coins visibles minimal</label>
+              <input type="range" class="form-range" min="1" max="4" step="1"
+                     [(ngModel)]="seuilNbCoinsVisibles" (ngModelChange)="updateSeuilCoverage()">
+              <div class="d-flex justify-content-between">
+                <span>1</span>
+                <strong>{{ seuilNbCoinsVisibles }} / 4 coins</strong>
+                <span>4</span>
+              </div>
+              <small class="text-muted">En dessous de ce nombre → image abandonnée.
+                Défaut : 3</small>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Forcer Stratégie (optionnel)</label>
+              <select class="form-select" [(ngModel)]="forcerStrategie">
+                <option value="">Auto (basé sur les seuils)</option>
+                <option value="CAS_1">Cas 1 - PnP Direct</option>
+                <option value="CAS_2">Cas 2 - Template Matching</option>
+                <option value="REJET">Abandonner l'image</option>
+              </select>
+              <small class="text-muted">Ignore les seuils ci-dessus</small>
+            </div>
+
+            <hr>
+
+            <div class="decision-preview" *ngIf="etape2Result">
+              <h6>Décision Prévue :</h6>
+              <div class="alert" [ngClass]="getDecisionPreviewClass()">
+                {{ getDecisionPreview() }}
+              </div>
+            </div>
+
+            <div class="card-actions mt-3">
+              <button class="btn btn-primary w-100" (click)="lancerPnP()" [disabled]="loadingEtape3">
+                <span *ngIf="loadingEtape3" class="spinner"></span>
+                {{ loadingEtape3 ? 'Calcul en cours...' : 'Lancer PnP' }}
+              </button>
+              <button class="btn btn-outline-secondary w-100 mt-2" (click)="currentStep = 3; lancerAnalyseCoins()">
+                ← Retour Analyse
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Résultat PnP -->
+      <div class="col-md-7">
+        <div class="card">
+          <div class="card-header d-flex justify-content-between align-items-center">
+            <h4>Résultat PnP</h4>
+            <span class="badge" [ngClass]="getStrategieClass(etape3Result?.strategie || '')" *ngIf="etape3Result?.strategie">
+              {{ getStrategieLabel(etape3Result?.strategie || '') }}
+            </span>
+          </div>
+          <div class="card-body" *ngIf="etape3Result">
+            <div class="alert" [class.alert-success]="etape3Result.succes" [class.alert-danger]="!etape3Result.succes">
+              {{ etape3Result.message }}
+            </div>
+
+            <div *ngIf="etape3Result.succes && etape3Result.pose_pnp">
+              <h5>Coordonnées de la chambre (PnP)</h5>
+              <div class="coords-grid" *ngIf="getCoordonnees(etape3Result.pose_pnp) as coords">
+                <div class="coord-card">
+                  <div class="coord-value">X</div>
+                  <div class="coord-number">{{ coords.x.toFixed(3) }} m</div>
+                  <div class="coord-axis">droite</div>
+                </div>
+                <div class="coord-card">
+                  <div class="coord-value">Y</div>
+                  <div class="coord-number">{{ coords.y.toFixed(3) }} m</div>
+                  <div class="coord-axis">bas</div>
+                </div>
+                <div class="coord-card">
+                  <div class="coord-value">Z</div>
+                  <div class="coord-number">{{ coords.z.toFixed(3) }} m</div>
+                  <div class="coord-axis">profondeur</div>
+                </div>
+                <div class="coord-card">
+                  <div class="coord-value">d</div>
+                  <div class="coord-number">{{ etape3Result.pose_pnp.distance_camera_objet_m?.toFixed(3) }} m</div>
+                  <div class="coord-axis">caméra → chambre</div>
+                </div>
+              </div>
+
+              <div class="pose-info mt-2">
+                <div class="row">
+                  <div class="col-6">
+                    <p><strong>Rotation (rvec) :</strong></p>
+                    <code>{{ formatVec(etape3Result.pose_pnp.rvec) }}</code>
+                  </div>
+                  <div class="col-6">
+                    <p><strong>Erreur Reprojection :</strong></p>
+                    <code>{{ etape3Result.pose_pnp.erreur_reprojection_px?.toFixed(2) || 'N/A' }} px</code>
+                  </div>
+                </div>
+                <p class="mt-2"><strong>Stratégie :</strong> {{ getStrategieLabel(etape3Result.strategie || '') }}</p>
+                <p *ngIf="etape3Result.seuils_utilises"><strong>Seuils appliqués :</strong>
+                  chambre visible ≥ {{ etape3Result.seuils_utilises.pourcentage_chambre_visible_min }}% ·
+                  coins visibles ≥ {{ etape3Result.seuils_utilises.nb_coins_visibles_min }}/4</p>
+              </div>
+
+              <!-- Comparaison GT -->
+              <div *ngIf="etape3Result.comparaison_gt" class="mt-3">
+                <h5>Comparaison Vérité Terrain</h5>
+                <div class="alert" [class.alert-success]="etape3Result.comparaison_gt.comparable" [class.alert-warning]="!etape3Result.comparaison_gt.comparable">
+                  <div *ngIf="etape3Result.comparaison_gt.comparable">
+                    <strong>Erreur Translation :</strong> 
+                    {{ etape3Result.comparaison_gt.erreur_translation_m?.toFixed(4) }} m
+                    <br>
+                    <small>
+                      tvec Prédit: [{{ formatVec(etape3Result.comparaison_gt.tvec_predit) }}]<br>
+                      tvec GT: [{{ formatVec(etape3Result.comparaison_gt.tvec_verite_terrain) }}]
+                    </small>
+                  </div>
+                  <div *ngIf="!etape3Result.comparaison_gt.comparable">
+                    Non comparable : {{ etape3Result.comparaison_gt.raison }}
+                  </div>
+                </div>
+                <div class="mt-2" *ngIf="etape3Result.comparaison_gt.visualisation_gt as vizGt">
+                  <p class="text-muted"><strong>Fit sur le masque de vérité terrain :</strong></p>
+                  <img [src]="getUrlVisualisation(extraireNomFichier(vizGt) || undefined)"
+                       alt="Ajustement vérité terrain" class="img-fluid border">
+                </div>
+              </div>
+
+              <!-- Visualisation finale -->
+              <div class="mt-3" *ngIf="etape3Result.visualisation_url">
+                <h5>Visualisation Finale</h5>
+                <img [src]="getImageUrl(etape3Result.visualisation_url)" alt="PnP Result" class="img-fluid border">
+              </div>
+            </div>
+
+            <div *ngIf="!etape3Result.succes" class="text-center py-4">
+              <p class="text-muted">Le PnP n'a pas pu être calculé.</p>
+              <button class="btn btn-outline-primary" (click)="currentStep = 3">Modifier les paramètres</button>
+            </div>
+          </div>
+          <div class="card-body text-center" *ngIf="!etape3Result && !loadingEtape3">
+            <p class="text-muted">Configurez les paramètres et lancez le PnP</p>
+          </div>
+          <div class="card-body text-center" *ngIf="loadingEtape3">
+            <div class="spinner-large"></div>
+            <p>Calcul PnP en cours...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RÉSULTATS COMPLETS (Étape 4+) -->
+  <div class="step-content" *ngIf="mode === 'image' && currentStep >= 4 && finalResult">
+    <div class="card mt-3">
+      <div class="card-header">
+        <h4>Résumé Complet de la Session</h4>
+        <button class="btn btn-sm btn-outline-secondary" (click)="showJson = !showJson">
+          {{ showJson ? 'Masquer' : 'Afficher' }} JSON
+        </button>
+      </div>
+      <div class="card-body">
+        <pre class="json-output" *ngIf="showJson">{{ getJson(finalResult) }}</pre>
+        
+        <div class="row" *ngIf="!showJson">
+          <div class="col-md-4">
+            <h6>Métadonnées</h6>
+            <ul class="list-unstyled">
+              <li><strong>ID Chambre :</strong> {{ finalResult.meta.chambre_id }}</li>
+              <li><strong>Type :</strong> {{ finalResult.meta.type_chambre }}</li>
+              <li><strong>Distance :</strong> {{ finalResult.meta.distance_m }}m</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h6>Segmentation</h6>
+            <ul class="list-unstyled" *ngIf="finalResult.etape1_segmentation">
+              <li><strong>Succès :</strong> {{ finalResult.etape1_segmentation.succes ? 'Oui' : 'Non' }}</li>
+              <li><strong>Pixels chambre :</strong> {{ finalResult.etape1_segmentation.masque_pixels_chambre }}</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h6>PnP Final</h6>
+            <ul class="list-unstyled" *ngIf="finalResult.etape3_pnp">
+              <li><strong>Stratégie :</strong> {{ getStrategieLabel(finalResult.etape3_pnp.strategie) }}</li>
+              <li><strong>Succès :</strong> {{ finalResult.etape3_pnp.succes ? 'Oui' : 'Non' }}</li>
+              <li *ngIf="finalResult.etape3_pnp.comparaison_gt?.comparable">
+                <strong>Erreur GT :</strong> {{ finalResult.etape3_pnp.comparaison_gt.erreur_translation_m }}m
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-actions mt-3">
+      <button class="btn btn-secondary" (click)="reset()">
+        Nouvelle Image
+      </button>
+    </div>
+  </div>
+
+  <!-- ============================ MODE LOT ============================ -->
+  <div *ngIf="mode === 'lot'">
+    <div class="card">
+      <div class="card-header">
+        <h3>Traitement de plusieurs images (pipeline_test_pnp.py)</h3>
+      </div>
+      <div class="card-body">
+        <p class="text-muted">
+          Les images doivent suivre le nom <code>CH_&lt;id&gt;_&lt;type&gt;_dist&lt;X&gt;m.jpg</code>
+          (type de chambre et distance). La comparaison avec la vérité terrain s'applique si le
+          masque correspondant existe dans <code>dataset_test_pnp/masks_3classes</code>.
+        </p>
+
+        <div class="upload-zone" (click)="lotFileInput.click()">
+          <input #lotFileInput type="file" accept=".jpg,.jpeg,.png" multiple style="display:none"
+                 (change)="onLotFilesSelected($event)">
+          <div class="upload-content" *ngIf="!lotFiles.length">
+            <i class="upload-icon">📁</i>
+            <p>Cliquez pour sélectionner une ou plusieurs images</p>
+            <p class="text-muted small">Formats acceptés : JPG, PNG</p>
+          </div>
+          <div *ngIf="lotFiles.length">
+            <p><strong>{{ lotFiles.length }} image(s) sélectionnée(s)</strong></p>
+            <p class="text-muted small">{{ lotFiles.map(f => f.name).join(', ') }}</p>
+          </div>
+        </div>
+
+        <div class="row mt-3">
+          <div class="col-md-6">
+            <div class="mb-3">
+              <label class="form-label">Pourcentage de chambre visible minimal</label>
+              <input type="range" class="form-range" min="40" max="100" step="1"
+                     [(ngModel)]="seuilPourcentageChambreVisible" [disabled]="lotEnCours">
+              <div class="d-flex justify-content-between">
+                <span>40%</span>
+                <strong>{{ seuilPourcentageChambreVisible }}%</strong>
+                <span>100%</span>
+              </div>
+              <small class="text-muted">Sous ce seuil → image abandonnée (défaut : 80%)</small>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="mb-3">
+              <label class="form-label">Nombre de coins visibles minimal</label>
+              <input type="range" class="form-range" min="1" max="4" step="1"
+                     [(ngModel)]="seuilNbCoinsVisibles" [disabled]="lotEnCours">
+              <div class="d-flex justify-content-between">
+                <span>1</span>
+                <strong>{{ seuilNbCoinsVisibles }} / 4 coins</strong>
+                <span>4</span>
+              </div>
+              <small class="text-muted">Sous ce seuil → image abandonnée (défaut : 3)</small>
+            </div>
+          </div>
+        </div>
+
+        <label class="d-flex align-items-center gap-2">
+          <input type="checkbox" [(ngModel)]="lotComparaisonGt" [disabled]="lotEnCours">
+          Comparer avec la vérité terrain (erreur de translation) — pour l'évaluation
+        </label>
+
+        <div class="card-actions mt-3">
+          <button class="btn btn-primary" (click)="lancerLot()" [disabled]="lotEnCours || !lotFiles.length">
+            <span *ngIf="lotEnCours" class="spinner"></span>
+            {{ lotEnCours ? 'Traitement en cours…' : 'Lancer le recalage PnP' }}
+          </button>
+          <button class="btn btn-outline-secondary" (click)="resetLot()" [disabled]="lotEnCours">Réinitialiser</button>
+        </div>
+
+        <div class="alert alert-danger mt-3" *ngIf="lotErreur">
+          {{ lotErreur }}
+          <button class="btn-close" (click)="lotErreur = null">×</button>
+        </div>
+
+        <div class="alert alert-info mt-3" *ngIf="lotJob && lotEnCours">
+          <span class="spinner"></span>
+          Traitement en cours — phase : <strong>{{ lotJob.phase }}</strong> ·
+          {{ lotJob.images?.length || 0 }} image(s) ·
+          seuils : {{ lotJob.seuil_pourcentage_chambre_visible }}% / {{ lotJob.seuil_nb_coins_visibles }} coins
+        </div>
+
+          <div class="alert alert-danger mt-3" *ngIf="lotJob?.status === 'failed'">
+            <strong>Échec :</strong> {{ lotJob?.erreur || lotJob?.phase }}
+            <pre class="json-output mt-2" *ngIf="getLogLot() as log">{{ log }}</pre>
+          </div>
+      </div>
+    </div>
+
+    <!-- Résumé global -->
+    <div class="card" *ngIf="lotResultats?.resume as resume">
+      <div class="card-header">
+        <h4>Résumé du lot</h4>
+        <span class="text-muted" *ngIf="resume.duree_traitement_s">{{ resume.duree_traitement_s }} s</span>
+      </div>
+      <div class="card-body">
+        <div class="metrics-grid">
+          <div class="metric-card">
+            <div class="metric-value">{{ resume.nb_images_traitees }}/{{ resume.nb_images_total }}</div>
+            <div class="metric-label">Images traitées</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-value">{{ resume.nb_cas_1_pnp_direct }} / {{ resume.nb_cas_2_template_matching }}</div>
+            <div class="metric-label">Cas 1 / Cas 2</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-value" [class.text-danger]="resume.nb_images_rejetees > 0">{{ resume.nb_images_rejetees }}</div>
+            <div class="metric-label">Images abandonnées</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-value" [class.text-info]="resume.erreur_translation_moyenne_m != null">
+              {{ resume.erreur_translation_moyenne_m != null ? resume.erreur_translation_moyenne_m + ' m' : '—' }}
+            </div>
+            <div class="metric-label">Erreur translation moyenne (vs GT)</div>
+            <div class="metric-help" *ngIf="resume.erreur_translation_mediane_m != null">
+              médiane {{ resume.erreur_translation_mediane_m }} m · max {{ resume.erreur_translation_max_m }} m
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Détail par image -->
+    <div class="card" *ngIf="lotResultats?.resultats as resultats">
+      <div class="card-header">
+        <h4>Résultats par image</h4>
+      </div>
+      <div class="card-body">
+        <div class="table-responsive">
+          <table class="table table-sm">
+            <thead>
+              <tr>
+                <th>Image</th><th>Statut</th><th>Stratégie</th>
+                <th>Chambre visible</th><th>Coins</th>
+                <th>Coordonnées X / Y / Z (m)</th><th>Distance</th>
+                <th>Erreur GT</th><th>Overlay</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let r of resultats">
+                <td>{{ r.meta?.chemin_image }}</td>
+                <td>
+                  <span class="badge"
+                        [class.bg-success]="r.statut === 'TRAITE'"
+                        [class.bg-danger]="r.statut === 'REJET'">{{ r.statut }}</span>
+                </td>
+                <td>
+                  <span class="badge" [ngClass]="getStrategieClass(r.strategie || '')">
+                    {{ r.strategie ? getStrategieLabel(r.strategie) : (r.raison || '—') }}
+                  </span>
+                </td>
+                <td>{{ r.precision_pct != null ? r.precision_pct + '%' : '—' }}</td>
+                <td>{{ r.nb_coins_visibles_diagnostic ?? '—' }}/4</td>
+                <td>
+                  <span *ngIf="getCoordonnees(r.pose_pnp) as c; else sansCoords">
+                    {{ c.x.toFixed(2) }} / {{ c.y.toFixed(2) }} / {{ c.z.toFixed(2) }}
+                  </span>
+                  <ng-template #sansCoords>—</ng-template>
+                </td>
+                <td>{{ r.pose_pnp?.distance_camera_objet_m?.toFixed(2) ? r.pose_pnp.distance_camera_objet_m.toFixed(2) + ' m' : '—' }}</td>
+                <td>
+                  <span *ngIf="r.comparaison_pnp_gt?.comparable; else gtNc">
+                    {{ r.comparaison_pnp_gt.erreur_translation_m }} m
+                  </span>
+                  <ng-template #gtNc class="text-muted">—</ng-template>
+                </td>
+                <td>
+                  <a *ngIf="r.visualisation" [href]="getLotFichierUrl(r.visualisation)" target="_blank">
+                    <img [src]="getLotFichierUrl(r.visualisation)" alt="overlay" class="thumb">
+                  </a>
+                  <span *ngIf="!r.visualisation">—</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="grille-lot mt-3">
+          <figure *ngFor="let r of resultats">
+            <img *ngIf="r.visualisation" [src]="getLotFichierUrl(r.visualisation)" [alt]="r.meta?.chemin_image">
+            <figcaption>
+              {{ r.meta?.chemin_image }}
+              <span class="badge" [ngClass]="getStrategieClass(r.strategie || '')">{{ r.strategie || r.statut }}</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

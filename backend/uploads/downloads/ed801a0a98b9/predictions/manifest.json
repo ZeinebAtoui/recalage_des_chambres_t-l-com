@@ -1,0 +1,22 @@
+[
+  {
+    "file_name": "POINT_0_v0_dist2.9m.jpg",
+    "nom_base": "POINT_0_v0_dist2.9m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_0_v1_dist8.1m.jpg",
+    "nom_base": "POINT_0_v1_dist8.1m",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_1_v0_dist4.7m.jpg",
+    "nom_base": "POINT_1_v0_dist4.7m",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_1_v1_dist6.8m.jpg",
+    "nom_base": "POINT_1_v1_dist6.8m",
+    "chambre_detectee": true
+  }
+]

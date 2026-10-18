@@ -1,0 +1,138 @@
+--- DÉMARRAGE DU JOB 62a84cbea954 ---
+Script : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/services/telechargement_interface.py
+CSV source : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/cartes/Exp-Avant-IA.csv
+Dossier de sortie : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/62a84cbea954
+Points max : 8
+Options de recherche : {"rayon_recherche": 15.0, "max_images_par_point": 6}
+Interprète Python : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/env_hybrid_311/bin/python3
+Clé API transmise : Oui
+Lancement du sous-processus...
+
+[SCRIPT] Exécution via ligne de commande.
+[SCRIPT] Options reçues : {'rayon_recherche': 15.0, 'max_images_par_point': 6}
+[SCRIPT] Démarrage du script de téléchargement...
+[SCRIPT] Configuration de recherche :
+[SCRIPT]   rayon de recherche   : 15.0 m
+[SCRIPT]   échantillons cercle  : 12
+[SCRIPT]   max images / point   : 6
+[SCRIPT]   distance             : [2.0 ; 50.0] m
+[SCRIPT]   bearing              : [0° ; 360°]
+[SCRIPT]   pitch                : [-60° ; 0°]
+[SCRIPT]   FOV                  : dynamique (35/45/55°)
+[SCRIPT] Clé API détectée : AIzaSy...
+[SCRIPT] Lecture du CSV : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/cartes/Exp-Avant-IA.csv
+[SCRIPT] 185 ligne(s) trouvée(s).
+[SCRIPT] Colonne latitude  : latitude
+[SCRIPT] Colonne longitude : longitude
+[SCRIPT] Colonne ID        : OBJECTID
+[SCRIPT] Colonne type      : REF_CHAMBR
+[SCRIPT] Points à traiter : 8
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 1/8 - ID : 1149007
+[SCRIPT] Coordonnées : 50.76452472723148, 2.719859510038881
+[SCRIPT] Rayon de recherche : 15.0 m
+[SCRIPT] ========================================
+[SCRIPT] Candidats valides : 8 (rejets : 0)
+[SCRIPT] Image enregistrée : POINT_0_v0_dist2.9m.jpg (dist 2.9 m, bearing 330.9°, pitch -40.7°, FOV 55°)
+[SCRIPT] Image enregistrée : POINT_0_v1_dist8.1m.jpg (dist 8.1 m, bearing 107.2°, pitch -17.2°, FOV 45°)
+[SCRIPT] Image enregistrée : POINT_0_v2_dist10.3m.jpg (dist 10.3 m, bearing 268.0°, pitch -13.6°, FOV 35°)
+[SCRIPT] Image enregistrée : POINT_0_v3_dist11.9m.jpg (dist 11.9 m, bearing 69.6°, pitch -11.9°, FOV 35°)
+[SCRIPT] Image enregistrée : POINT_0_v4_dist16.0m.jpg (dist 16.0 m, bearing 307.4°, pitch -8.9°, FOV 35°)
+[SCRIPT] Image enregistrée : POINT_0_v5_dist17.8m.jpg (dist 17.8 m, bearing 118.6°, pitch -8.0°, FOV 35°)
+[SCRIPT] ✓ ID 1149007 : 6 image(s) validée(s).
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 2/8 - ID : 1149009
+[SCRIPT] Coordonnées : 50.763092894670415, 2.720401021499844
+[SCRIPT] Rayon de recherche : 15.0 m
+[SCRIPT] ========================================
+[SCRIPT] Candidats valides : 4 (rejets : 0)
+[SCRIPT] Image enregistrée : POINT_1_v0_dist4.7m.jpg (dist 4.7 m, bearing 301.8°, pitch -28.1°, FOV 55°)
+[SCRIPT] Image enregistrée : POINT_1_v1_dist12.0m.jpg (dist 12.0 m, bearing 258.3°, pitch -11.8°, FOV 35°)
+[SCRIPT] Image enregistrée : POINT_1_v2_dist14.2m.jpg (dist 14.2 m, bearing 103.3°, pitch -10.0°, FOV 35°)
+[SCRIPT] Image enregistrée : POINT_1_v3_dist15.7m.jpg (dist 15.7 m, bearing 42.7°, pitch -9.1°, FOV 35°)
+[SCRIPT] ✓ ID 1149009 : 4 image(s) validée(s).
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 3/8 - ID : 1149015
+[SCRIPT] Coordonnées : 50.765961042443216, 2.7191723857480072
+[SCRIPT] Rayon de recherche : 15.0 m
+[SCRIPT] ========================================
+[SCRIPT] Candidats valides : 3 (rejets : 0)
+[SCRIPT] Image enregistrée : POINT_2_v0_dist2.1m.jpg (dist 2.1 m, bearing 72.0°, pitch -50.0°, FOV 55°)
+[SCRIPT] Image enregistrée : POINT_2_v1_dist10.1m.jpg (dist 10.1 m, bearing 161.1°, pitch -13.9°, FOV 35°)
+[SCRIPT] Image enregistrée : POINT_2_v2_dist10.8m.jpg (dist 10.8 m, bearing 3.0°, pitch -13.0°, FOV 35°)
+[SCRIPT] ✓ ID 1149015 : 3 image(s) validée(s).
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 4/8 - ID : 1149027
+[SCRIPT] Coordonnées : 50.763350483403, 2.7213389532132566
+[SCRIPT] Rayon de recherche : 15.0 m
+[SCRIPT] ========================================
+[SCRIPT] Candidats valides : 4 (rejets : 0)
+[SCRIPT] Image enregistrée : POINT_3_v0_dist5.9m.jpg (dist 5.9 m, bearing 204.6°, pitch -22.9°, FOV 55°)
+[SCRIPT] Image enregistrée : POINT_3_v1_dist7.2m.jpg (dist 7.2 m, bearing 96.0°, pitch -19.1°, FOV 45°)
+[SCRIPT] Image enregistrée : POINT_3_v2_dist15.4m.jpg (dist 15.4 m, bearing 231.7°, pitch -9.2°, FOV 35°)
+[SCRIPT] Image enregistrée : POINT_3_v3_dist17.0m.jpg (dist 17.0 m, bearing 76.1°, pitch -8.4°, FOV 35°)
+[SCRIPT] ✓ ID 1149027 : 4 image(s) validée(s).
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 5/8 - ID : 1149028
+[SCRIPT] Coordonnées : 50.76286202274774, 2.7215840573114467
+[SCRIPT] Rayon de recherche : 15.0 m
+[SCRIPT] ========================================
+[SCRIPT] Candidats valides : 0 (rejets : 0)
+[SCRIPT] ✗ ID 1149028 : aucune image validant les critères (bearing / pitch / FOV / distance).
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 6/8 - ID : 1149034
+[SCRIPT] Coordonnées : 50.76401559818213, 2.7189070416728423
+[SCRIPT] Rayon de recherche : 15.0 m
+[SCRIPT] ========================================
+[SCRIPT] Candidats valides : 7 (rejets : 0)
+[SCRIPT] Image enregistrée : POINT_5_v0_dist6.9m.jpg (dist 6.9 m, bearing 274.5°, pitch -20.0°, FOV 55°)
+[SCRIPT] Image enregistrée : POINT_5_v1_dist8.4m.jpg (dist 8.4 m, bearing 356.4°, pitch -16.6°, FOV 45°)
+[SCRIPT] Image enregistrée : POINT_5_v2_dist12.3m.jpg (dist 12.3 m, bearing 317.1°, pitch -11.5°, FOV 35°)
+[SCRIPT] Image enregistrée : POINT_5_v3_dist14.5m.jpg (dist 14.5 m, bearing 273.9°, pitch -9.8°, FOV 35°)
+[SCRIPT] Image enregistrée : POINT_5_v4_dist15.0m.jpg (dist 15.0 m, bearing 241.0°, pitch -9.4°, FOV 35°)
+[SCRIPT] Image enregistrée : POINT_5_v5_dist17.0m.jpg (dist 17.0 m, bearing 19.4°, pitch -8.3°, FOV 35°)
+[SCRIPT] ✓ ID 1149034 : 6 image(s) validée(s).
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 7/8 - ID : 1149038
+[SCRIPT] Coordonnées : 50.7642733643776, 2.7195244727576693
+[SCRIPT] Rayon de recherche : 15.0 m
+[SCRIPT] ========================================
+[SCRIPT] Candidats valides : 6 (rejets : 0)
+[SCRIPT] Image enregistrée : POINT_6_v0_dist6.8m.jpg (dist 6.8 m, bearing 168.9°, pitch -20.3°, FOV 55°)
+[SCRIPT] Image enregistrée : POINT_6_v1_dist7.7m.jpg (dist 7.7 m, bearing 78.9°, pitch -17.9°, FOV 45°)
+[SCRIPT] Image enregistrée : POINT_6_v2_dist15.9m.jpg (dist 15.9 m, bearing 200.4°, pitch -9.0°, FOV 35°)
+[SCRIPT] Image enregistrée : POINT_6_v3_dist15.9m.jpg (dist 15.9 m, bearing 173.5°, pitch -8.9°, FOV 35°)
+[SCRIPT] Image enregistrée : POINT_6_v4_dist18.4m.jpg (dist 18.4 m, bearing 72.7°, pitch -7.7°, FOV 35°)
+[SCRIPT] Image enregistrée : POINT_6_v5_dist20.6m.jpg (dist 20.6 m, bearing 51.6°, pitch -6.9°, FOV 35°)
+[SCRIPT] ✓ ID 1149038 : 6 image(s) validée(s).
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 8/8 - ID : 1149039
+[SCRIPT] Coordonnées : 50.76421291785884, 2.719446619680655
+[SCRIPT] Rayon de recherche : 15.0 m
+[SCRIPT] ========================================
+[SCRIPT] Candidats valides : 5 (rejets : 0)
+[SCRIPT] Image enregistrée : POINT_7_v0_dist5.6m.jpg (dist 5.6 m, bearing 158.0°, pitch -23.9°, FOV 55°)
+[SCRIPT] Image enregistrée : POINT_7_v1_dist12.2m.jpg (dist 12.2 m, bearing 95.8°, pitch -11.6°, FOV 35°)
+[SCRIPT] Image enregistrée : POINT_7_v2_dist12.3m.jpg (dist 12.3 m, bearing 60.4°, pitch -11.5°, FOV 35°)
+[SCRIPT] Image enregistrée : POINT_7_v3_dist14.0m.jpg (dist 14.0 m, bearing 197.4°, pitch -10.1°, FOV 35°)
+[SCRIPT] Image enregistrée : POINT_7_v4_dist24.2m.jpg (dist 24.2 m, bearing 207.0°, pitch -5.9°, FOV 35°)
+[SCRIPT] ✓ ID 1149039 : 5 image(s) validée(s).
+[SCRIPT] Métadonnées écrites : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/62a84cbea954/points.json
+
+[SCRIPT] ========================================
+[SCRIPT] TERMINÉ
+[SCRIPT] Points traités       : 8
+[SCRIPT] Points avec images   : 7
+[SCRIPT] Images téléchargées  : 34
+[SCRIPT] Dossier images       : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/62a84cbea954/images
+[SCRIPT] ========================================
+
+[SCRIPT] Terminé : 34 image(s) pour 8 point(s).

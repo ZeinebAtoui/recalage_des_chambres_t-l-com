@@ -13,6 +13,11 @@
       <input type="number" min="1" max="66174" [(ngModel)]="maxPoints" [disabled]="envoiEnCours()" />
     </label>
 
+    <label class="max-points">
+      Rayon de recherche (m)
+      <input type="number" min="1" max="100" step="1" [(ngModel)]="rayonRecherche" [disabled]="envoiEnCours()" />
+    </label>
+
     <button (click)="onTelecharger()" [disabled]="envoiEnCours()">
       {{ envoiEnCours() ? 'Envoi…' : 'Lancer le téléchargement' }}
     </button>
@@ -31,6 +36,10 @@
         <span class="fleche">→</span>
         <span class="etape" [class.active]="j.phase === 'inference'" [class.done]="j.phase === 'termine'">
           2. Détection (Faster R-CNN + DeepLab + SAM2)
+        </span>
+        <span class="fleche">→</span>
+        <span class="etape" [class.active]="pnpEnCours()" [class.done]="etatPnp()?.statut === 'termine'">
+          3. Recalage PnP
         </span>
       </div>
 
@@ -65,5 +74,142 @@
         }
       </div>
     </div>
+  }
+
+  @if (job(); as j) {
+    @if (j.phase === 'termine' && j.predictions_generees > 0) {
+      <div class="pnp">
+        <h3>3. Recalage PnP par point</h3>
+        <p class="aide">
+          Seules les images où une chambre a été détectée sont recalées.
+          Une image est acceptée si sa précision de masque ≥ au seuil <strong>et</strong>
+          si elle a au moins le nombre de coins visibles demandé (sinon rejet).
+        </p>
+
+        <div class="formulaire">
+          <label class="max-points">
+            % chambre visible min
+            <input type="number" min="1" max="100" [(ngModel)]="seuilPourcentage" [disabled]="pnpEnCours()" />
+          </label>
+
+          <label class="max-points">
+            Coins visibles min
+            <input type="number" min="1" max="4" [(ngModel)]="seuilNbCoins" [disabled]="pnpEnCours()" />
+          </label>
+
+          <button (click)="onLancerPnp()" [disabled]="pnpEnCours()">
+            {{ pnpEnCours() ? 'Recalage en cours…' : 'Lancer le recalage PnP' }}
+          </button>
+
+          @if (etatPnp(); as etat) {
+            @if (pnpEnCours()) {
+              <span class="progression">
+                {{ etat.images_traitees ?? 0 }}/{{ etat.images_total ?? 0 }} image(s) —
+                point {{ etat.points_traitees ?? 0 }}/{{ etat.points_total ?? 0 }}
+              </span>
+            }
+          }
+        </div>
+
+        @if (messagePnp()) {
+          <p class="erreur">{{ messagePnp() }}</p>
+        }
+
+        @if (etatPnp()?.resultats; as res) {
+          <div class="resume-pnp">
+            <span class="badge">{{ res.resume.points_traitees }}/{{ res.resume.points_total }} point(s)</span>
+            <span class="badge">{{ res.resume.images_traitees }}/{{ res.resume.images_total }} image(s)</span>
+            <span class="badge badge-cas1">Cas 1 : {{ res.resume.cas_1 }}</span>
+            <span class="badge badge-cas2">Cas 2 : {{ res.resume.cas_2 }}</span>
+            <span class="badge badge-rejet">Rejets : {{ res.resume.rejets }}</span>
+            <span class="badge badge-info">Non détectées : {{ res.resume.aucune_chambre }}</span>
+            <span class="seuils-utilises">
+              Seuils : {{ res.seuils.pourcentage_chambre_visible_min }} % —
+              {{ res.seuils.nb_coins_visibles_min }} coin(s)
+            </span>
+          </div>
+
+          <table class="tableau-points">
+            <thead>
+              <tr>
+                <th>Point</th>
+                <th>Type</th>
+                <th>Images</th>
+                <th>Cas 1</th>
+                <th>Cas 2</th>
+                <th>Rejets</th>
+                <th>X (m)</th>
+                <th>Y (m)</th>
+                <th>Z (m)</th>
+                <th>Écart-type (m)</th>
+                <th>Dist. caméra (m)</th>
+              </tr>
+            </thead>
+            <tbody>
+              @for (pt of res.points; track pt.point_id) {
+                <tr
+                  class="ligne-point"
+                  [class.point-ouverte]="pointOuvert() === pt.point_id"
+                  (click)="toggleDetail(pt.point_id)"
+                >
+                  <td>{{ pt.point_id }}</td>
+                  <td>{{ pt.type_chambre ?? '—' }}</td>
+                  <td>{{ pt.resume_point.images_traitees }}/{{ pt.resume_point.images_total }}</td>
+                  <td>{{ pt.resume_point.cas_1 }}</td>
+                  <td>{{ pt.resume_point.cas_2 }}</td>
+                  <td>{{ pt.resume_point.rejets }}</td>
+                  <td>{{ fmt(pt.resume_point.coordonnees_moyennes_m?.x) }}</td>
+                  <td>{{ fmt(pt.resume_point.coordonnees_moyennes_m?.y) }}</td>
+                  <td>{{ fmt(pt.resume_point.coordonnees_moyennes_m?.z) }}</td>
+                  <td>{{ fmtEcartType(pt.resume_point.ecart_type_m) }}</td>
+                  <td>{{ fmt(pt.resume_point.distance_camera_moyenne_m) }}</td>
+                </tr>
+
+                @if (pointOuvert() === pt.point_id) {
+                  <tr class="ligne-detail">
+                    <td colspan="11">
+                      <ul class="detail-images">
+                        @for (img of pt.images; track img.fichier) {
+                          <li [class]="'statut-' + img.statut.toLowerCase()">
+                            <strong>{{ img.nom_base }}</strong>
+                            — {{ img.statut }}
+                            @if (img.strategie) {
+                              <span class="badge">{{ img.strategie === 'CAS_1_PNP_DIRECT' ? 'Cas 1' : img.strategie === 'CAS_2_TEMPLATE_MATCHING' ? 'Cas 2' : img.strategie }}</span>
+                            }
+                            @if (img.precision_pct !== null) {
+                              <span> — précision {{ fmt(img.precision_pct, 1) }} %</span>
+                            }
+                            @if (img.nb_coins_visibles !== null) {
+                              <span> — {{ img.nb_coins_visibles }}/4 coins</span>
+                            }
+                            @if (img.distance_m !== null) {
+                              <span> — distance point {{ fmt(img.distance_m, 1) }} m</span>
+                            }
+                            @if (img.coordonnees_m; as c) {
+                              <span> — ({{ fmt(c.x) }}, {{ fmt(c.y) }}, {{ fmt(c.z) }}) m</span>
+                            }
+                            @if (img.distance_camera_chambre_m !== null) {
+                              <span> — caméra à {{ fmt(img.distance_camera_chambre_m) }} m</span>
+                            }
+                            @if (img.raison) {
+                              <span class="raison"> — {{ img.raison }}</span>
+                            }
+                            @if (img.visualisation) {
+                              <a [href]="getUrlPrediction(img.visualisation)" target="_blank" rel="noopener">
+                                visualisation
+                              </a>
+                            }
+                          </li>
+                        }
+                      </ul>
+                    </td>
+                  </tr>
+                }
+              }
+            </tbody>
+          </table>
+        }
+      </div>
+    }
   }
 </section>

@@ -1,0 +1,147 @@
+--- DÉMARRAGE DU JOB ada79da1f07f ---
+Script : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/services/telechargement_interface.py
+CSV source : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/cartes/Exp-Avant-IA.csv
+Dossier de sortie : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/ada79da1f07f
+Points max : 10
+Interprète Python : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/env_hybrid_311/bin/python3
+Clé API transmise : Oui
+Lancement du sous-processus...
+
+[SCRIPT] Exécution via ligne de commande.
+[SCRIPT] Démarrage du script de téléchargement...
+[SCRIPT] Clé API détectée : AIzaSy...
+[SCRIPT] Lecture du CSV : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/cartes/Exp-Avant-IA.csv
+[SCRIPT] 185 ligne(s) trouvée(s).
+[SCRIPT] Colonne latitude  : latitude
+[SCRIPT] Colonne longitude : longitude
+[SCRIPT] Colonne ID        : OBJECTID
+[SCRIPT] Points à traiter : 10
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 1/10 - ID : 1149007
+[SCRIPT] Coordonnées : 50.76452472723148, 2.719859510038881
+[SCRIPT] ========================================
+[SCRIPT] Recherche panorama pour 1149007 avec rayon 10 m...
+[SCRIPT] Panorama trouvé : 43eYoYim4x8y7csgPBJPEQ
+[SCRIPT] Distance véhicule → chambre : 2.90 m
+[SCRIPT] Heading : 330.86°
+[SCRIPT] Pitch : -40.72°
+[SCRIPT] Image téléchargée : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/ada79da1f07f/images/oid_1149007_r10_dist2.9m.jpg
+[SCRIPT] ✓ ID 1149007 : image téléchargée.
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 2/10 - ID : 1149009
+[SCRIPT] Coordonnées : 50.763092894670415, 2.720401021499844
+[SCRIPT] ========================================
+[SCRIPT] Recherche panorama pour 1149009 avec rayon 10 m...
+[SCRIPT] Panorama trouvé : _fHd8f1LhMRc2stTM2QEKQ
+[SCRIPT] Distance véhicule → chambre : 4.68 m
+[SCRIPT] Heading : 301.83°
+[SCRIPT] Pitch : -28.13°
+[SCRIPT] Image téléchargée : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/ada79da1f07f/images/oid_1149009_r10_dist4.7m.jpg
+[SCRIPT] ✓ ID 1149009 : image téléchargée.
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 3/10 - ID : 1149015
+[SCRIPT] Coordonnées : 50.765961042443216, 2.7191723857480072
+[SCRIPT] ========================================
+[SCRIPT] Recherche panorama pour 1149015 avec rayon 10 m...
+[SCRIPT] Panorama trouvé : J1M72H2UER3IiKNEk2JMAw
+[SCRIPT] Distance véhicule → chambre : 2.10 m
+[SCRIPT] Heading : 71.99°
+[SCRIPT] Pitch : -50.02°
+[SCRIPT] Image téléchargée : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/ada79da1f07f/images/oid_1149015_r10_dist2.1m.jpg
+[SCRIPT] ✓ ID 1149015 : image téléchargée.
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 4/10 - ID : 1149027
+[SCRIPT] Coordonnées : 50.763350483403, 2.7213389532132566
+[SCRIPT] ========================================
+[SCRIPT] Recherche panorama pour 1149027 avec rayon 10 m...
+[SCRIPT] Panorama trouvé : lmEKdtGhbozmxDIdbuUYKQ
+[SCRIPT] Distance véhicule → chambre : 5.91 m
+[SCRIPT] Heading : 204.65°
+[SCRIPT] Pitch : -22.94°
+[SCRIPT] Image téléchargée : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/ada79da1f07f/images/oid_1149027_r10_dist5.9m.jpg
+[SCRIPT] ✓ ID 1149027 : image téléchargée.
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 5/10 - ID : 1149028
+[SCRIPT] Coordonnées : 50.76286202274774, 2.7215840573114467
+[SCRIPT] ========================================
+[SCRIPT] Recherche panorama pour 1149028 avec rayon 10 m...
+[SCRIPT] Aucun panorama trouvé pour 1149028 avec rayon 10 m.
+[SCRIPT] Aucun résultat à 10 m.
+[SCRIPT] Nouvelle recherche à 20 m...
+[SCRIPT] Recherche panorama pour 1149028 avec rayon 20 m...
+[SCRIPT] Aucun panorama trouvé pour 1149028 avec rayon 20 m.
+[SCRIPT] ✗ ID 1149028 : aucune image disponible.
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 6/10 - ID : 1149034
+[SCRIPT] Coordonnées : 50.76401559818213, 2.7189070416728423
+[SCRIPT] ========================================
+[SCRIPT] Recherche panorama pour 1149034 avec rayon 10 m...
+[SCRIPT] Panorama trouvé : ecTbTU7jdSi-Rdg1XZINCg
+[SCRIPT] Distance véhicule → chambre : 6.86 m
+[SCRIPT] Heading : 274.54°
+[SCRIPT] Pitch : -20.02°
+[SCRIPT] Image téléchargée : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/ada79da1f07f/images/oid_1149034_r10_dist6.9m.jpg
+[SCRIPT] ✓ ID 1149034 : image téléchargée.
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 7/10 - ID : 1149038
+[SCRIPT] Coordonnées : 50.7642733643776, 2.7195244727576693
+[SCRIPT] ========================================
+[SCRIPT] Recherche panorama pour 1149038 avec rayon 10 m...
+[SCRIPT] Panorama trouvé : R15YTq7HhVIl7KEcnA7ywg
+[SCRIPT] Distance véhicule → chambre : 6.76 m
+[SCRIPT] Heading : 168.91°
+[SCRIPT] Pitch : -20.29°
+[SCRIPT] Image téléchargée : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/ada79da1f07f/images/oid_1149038_r10_dist6.8m.jpg
+[SCRIPT] ✓ ID 1149038 : image téléchargée.
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 8/10 - ID : 1149039
+[SCRIPT] Coordonnées : 50.76421291785884, 2.719446619680655
+[SCRIPT] ========================================
+[SCRIPT] Recherche panorama pour 1149039 avec rayon 10 m...
+[SCRIPT] Panorama trouvé : pQYMBfUh4S9lYlRsSMtsOg
+[SCRIPT] Distance véhicule → chambre : 5.64 m
+[SCRIPT] Heading : 157.99°
+[SCRIPT] Pitch : -23.92°
+[SCRIPT] Image téléchargée : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/ada79da1f07f/images/oid_1149039_r10_dist5.6m.jpg
+[SCRIPT] ✓ ID 1149039 : image téléchargée.
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 9/10 - ID : 1149047
+[SCRIPT] Coordonnées : 50.764175548894016, 2.719089188419972
+[SCRIPT] ========================================
+[SCRIPT] Recherche panorama pour 1149047 avec rayon 10 m...
+[SCRIPT] Panorama trouvé : bVWSSWiHPoLryLMHWJFaOg
+[SCRIPT] Distance véhicule → chambre : 7.18 m
+[SCRIPT] Heading : 291.50°
+[SCRIPT] Pitch : -19.19°
+[SCRIPT] Image téléchargée : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/ada79da1f07f/images/oid_1149047_r10_dist7.2m.jpg
+[SCRIPT] ✓ ID 1149047 : image téléchargée.
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 10/10 - ID : 1149053
+[SCRIPT] Coordonnées : 50.76376362143801, 2.7185641881619893
+[SCRIPT] ========================================
+[SCRIPT] Recherche panorama pour 1149053 avec rayon 10 m...
+[SCRIPT] Panorama trouvé : zu4RWmQekkvG6Y0CokaK9g
+[SCRIPT] Distance véhicule → chambre : 7.54 m
+[SCRIPT] Heading : 327.25°
+[SCRIPT] Pitch : -18.35°
+[SCRIPT] Image téléchargée : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/ada79da1f07f/images/oid_1149053_r10_dist7.5m.jpg
+[SCRIPT] ✓ ID 1149053 : image téléchargée.
+
+[SCRIPT] ========================================
+[SCRIPT] TERMINÉ
+[SCRIPT] Points traités      : 10
+[SCRIPT] Images téléchargées : 9
+[SCRIPT] Dossier images      : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/ada79da1f07f/images
+[SCRIPT] ========================================
+
+[SCRIPT] Terminé : 9 image(s) pour 10 point(s).

@@ -62,10 +62,15 @@ RESULTATS_JSON = os.path.join(TEMP_IPC_DIR, "resultats_sam2.json")
 SAM2_WORKER_SCRIPT = os.path.join(BASE_DIR, "sam2_worker.py")
 
 # --- A ADAPTER selon votre machine ---
-SAM2_ENV_PYTHON = "/home/zeineb/envs/sam2_env/bin/python3"
-SAM2_REPO_PATH = "/home/zeineb/projets/sam2"
-SAM2_CHECKPOINT = os.path.join(SAM2_REPO_PATH, "checkpoints", "sam2.1_hiera_tiny.pt")
+SAM2_ENV_PYTHON = "/home/zeineb/env_sam2/bin/python"
+SAM2_REPO_PATH = "/home/zeineb/sam2"
+SAM2_CHECKPOINT = "/home/zeineb/sam2/sam2.1_hiera_tiny.pt"
 SAM2_CONFIG = "configs/sam2.1/sam2.1_hiera_t.yaml"
+
+# Repertoire neutre pour lancer SAM2.
+# IMPORTANT : ne pas lancer le worker depuis /home/zeineb,
+# qui est le parent du dépôt /home/zeineb/sam2.
+SAM2_WORKER_CWD = "/tmp"
 
 FASTER_CHAMBRE_ID = 1
 
@@ -602,10 +607,68 @@ def appeler_sam2(detections_completes):
     print(" ".join(commande))
     print()
 
+    # ------------------------------------------------------------
+    # Lancement robuste de SAM2
+    # ------------------------------------------------------------
+    # SAM2 refuse d'etre importe lorsque Python est lance depuis
+    # le parent du depot /home/zeineb/sam2. On force donc /tmp.
+    #
+    # On nettoie egalement PYTHONPATH pour eviter qu'un ancien chemin
+    # SAM2 ajoute manuellement ne provoque un shadowing du package.
+    environnement_sam2 = os.environ.copy()
+
+    pythonpath = environnement_sam2.get("PYTHONPATH", "")
+    if pythonpath:
+        chemins_pythonpath = [
+            p for p in pythonpath.split(os.pathsep)
+            if p and os.path.abspath(p) != os.path.abspath(SAM2_REPO_PATH)
+        ]
+
+        # On retire aussi le parent du depot s'il a ete ajoute.
+        parent_sam2 = os.path.dirname(os.path.abspath(SAM2_REPO_PATH))
+        chemins_pythonpath = [
+            p for p in chemins_pythonpath
+            if os.path.abspath(p) != parent_sam2
+        ]
+
+        if chemins_pythonpath:
+            environnement_sam2["PYTHONPATH"] = os.pathsep.join(chemins_pythonpath)
+        else:
+            environnement_sam2.pop("PYTHONPATH", None)
+
+    # Verification des chemins avant le lancement.
+    if not os.path.isfile(SAM2_ENV_PYTHON):
+        raise FileNotFoundError(
+            f"Interpreteur SAM2 introuvable : {SAM2_ENV_PYTHON}"
+        )
+
+    if not os.path.isfile(SAM2_WORKER_SCRIPT):
+        raise FileNotFoundError(
+            f"Worker SAM2 introuvable : {SAM2_WORKER_SCRIPT}"
+        )
+
+    if not os.path.isfile(SAM2_CHECKPOINT):
+        raise FileNotFoundError(
+            f"Checkpoint SAM2 introuvable : {SAM2_CHECKPOINT}"
+        )
+
+    if not os.path.isdir(SAM2_WORKER_CWD):
+        raise FileNotFoundError(
+            f"Repertoire de travail SAM2 introuvable : {SAM2_WORKER_CWD}"
+        )
+
+    print(f"Repertoire de travail SAM2 : {SAM2_WORKER_CWD}")
+    print(f"Python SAM2 : {SAM2_ENV_PYTHON}")
+    print(f"Depot SAM2 : {SAM2_REPO_PATH}")
+    print(f"Checkpoint SAM2 : {SAM2_CHECKPOINT}")
+    print()
+
     resultat_process = subprocess.run(
         commande,
         capture_output=True,
-        text=True
+        text=True,
+        cwd=SAM2_WORKER_CWD,
+        env=environnement_sam2
     )
 
     print("--- Sortie standard de sam2_worker.py ---")

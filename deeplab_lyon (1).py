@@ -1,10 +1,9 @@
 
 
 _base_ = [
-     './mmsegmentation/configs/_base_/models/deeplabv3plus_r50-d8.py',
-    './mmsegmentation/configs/_base_/default_runtime.py'
+    '/mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/env_hybrid_311/lib/python3.11/site-packages/mmseg/.mim/configs/_base_/models/deeplabv3plus_r50-d8.py',
+    '/mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/env_hybrid_311/lib/python3.11/site-packages/mmseg/.mim/configs/_base_/default_runtime.py'
 ]
-
 
 # ==================================================
 # Classes

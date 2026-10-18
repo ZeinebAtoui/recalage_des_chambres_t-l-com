@@ -1,0 +1,2457 @@
+{
+  "job_id": "a58cba0e81bd",
+  "seuils": {
+    "pourcentage_chambre_visible_min": 70.0,
+    "nb_coins_visibles_min": 2
+  },
+  "resume": {
+    "points_total": 20,
+    "points_traitees": 4,
+    "images_total": 72,
+    "images_traitees": 7,
+    "cas_1": 1,
+    "cas_2": 6,
+    "rejets": 10,
+    "aucune_chambre": 55
+  },
+  "points": [
+    {
+      "point_index": 0,
+      "point_id": "1149007",
+      "type_chambre": "A2",
+      "latitude": 50.76452472723148,
+      "longitude": 2.719859510038881,
+      "images": [
+        {
+          "fichier": "POINT_0_v0_dist10.3m.jpg",
+          "nom_base": "POINT_0_v0_dist10.3m",
+          "statut": "REJET",
+          "strategie": "AUCUNE",
+          "raison": "Image abandonnee, seuils utilisateur non atteints : chambre visible = 67.5% (seuil choisi 70%)",
+          "precision_pct": 67.5,
+          "coverage_pct": 87.3,
+          "nb_coins_visibles": 3,
+          "seuils_utilises": {
+            "pourcentage_chambre_visible_min": 70.0,
+            "nb_coins_visibles_min": 2
+          },
+          "distance_m": 10.33,
+          "type_chambre": "A2",
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": {
+            "comparable": false,
+            "raison": "Masque de verite terrain introuvable : dataset_test_pnp/masks_3classes/POINT_0_v0_dist10.3m.png"
+          },
+          "visibilite_coins": {
+            "TL": {
+              "visible": true,
+              "distance_contour_px": 0.3799878939793065,
+              "seuil_applique_px": 9.819684038128656,
+              "raison": "confirme"
+            },
+            "TR": {
+              "visible": true,
+              "distance_contour_px": 0.9437872980339003,
+              "seuil_applique_px": 9.819684038128656,
+              "raison": "confirme"
+            },
+            "BR": {
+              "visible": false,
+              "distance_contour_px": 20.353927612304688,
+              "seuil_applique_px": 9.819684038128656,
+              "raison": "extrapole_non_confirme"
+            },
+            "BL": {
+              "visible": true,
+              "distance_contour_px": 1.1435560329048198,
+              "seuil_applique_px": 9.819684038128656,
+              "raison": "confirme"
+            }
+          }
+        },
+        {
+          "fichier": "POINT_0_v1_dist11.9m.jpg",
+          "nom_base": "POINT_0_v1_dist11.9m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "A2",
+          "distance_m": 11.87,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_0_v2_dist16.0m.jpg",
+          "nom_base": "POINT_0_v2_dist16.0m",
+          "statut": "REJET",
+          "strategie": "AUCUNE",
+          "raison": "Image abandonnee, seuils utilisateur non atteints : chambre visible = 0.0% (seuil choisi 70%) ; coins visibles = 0/4 (seuil choisi 2/4)",
+          "precision_pct": 0.0,
+          "coverage_pct": 0.0,
+          "nb_coins_visibles": 0,
+          "seuils_utilises": {
+            "pourcentage_chambre_visible_min": 70.0,
+            "nb_coins_visibles_min": 2
+          },
+          "distance_m": 15.97,
+          "type_chambre": "A2",
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": {
+            "comparable": false,
+            "raison": "Masque de verite terrain introuvable : dataset_test_pnp/masks_3classes/POINT_0_v2_dist16.0m.png"
+          },
+          "visibilite_coins": {
+            "TL": {
+              "visible": false,
+              "distance_contour_px": 122.10611626789031,
+              "seuil_applique_px": 8.511455715868724,
+              "raison": "extrapole_non_confirme"
+            },
+            "TR": {
+              "visible": false,
+              "distance_contour_px": 121.18350516620664,
+              "seuil_applique_px": 8.511455715868724,
+              "raison": "extrapole_non_confirme"
+            },
+            "BR": {
+              "visible": false,
+              "distance_contour_px": 42.495890417434055,
+              "seuil_applique_px": 8.511455715868724,
+              "raison": "extrapole_non_confirme"
+            },
+            "BL": {
+              "visible": false,
+              "distance_contour_px": 41.739442011350285,
+              "seuil_applique_px": 8.511455715868724,
+              "raison": "extrapole_non_confirme"
+            }
+          }
+        },
+        {
+          "fichier": "POINT_0_v3_dist17.8m.jpg",
+          "nom_base": "POINT_0_v3_dist17.8m",
+          "statut": "REJET",
+          "strategie": "AUCUNE",
+          "raison": "Image abandonnee, seuils utilisateur non atteints : chambre visible = 13.8% (seuil choisi 70%)",
+          "precision_pct": 13.8,
+          "coverage_pct": 88.3,
+          "nb_coins_visibles": 4,
+          "seuils_utilises": {
+            "pourcentage_chambre_visible_min": 70.0,
+            "nb_coins_visibles_min": 2
+          },
+          "distance_m": 17.82,
+          "type_chambre": "A2",
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": {
+            "comparable": false,
+            "raison": "Masque de verite terrain introuvable : dataset_test_pnp/masks_3classes/POINT_0_v3_dist17.8m.png"
+          },
+          "visibilite_coins": {
+            "TL": {
+              "visible": true,
+              "distance_contour_px": 0.1693115234375,
+              "seuil_applique_px": 8.256044363095267,
+              "raison": "confirme"
+            },
+            "TR": {
+              "visible": true,
+              "distance_contour_px": 2.426118948906879,
+              "seuil_applique_px": 8.256044363095267,
+              "raison": "confirme"
+            },
+            "BR": {
+              "visible": true,
+              "distance_contour_px": 1.3838516470554232,
+              "seuil_applique_px": 8.256044363095267,
+              "raison": "confirme"
+            },
+            "BL": {
+              "visible": true,
+              "distance_contour_px": 1.321207268827135,
+              "seuil_applique_px": 8.256044363095267,
+              "raison": "confirme"
+            }
+          }
+        },
+        {
+          "fichier": "POINT_0_v4_dist18.3m.jpg",
+          "nom_base": "POINT_0_v4_dist18.3m",
+          "statut": "TRAITE",
+          "strategie": "CAS_2_TEMPLATE_MATCHING",
+          "raison": null,
+          "precision_pct": 96.7,
+          "coverage_pct": 64.6,
+          "nb_coins_visibles": 2,
+          "seuils_utilises": {
+            "pourcentage_chambre_visible_min": 70.0,
+            "nb_coins_visibles_min": 2
+          },
+          "distance_m": 18.32,
+          "type_chambre": "A2",
+          "pose_pnp": {
+            "succes": true,
+            "rvec": [
+              0.9555208386818265,
+              -1.7379360325240134,
+              1.5168796552311115
+            ],
+            "tvec": [
+              1.3727519996953972,
+              1.9308988468182084,
+              10.187910588771425
+            ],
+            "coordonnees_chambre_m": {
+              "x": 1.3727519996953972,
+              "y": 1.9308988468182084,
+              "z": 10.187910588771425
+            },
+            "distance_camera_objet_m": 10.459748590387463,
+            "erreur_reprojection_px": 1.8087465124037088e-13
+          },
+          "coordonnees_m": {
+            "x": 1.3727519996953972,
+            "y": 1.9308988468182084,
+            "z": 10.187910588771425
+          },
+          "distance_camera_chambre_m": 10.459748590387463,
+          "visualisation": "/api/carte-sig/jobs/a58cba0e81bd/pnp/image/POINT_0_v4_dist18.3m_ajustement.jpg",
+          "comparaison_pnp_gt": {
+            "comparable": false,
+            "raison": "Masque de verite terrain introuvable : dataset_test_pnp/masks_3classes/POINT_0_v4_dist18.3m.png"
+          },
+          "visibilite_coins": {
+            "TL": {
+              "visible": false,
+              "distance_contour_px": 27.899078258830333,
+              "seuil_applique_px": 8.195612257688282,
+              "raison": "extrapole_non_confirme"
+            },
+            "TR": {
+              "visible": false,
+              "distance_contour_px": 14.367880076574025,
+              "seuil_applique_px": 8.195612257688282,
+              "raison": "extrapole_non_confirme"
+            },
+            "BR": {
+              "visible": true,
+              "distance_contour_px": 4.995391845703125,
+              "seuil_applique_px": 8.195612257688282,
+              "raison": "confirme"
+            },
+            "BL": {
+              "visible": true,
+              "distance_contour_px": 2.099365234375,
+              "seuil_applique_px": 8.195612257688282,
+              "raison": "confirme"
+            }
+          }
+        },
+        {
+          "fichier": "POINT_0_v5_dist18.8m.jpg",
+          "nom_base": "POINT_0_v5_dist18.8m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "A2",
+          "distance_m": 18.81,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        }
+      ],
+      "distances": {
+        "POINT_0_v0_dist10.3m.jpg": 10.33,
+        "POINT_0_v1_dist11.9m.jpg": 11.87,
+        "POINT_0_v2_dist16.0m.jpg": 15.97,
+        "POINT_0_v3_dist17.8m.jpg": 17.82,
+        "POINT_0_v4_dist18.3m.jpg": 18.32,
+        "POINT_0_v5_dist18.8m.jpg": 18.81
+      },
+      "statut_point": "TRAITE",
+      "resume_point": {
+        "images_total": 6,
+        "images_traitees": 1,
+        "cas_1": 0,
+        "cas_2": 1,
+        "rejets": 3,
+        "aucune_chambre": 2,
+        "coordonnees_moyennes_m": {
+          "x": 1.3727519996953972,
+          "y": 1.9308988468182084,
+          "z": 10.187910588771425
+        },
+        "ecart_type_m": null,
+        "distance_camera_moyenne_m": 10.459748590387463
+      }
+    },
+    {
+      "point_index": 1,
+      "point_id": "1149009",
+      "type_chambre": "A3",
+      "latitude": 50.763092894670415,
+      "longitude": 2.720401021499844,
+      "images": [
+        {
+          "fichier": "POINT_1_v0_dist4.7m.jpg",
+          "nom_base": "POINT_1_v0_dist4.7m",
+          "statut": "REJET",
+          "strategie": "AUCUNE",
+          "raison": "Image abandonnee, seuils utilisateur non atteints : chambre visible = 66.1% (seuil choisi 70%) ; coins visibles = 1/4 (seuil choisi 2/4)",
+          "precision_pct": 66.1,
+          "coverage_pct": 50.3,
+          "nb_coins_visibles": 1,
+          "seuils_utilises": {
+            "pourcentage_chambre_visible_min": 70.0,
+            "nb_coins_visibles_min": 2
+          },
+          "distance_m": 4.68,
+          "type_chambre": "A3",
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": {
+            "comparable": false,
+            "raison": "Masque de verite terrain introuvable : dataset_test_pnp/masks_3classes/POINT_1_v0_dist4.7m.png"
+          },
+          "visibilite_coins": {
+            "TL": {
+              "visible": false,
+              "distance_contour_px": 11.971040114339848,
+              "seuil_applique_px": 10.634593306907648,
+              "raison": "extrapole_non_confirme"
+            },
+            "TR": {
+              "visible": true,
+              "distance_contour_px": 8.654039630672271,
+              "seuil_applique_px": 10.634593306907648,
+              "raison": "confirme"
+            },
+            "BR": {
+              "visible": false,
+              "distance_contour_px": 59.892618923470366,
+              "seuil_applique_px": 10.634593306907648,
+              "raison": "extrapole_non_confirme"
+            },
+            "BL": {
+              "visible": false,
+              "distance_contour_px": 48.05867547195596,
+              "seuil_applique_px": 10.634593306907648,
+              "raison": "extrapole_non_confirme"
+            }
+          }
+        },
+        {
+          "fichier": "POINT_1_v1_dist12.0m.jpg",
+          "nom_base": "POINT_1_v1_dist12.0m",
+          "statut": "TRAITE",
+          "strategie": "CAS_2_TEMPLATE_MATCHING",
+          "raison": null,
+          "precision_pct": 78.2,
+          "coverage_pct": 78.0,
+          "nb_coins_visibles": 2,
+          "seuils_utilises": {
+            "pourcentage_chambre_visible_min": 70.0,
+            "nb_coins_visibles_min": 2
+          },
+          "distance_m": 11.97,
+          "type_chambre": "A3",
+          "pose_pnp": {
+            "succes": true,
+            "rvec": [
+              1.7682378241244734,
+              -0.20057512286010673,
+              0.16301182254686755
+            ],
+            "tvec": [
+              0.6205699399087473,
+              0.5569017171395759,
+              9.831176542589759
+            ],
+            "coordonnees_chambre_m": {
+              "x": 0.6205699399087473,
+              "y": 0.5569017171395759,
+              "z": 9.831176542589759
+            },
+            "distance_camera_objet_m": 9.866472459011806,
+            "erreur_reprojection_px": 2.009718347115232e-14
+          },
+          "coordonnees_m": {
+            "x": 0.6205699399087473,
+            "y": 0.5569017171395759,
+            "z": 9.831176542589759
+          },
+          "distance_camera_chambre_m": 9.866472459011806,
+          "visualisation": "/api/carte-sig/jobs/a58cba0e81bd/pnp/image/POINT_1_v1_dist12.0m_ajustement.jpg",
+          "comparaison_pnp_gt": {
+            "comparable": false,
+            "raison": "Masque de verite terrain introuvable : dataset_test_pnp/masks_3classes/POINT_1_v1_dist12.0m.png"
+          },
+          "visibilite_coins": {
+            "TL": {
+              "visible": true,
+              "distance_contour_px": 2.6025860354566364,
+              "seuil_applique_px": 9.319878528029339,
+              "raison": "confirme"
+            },
+            "TR": {
+              "visible": false,
+              "distance_contour_px": 13.4342041015625,
+              "seuil_applique_px": 9.319878528029339,
+              "raison": "extrapole_non_confirme"
+            },
+            "BR": {
+              "visible": false,
+              "distance_contour_px": 10.029104388431852,
+              "seuil_applique_px": 9.319878528029339,
+              "raison": "extrapole_non_confirme"
+            },
+            "BL": {
+              "visible": true,
+              "distance_contour_px": 0.815521240234375,
+              "seuil_applique_px": 9.319878528029339,
+              "raison": "confirme"
+            }
+          }
+        },
+        {
+          "fichier": "POINT_1_v2_dist14.2m.jpg",
+          "nom_base": "POINT_1_v2_dist14.2m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "A3",
+          "distance_m": 14.25,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_1_v3_dist15.7m.jpg",
+          "nom_base": "POINT_1_v3_dist15.7m",
+          "statut": "TRAITE",
+          "strategie": "CAS_2_TEMPLATE_MATCHING",
+          "raison": null,
+          "precision_pct": 95.6,
+          "coverage_pct": 76.2,
+          "nb_coins_visibles": 4,
+          "seuils_utilises": {
+            "pourcentage_chambre_visible_min": 70.0,
+            "nb_coins_visibles_min": 2
+          },
+          "distance_m": 15.69,
+          "type_chambre": "A3",
+          "pose_pnp": {
+            "succes": true,
+            "rvec": [
+              1.7242371228043851,
+              0.14594481985246424,
+              -0.1245314227562912
+            ],
+            "tvec": [
+              0.26719760810305815,
+              -0.0962774062424941,
+              21.66741153258931
+            ],
+            "coordonnees_chambre_m": {
+              "x": 0.26719760810305815,
+              "y": -0.0962774062424941,
+              "z": 21.66741153258931
+            },
+            "distance_camera_objet_m": 21.669272863280693,
+            "erreur_reprojection_px": 0.0
+          },
+          "coordonnees_m": {
+            "x": 0.26719760810305815,
+            "y": -0.0962774062424941,
+            "z": 21.66741153258931
+          },
+          "distance_camera_chambre_m": 21.669272863280693,
+          "visualisation": "/api/carte-sig/jobs/a58cba0e81bd/pnp/image/POINT_1_v3_dist15.7m_ajustement.jpg",
+          "comparaison_pnp_gt": {
+            "comparable": false,
+            "raison": "Masque de verite terrain introuvable : dataset_test_pnp/masks_3classes/POINT_1_v3_dist15.7m.png"
+          },
+          "visibilite_coins": {
+            "TL": {
+              "visible": true,
+              "distance_contour_px": 0.28948974609375,
+              "seuil_applique_px": 8.55517434528294,
+              "raison": "confirme"
+            },
+            "TR": {
+              "visible": true,
+              "distance_contour_px": 3.6029169599759396,
+              "seuil_applique_px": 8.55517434528294,
+              "raison": "confirme"
+            },
+            "BR": {
+              "visible": true,
+              "distance_contour_px": 0.032684326171875,
+              "seuil_applique_px": 8.55517434528294,
+              "raison": "confirme"
+            },
+            "BL": {
+              "visible": true,
+              "distance_contour_px": 2.90240478515625,
+              "seuil_applique_px": 8.55517434528294,
+              "raison": "confirme"
+            }
+          }
+        }
+      ],
+      "distances": {
+        "POINT_1_v0_dist4.7m.jpg": 4.68,
+        "POINT_1_v1_dist12.0m.jpg": 11.97,
+        "POINT_1_v2_dist14.2m.jpg": 14.25,
+        "POINT_1_v3_dist15.7m.jpg": 15.69
+      },
+      "statut_point": "TRAITE",
+      "resume_point": {
+        "images_total": 4,
+        "images_traitees": 2,
+        "cas_1": 0,
+        "cas_2": 2,
+        "rejets": 1,
+        "aucune_chambre": 1,
+        "coordonnees_moyennes_m": {
+          "x": 0.44388377400590273,
+          "y": 0.23031215544854092,
+          "z": 15.749294037589534
+        },
+        "ecart_type_m": {
+          "x": 0.17668616590284458,
+          "y": 0.32658956169103504,
+          "z": 5.918117494999775
+        },
+        "distance_camera_moyenne_m": 15.76787266114625
+      }
+    },
+    {
+      "point_index": 2,
+      "point_id": "1149015",
+      "type_chambre": "A2",
+      "latitude": 50.765961042443216,
+      "longitude": 2.7191723857480072,
+      "images": [
+        {
+          "fichier": "POINT_2_v0_dist10.8m.jpg",
+          "nom_base": "POINT_2_v0_dist10.8m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "A2",
+          "distance_m": 10.81,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        }
+      ],
+      "distances": {
+        "POINT_2_v0_dist10.8m.jpg": 10.81
+      },
+      "statut_point": "AUCUNE_CHAMBRE",
+      "resume_point": {
+        "images_total": 1,
+        "images_traitees": 0,
+        "cas_1": 0,
+        "cas_2": 0,
+        "rejets": 0,
+        "aucune_chambre": 1,
+        "coordonnees_moyennes_m": null,
+        "ecart_type_m": null,
+        "distance_camera_moyenne_m": null
+      }
+    },
+    {
+      "point_index": 3,
+      "point_id": "1149027",
+      "type_chambre": "L1T",
+      "latitude": 50.763350483403,
+      "longitude": 2.7213389532132566,
+      "images": [
+        {
+          "fichier": "POINT_3_v0_dist5.9m.jpg",
+          "nom_base": "POINT_3_v0_dist5.9m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "L1T",
+          "distance_m": 5.91,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_3_v1_dist7.2m.jpg",
+          "nom_base": "POINT_3_v1_dist7.2m",
+          "statut": "REJET",
+          "strategie": "AUCUNE",
+          "raison": "Image abandonnee, seuils utilisateur non atteints : chambre visible = 56.0% (seuil choisi 70%)",
+          "precision_pct": 56.0,
+          "coverage_pct": 89.0,
+          "nb_coins_visibles": 4,
+          "seuils_utilises": {
+            "pourcentage_chambre_visible_min": 70.0,
+            "nb_coins_visibles_min": 2
+          },
+          "distance_m": 7.22,
+          "type_chambre": "L1T",
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": {
+            "comparable": false,
+            "raison": "Masque de verite terrain introuvable : dataset_test_pnp/masks_3classes/POINT_3_v1_dist7.2m.png"
+          },
+          "visibilite_coins": {
+            "TL": {
+              "visible": true,
+              "distance_contour_px": 3.32452392578125,
+              "seuil_applique_px": 10.044450840481549,
+              "raison": "confirme"
+            },
+            "TR": {
+              "visible": true,
+              "distance_contour_px": 1.724090576171875,
+              "seuil_applique_px": 10.044450840481549,
+              "raison": "confirme"
+            },
+            "BR": {
+              "visible": true,
+              "distance_contour_px": 1.4188079833984375,
+              "seuil_applique_px": 10.044450840481549,
+              "raison": "confirme"
+            },
+            "BL": {
+              "visible": true,
+              "distance_contour_px": 1.1674663550526123,
+              "seuil_applique_px": 10.044450840481549,
+              "raison": "confirme"
+            }
+          }
+        },
+        {
+          "fichier": "POINT_3_v2_dist15.4m.jpg",
+          "nom_base": "POINT_3_v2_dist15.4m",
+          "statut": "REJET",
+          "strategie": "AUCUNE",
+          "raison": "Image abandonnee, seuils utilisateur non atteints : chambre visible = 0.0% (seuil choisi 70%) ; coins visibles = 0/4 (seuil choisi 2/4)",
+          "precision_pct": 0.0,
+          "coverage_pct": 0.0,
+          "nb_coins_visibles": 0,
+          "seuils_utilises": {
+            "pourcentage_chambre_visible_min": 70.0,
+            "nb_coins_visibles_min": 2
+          },
+          "distance_m": 15.39,
+          "type_chambre": "L1T",
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": {
+            "comparable": false,
+            "raison": "Masque de verite terrain introuvable : dataset_test_pnp/masks_3classes/POINT_3_v2_dist15.4m.png"
+          },
+          "visibilite_coins": {
+            "TL": {
+              "visible": false,
+              "distance_contour_px": 18.498601130936414,
+              "seuil_applique_px": 8.603714201518578,
+              "raison": "extrapole_non_confirme"
+            },
+            "TR": {
+              "visible": false,
+              "distance_contour_px": 23.728808428290453,
+              "seuil_applique_px": 8.603714201518578,
+              "raison": "extrapole_non_confirme"
+            },
+            "BR": {
+              "visible": false,
+              "distance_contour_px": 39.79711683312963,
+              "seuil_applique_px": 8.603714201518578,
+              "raison": "extrapole_non_confirme"
+            },
+            "BL": {
+              "visible": false,
+              "distance_contour_px": 47.74037213383267,
+              "seuil_applique_px": 8.603714201518578,
+              "raison": "extrapole_non_confirme"
+            }
+          }
+        },
+        {
+          "fichier": "POINT_3_v3_dist17.0m.jpg",
+          "nom_base": "POINT_3_v3_dist17.0m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "L1T",
+          "distance_m": 16.98,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        }
+      ],
+      "distances": {
+        "POINT_3_v0_dist5.9m.jpg": 5.91,
+        "POINT_3_v1_dist7.2m.jpg": 7.22,
+        "POINT_3_v2_dist15.4m.jpg": 15.39,
+        "POINT_3_v3_dist17.0m.jpg": 16.98
+      },
+      "statut_point": "REJET",
+      "resume_point": {
+        "images_total": 4,
+        "images_traitees": 0,
+        "cas_1": 0,
+        "cas_2": 0,
+        "rejets": 2,
+        "aucune_chambre": 2,
+        "coordonnees_moyennes_m": null,
+        "ecart_type_m": null,
+        "distance_camera_moyenne_m": null
+      }
+    },
+    {
+      "point_index": 4,
+      "point_id": "1149028",
+      "type_chambre": "L0T",
+      "latitude": 50.76286202274774,
+      "longitude": 2.7215840573114467,
+      "images": [],
+      "distances": {},
+      "statut_point": "AUCUNE_IMAGE",
+      "resume_point": {
+        "images_total": 0,
+        "images_traitees": 0,
+        "cas_1": 0,
+        "cas_2": 0,
+        "rejets": 0,
+        "aucune_chambre": 0,
+        "coordonnees_moyennes_m": null,
+        "ecart_type_m": null,
+        "distance_camera_moyenne_m": null
+      }
+    },
+    {
+      "point_index": 5,
+      "point_id": "1149034",
+      "type_chambre": "L2T",
+      "latitude": 50.76401559818213,
+      "longitude": 2.7189070416728423,
+      "images": [
+        {
+          "fichier": "POINT_5_v0_dist6.9m.jpg",
+          "nom_base": "POINT_5_v0_dist6.9m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "L2T",
+          "distance_m": 6.86,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_5_v1_dist8.4m.jpg",
+          "nom_base": "POINT_5_v1_dist8.4m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "L2T",
+          "distance_m": 8.38,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_5_v2_dist14.5m.jpg",
+          "nom_base": "POINT_5_v2_dist14.5m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "L2T",
+          "distance_m": 14.5,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_5_v3_dist15.0m.jpg",
+          "nom_base": "POINT_5_v3_dist15.0m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "L2T",
+          "distance_m": 15.02,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_5_v4_dist17.0m.jpg",
+          "nom_base": "POINT_5_v4_dist17.0m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "L2T",
+          "distance_m": 17.05,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_5_v5_dist17.2m.jpg",
+          "nom_base": "POINT_5_v5_dist17.2m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "L2T",
+          "distance_m": 17.18,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        }
+      ],
+      "distances": {
+        "POINT_5_v0_dist6.9m.jpg": 6.86,
+        "POINT_5_v1_dist8.4m.jpg": 8.38,
+        "POINT_5_v2_dist14.5m.jpg": 14.5,
+        "POINT_5_v3_dist15.0m.jpg": 15.02,
+        "POINT_5_v4_dist17.0m.jpg": 17.05,
+        "POINT_5_v5_dist17.2m.jpg": 17.18
+      },
+      "statut_point": "AUCUNE_CHAMBRE",
+      "resume_point": {
+        "images_total": 6,
+        "images_traitees": 0,
+        "cas_1": 0,
+        "cas_2": 0,
+        "rejets": 0,
+        "aucune_chambre": 6,
+        "coordonnees_moyennes_m": null,
+        "ecart_type_m": null,
+        "distance_camera_moyenne_m": null
+      }
+    },
+    {
+      "point_index": 6,
+      "point_id": "1149038",
+      "type_chambre": "REG",
+      "latitude": 50.7642733643776,
+      "longitude": 2.7195244727576693,
+      "images": [
+        {
+          "fichier": "POINT_6_v0_dist6.8m.jpg",
+          "nom_base": "POINT_6_v0_dist6.8m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "REG",
+          "distance_m": 6.76,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_6_v1_dist7.7m.jpg",
+          "nom_base": "POINT_6_v1_dist7.7m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "REG",
+          "distance_m": 7.73,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_6_v2_dist15.9m.jpg",
+          "nom_base": "POINT_6_v2_dist15.9m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "REG",
+          "distance_m": 15.87,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_6_v3_dist15.9m.jpg",
+          "nom_base": "POINT_6_v3_dist15.9m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "REG",
+          "distance_m": 15.9,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_6_v4_dist18.4m.jpg",
+          "nom_base": "POINT_6_v4_dist18.4m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "REG",
+          "distance_m": 18.43,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_6_v5_dist20.6m.jpg",
+          "nom_base": "POINT_6_v5_dist20.6m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "REG",
+          "distance_m": 20.63,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        }
+      ],
+      "distances": {
+        "POINT_6_v0_dist6.8m.jpg": 6.76,
+        "POINT_6_v1_dist7.7m.jpg": 7.73,
+        "POINT_6_v2_dist15.9m.jpg": 15.87,
+        "POINT_6_v3_dist15.9m.jpg": 15.9,
+        "POINT_6_v4_dist18.4m.jpg": 18.43,
+        "POINT_6_v5_dist20.6m.jpg": 20.63
+      },
+      "statut_point": "AUCUNE_CHAMBRE",
+      "resume_point": {
+        "images_total": 6,
+        "images_traitees": 0,
+        "cas_1": 0,
+        "cas_2": 0,
+        "rejets": 0,
+        "aucune_chambre": 6,
+        "coordonnees_moyennes_m": null,
+        "ecart_type_m": null,
+        "distance_camera_moyenne_m": null
+      }
+    },
+    {
+      "point_index": 7,
+      "point_id": "1149039",
+      "type_chambre": "REG",
+      "latitude": 50.76421291785884,
+      "longitude": 2.719446619680655,
+      "images": [
+        {
+          "fichier": "POINT_7_v0_dist5.6m.jpg",
+          "nom_base": "POINT_7_v0_dist5.6m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "REG",
+          "distance_m": 5.64,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_7_v1_dist12.2m.jpg",
+          "nom_base": "POINT_7_v1_dist12.2m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "REG",
+          "distance_m": 12.18,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_7_v2_dist12.3m.jpg",
+          "nom_base": "POINT_7_v2_dist12.3m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "REG",
+          "distance_m": 12.31,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_7_v3_dist14.0m.jpg",
+          "nom_base": "POINT_7_v3_dist14.0m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "REG",
+          "distance_m": 14.0,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_7_v4_dist24.2m.jpg",
+          "nom_base": "POINT_7_v4_dist24.2m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "REG",
+          "distance_m": 24.24,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        }
+      ],
+      "distances": {
+        "POINT_7_v0_dist5.6m.jpg": 5.64,
+        "POINT_7_v1_dist12.2m.jpg": 12.18,
+        "POINT_7_v2_dist12.3m.jpg": 12.31,
+        "POINT_7_v3_dist14.0m.jpg": 14.0,
+        "POINT_7_v4_dist24.2m.jpg": 24.24
+      },
+      "statut_point": "AUCUNE_CHAMBRE",
+      "resume_point": {
+        "images_total": 5,
+        "images_traitees": 0,
+        "cas_1": 0,
+        "cas_2": 0,
+        "rejets": 0,
+        "aucune_chambre": 5,
+        "coordonnees_moyennes_m": null,
+        "ecart_type_m": null,
+        "distance_camera_moyenne_m": null
+      }
+    },
+    {
+      "point_index": 8,
+      "point_id": "1149047",
+      "type_chambre": "REG",
+      "latitude": 50.764175548894016,
+      "longitude": 2.719089188419972,
+      "images": [
+        {
+          "fichier": "POINT_8_v0_dist10.5m.jpg",
+          "nom_base": "POINT_8_v0_dist10.5m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "REG",
+          "distance_m": 10.51,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_8_v1_dist14.1m.jpg",
+          "nom_base": "POINT_8_v1_dist14.1m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "REG",
+          "distance_m": 14.09,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_8_v2_dist14.6m.jpg",
+          "nom_base": "POINT_8_v2_dist14.6m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "REG",
+          "distance_m": 14.57,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_8_v3_dist18.8m.jpg",
+          "nom_base": "POINT_8_v3_dist18.8m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "REG",
+          "distance_m": 18.84,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_8_v4_dist19.3m.jpg",
+          "nom_base": "POINT_8_v4_dist19.3m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "REG",
+          "distance_m": 19.28,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_8_v5_dist34.1m.jpg",
+          "nom_base": "POINT_8_v5_dist34.1m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "REG",
+          "distance_m": 34.15,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        }
+      ],
+      "distances": {
+        "POINT_8_v0_dist10.5m.jpg": 10.51,
+        "POINT_8_v1_dist14.1m.jpg": 14.09,
+        "POINT_8_v2_dist14.6m.jpg": 14.57,
+        "POINT_8_v3_dist18.8m.jpg": 18.84,
+        "POINT_8_v4_dist19.3m.jpg": 19.28,
+        "POINT_8_v5_dist34.1m.jpg": 34.15
+      },
+      "statut_point": "AUCUNE_CHAMBRE",
+      "resume_point": {
+        "images_total": 6,
+        "images_traitees": 0,
+        "cas_1": 0,
+        "cas_2": 0,
+        "rejets": 0,
+        "aucune_chambre": 6,
+        "coordonnees_moyennes_m": null,
+        "ecart_type_m": null,
+        "distance_camera_moyenne_m": null
+      }
+    },
+    {
+      "point_index": 9,
+      "point_id": "1149053",
+      "type_chambre": "REG",
+      "latitude": 50.76376362143801,
+      "longitude": 2.7185641881619893,
+      "images": [
+        {
+          "fichier": "POINT_9_v0_dist7.5m.jpg",
+          "nom_base": "POINT_9_v0_dist7.5m",
+          "statut": "REJET",
+          "strategie": null,
+          "raison": "Dimensions inconnues pour le type 'REG'",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "seuils_utilises": {
+            "pourcentage_chambre_visible_min": 70.0,
+            "nb_coins_visibles_min": 2
+          },
+          "distance_m": 7.54,
+          "type_chambre": "REG",
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_9_v1_dist13.2m.jpg",
+          "nom_base": "POINT_9_v1_dist13.2m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "REG",
+          "distance_m": 13.17,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_9_v2_dist14.4m.jpg",
+          "nom_base": "POINT_9_v2_dist14.4m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "REG",
+          "distance_m": 14.43,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_9_v3_dist15.9m.jpg",
+          "nom_base": "POINT_9_v3_dist15.9m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "REG",
+          "distance_m": 15.85,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_9_v4_dist16.9m.jpg",
+          "nom_base": "POINT_9_v4_dist16.9m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "REG",
+          "distance_m": 16.88,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_9_v5_dist21.9m.jpg",
+          "nom_base": "POINT_9_v5_dist21.9m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "REG",
+          "distance_m": 21.9,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        }
+      ],
+      "distances": {
+        "POINT_9_v0_dist7.5m.jpg": 7.54,
+        "POINT_9_v1_dist13.2m.jpg": 13.17,
+        "POINT_9_v2_dist14.4m.jpg": 14.43,
+        "POINT_9_v3_dist15.9m.jpg": 15.85,
+        "POINT_9_v4_dist16.9m.jpg": 16.88,
+        "POINT_9_v5_dist21.9m.jpg": 21.9
+      },
+      "statut_point": "REJET",
+      "resume_point": {
+        "images_total": 6,
+        "images_traitees": 0,
+        "cas_1": 0,
+        "cas_2": 0,
+        "rejets": 1,
+        "aucune_chambre": 5,
+        "coordonnees_moyennes_m": null,
+        "ecart_type_m": null,
+        "distance_camera_moyenne_m": null
+      }
+    },
+    {
+      "point_index": 10,
+      "point_id": "1149367",
+      "type_chambre": "B1",
+      "latitude": 50.76270152846846,
+      "longitude": 2.7223784305048926,
+      "images": [
+        {
+          "fichier": "POINT_10_v0_dist9.3m.jpg",
+          "nom_base": "POINT_10_v0_dist9.3m",
+          "statut": "TRAITE",
+          "strategie": "CAS_2_TEMPLATE_MATCHING",
+          "raison": null,
+          "precision_pct": 80.4,
+          "coverage_pct": 94.7,
+          "nb_coins_visibles": 3,
+          "seuils_utilises": {
+            "pourcentage_chambre_visible_min": 70.0,
+            "nb_coins_visibles_min": 2
+          },
+          "distance_m": 9.32,
+          "type_chambre": "B1",
+          "pose_pnp": {
+            "succes": true,
+            "rvec": [
+              1.0185183313048882,
+              -1.8514880180043438,
+              1.4202972520428072
+            ],
+            "tvec": [
+              3.1447516328750846,
+              0.5174608954799069,
+              10.124785371380634
+            ],
+            "coordonnees_chambre_m": {
+              "x": 3.1447516328750846,
+              "y": 0.5174608954799069,
+              "z": 10.124785371380634
+            },
+            "distance_camera_objet_m": 10.61454226179088,
+            "erreur_reprojection_px": 6.029155041345696e-14
+          },
+          "coordonnees_m": {
+            "x": 3.1447516328750846,
+            "y": 0.5174608954799069,
+            "z": 10.124785371380634
+          },
+          "distance_camera_chambre_m": 10.61454226179088,
+          "visualisation": "/api/carte-sig/jobs/a58cba0e81bd/pnp/image/POINT_10_v0_dist9.3m_ajustement.jpg",
+          "comparaison_pnp_gt": {
+            "comparable": false,
+            "raison": "Masque de verite terrain introuvable : dataset_test_pnp/masks_3classes/POINT_10_v0_dist9.3m.png"
+          },
+          "visibilite_coins": {
+            "TL": {
+              "visible": false,
+              "raison": "hors_cadre"
+            },
+            "TR": {
+              "visible": true,
+              "distance_contour_px": 3.118436925217168,
+              "seuil_applique_px": 9.207146788609757,
+              "raison": "confirme"
+            },
+            "BR": {
+              "visible": true,
+              "distance_contour_px": 5.835818140278753,
+              "seuil_applique_px": 9.207146788609757,
+              "raison": "confirme"
+            },
+            "BL": {
+              "visible": true,
+              "distance_contour_px": 3.999779372095808,
+              "seuil_applique_px": 9.207146788609757,
+              "raison": "confirme"
+            }
+          }
+        },
+        {
+          "fichier": "POINT_10_v1_dist11.5m.jpg",
+          "nom_base": "POINT_10_v1_dist11.5m",
+          "statut": "TRAITE",
+          "strategie": "CAS_2_TEMPLATE_MATCHING",
+          "raison": null,
+          "precision_pct": 83.4,
+          "coverage_pct": 92.9,
+          "nb_coins_visibles": 2,
+          "seuils_utilises": {
+            "pourcentage_chambre_visible_min": 70.0,
+            "nb_coins_visibles_min": 2
+          },
+          "distance_m": 11.54,
+          "type_chambre": "B1",
+          "pose_pnp": {
+            "succes": true,
+            "rvec": [
+              1.656244615528024,
+              -0.7733244276569203,
+              0.6237318807764045
+            ],
+            "tvec": [
+              -2.873551637193714,
+              0.5588030187466767,
+              12.312743178646512
+            ],
+            "coordonnees_chambre_m": {
+              "x": -2.873551637193714,
+              "y": 0.5588030187466767,
+              "z": 12.312743178646512
+            },
+            "distance_camera_objet_m": 12.655955294195902,
+            "erreur_reprojection_px": 5.123796534383002e-14
+          },
+          "coordonnees_m": {
+            "x": -2.873551637193714,
+            "y": 0.5588030187466767,
+            "z": 12.312743178646512
+          },
+          "distance_camera_chambre_m": 12.655955294195902,
+          "visualisation": "/api/carte-sig/jobs/a58cba0e81bd/pnp/image/POINT_10_v1_dist11.5m_ajustement.jpg",
+          "comparaison_pnp_gt": {
+            "comparable": false,
+            "raison": "Masque de verite terrain introuvable : dataset_test_pnp/masks_3classes/POINT_10_v1_dist11.5m.png"
+          },
+          "visibilite_coins": {
+            "TL": {
+              "visible": true,
+              "distance_contour_px": 4.07635498046875,
+              "seuil_applique_px": 9.615599240339982,
+              "raison": "confirme"
+            },
+            "TR": {
+              "visible": false,
+              "distance_contour_px": 10.83061188177099,
+              "seuil_applique_px": 9.615599240339982,
+              "raison": "extrapole_non_confirme"
+            },
+            "BR": {
+              "visible": true,
+              "distance_contour_px": 1.5546443540999506,
+              "seuil_applique_px": 9.615599240339982,
+              "raison": "confirme"
+            },
+            "BL": {
+              "visible": false,
+              "raison": "hors_cadre"
+            }
+          }
+        },
+        {
+          "fichier": "POINT_10_v2_dist15.8m.jpg",
+          "nom_base": "POINT_10_v2_dist15.8m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "B1",
+          "distance_m": 15.8,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_10_v3_dist20.1m.jpg",
+          "nom_base": "POINT_10_v3_dist20.1m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "B1",
+          "distance_m": 20.12,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        }
+      ],
+      "distances": {
+        "POINT_10_v0_dist9.3m.jpg": 9.32,
+        "POINT_10_v1_dist11.5m.jpg": 11.54,
+        "POINT_10_v2_dist15.8m.jpg": 15.8,
+        "POINT_10_v3_dist20.1m.jpg": 20.12
+      },
+      "statut_point": "TRAITE",
+      "resume_point": {
+        "images_total": 4,
+        "images_traitees": 2,
+        "cas_1": 0,
+        "cas_2": 2,
+        "rejets": 0,
+        "aucune_chambre": 2,
+        "coordonnees_moyennes_m": {
+          "x": 0.13559999784068522,
+          "y": 0.5381319571132919,
+          "z": 11.218764275013573
+        },
+        "ecart_type_m": {
+          "x": 3.0091516350343994,
+          "y": 0.02067106163338489,
+          "z": 1.093978903632939
+        },
+        "distance_camera_moyenne_m": 11.635248777993391
+      }
+    },
+    {
+      "point_index": 11,
+      "point_id": "1149377",
+      "type_chambre": "L3T",
+      "latitude": 50.76599255565285,
+      "longitude": 2.7229025084771505,
+      "images": [
+        {
+          "fichier": "POINT_11_v0_dist8.6m.jpg",
+          "nom_base": "POINT_11_v0_dist8.6m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "L3T",
+          "distance_m": 8.6,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_11_v1_dist9.4m.jpg",
+          "nom_base": "POINT_11_v1_dist9.4m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "L3T",
+          "distance_m": 9.44,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_11_v2_dist16.2m.jpg",
+          "nom_base": "POINT_11_v2_dist16.2m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "L3T",
+          "distance_m": 16.19,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_11_v3_dist17.5m.jpg",
+          "nom_base": "POINT_11_v3_dist17.5m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "L3T",
+          "distance_m": 17.46,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        }
+      ],
+      "distances": {
+        "POINT_11_v0_dist8.6m.jpg": 8.6,
+        "POINT_11_v1_dist9.4m.jpg": 9.44,
+        "POINT_11_v2_dist16.2m.jpg": 16.19,
+        "POINT_11_v3_dist17.5m.jpg": 17.46
+      },
+      "statut_point": "AUCUNE_CHAMBRE",
+      "resume_point": {
+        "images_total": 4,
+        "images_traitees": 0,
+        "cas_1": 0,
+        "cas_2": 0,
+        "rejets": 0,
+        "aucune_chambre": 4,
+        "coordonnees_moyennes_m": null,
+        "ecart_type_m": null,
+        "distance_camera_moyenne_m": null
+      }
+    },
+    {
+      "point_index": 12,
+      "point_id": "1149394",
+      "type_chambre": "L3T",
+      "latitude": 50.76728265439874,
+      "longitude": 2.72358010706131,
+      "images": [
+        {
+          "fichier": "POINT_12_v0_dist7.7m.jpg",
+          "nom_base": "POINT_12_v0_dist7.7m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "L3T",
+          "distance_m": 7.66,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_12_v1_dist14.1m.jpg",
+          "nom_base": "POINT_12_v1_dist14.1m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "L3T",
+          "distance_m": 14.14,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_12_v2_dist15.5m.jpg",
+          "nom_base": "POINT_12_v2_dist15.5m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "L3T",
+          "distance_m": 15.52,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_12_v3_dist23.1m.jpg",
+          "nom_base": "POINT_12_v3_dist23.1m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "L3T",
+          "distance_m": 23.13,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        }
+      ],
+      "distances": {
+        "POINT_12_v0_dist7.7m.jpg": 7.66,
+        "POINT_12_v1_dist14.1m.jpg": 14.14,
+        "POINT_12_v2_dist15.5m.jpg": 15.52,
+        "POINT_12_v3_dist23.1m.jpg": 23.13
+      },
+      "statut_point": "AUCUNE_CHAMBRE",
+      "resume_point": {
+        "images_total": 4,
+        "images_traitees": 0,
+        "cas_1": 0,
+        "cas_2": 0,
+        "rejets": 0,
+        "aucune_chambre": 4,
+        "coordonnees_moyennes_m": null,
+        "ecart_type_m": null,
+        "distance_camera_moyenne_m": null
+      }
+    },
+    {
+      "point_index": 13,
+      "point_id": "1149418",
+      "type_chambre": "L3T",
+      "latitude": 50.78036040354595,
+      "longitude": 2.7227332718705908,
+      "images": [
+        {
+          "fichier": "POINT_13_v0_dist15.2m.jpg",
+          "nom_base": "POINT_13_v0_dist15.2m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "L3T",
+          "distance_m": 15.2,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_13_v1_dist17.0m.jpg",
+          "nom_base": "POINT_13_v1_dist17.0m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "L3T",
+          "distance_m": 16.98,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        }
+      ],
+      "distances": {
+        "POINT_13_v0_dist15.2m.jpg": 15.2,
+        "POINT_13_v1_dist17.0m.jpg": 16.98
+      },
+      "statut_point": "AUCUNE_CHAMBRE",
+      "resume_point": {
+        "images_total": 2,
+        "images_traitees": 0,
+        "cas_1": 0,
+        "cas_2": 0,
+        "rejets": 0,
+        "aucune_chambre": 2,
+        "coordonnees_moyennes_m": null,
+        "ecart_type_m": null,
+        "distance_camera_moyenne_m": null
+      }
+    },
+    {
+      "point_index": 14,
+      "point_id": "1512513",
+      "type_chambre": "L2T",
+      "latitude": 50.76822951270997,
+      "longitude": 2.7187270354028263,
+      "images": [
+        {
+          "fichier": "POINT_14_v0_dist6.8m.jpg",
+          "nom_base": "POINT_14_v0_dist6.8m",
+          "statut": "TRAITE",
+          "strategie": "CAS_1_PNP_DIRECT",
+          "raison": null,
+          "precision_pct": 94.7,
+          "coverage_pct": 97.5,
+          "nb_coins_visibles": 4,
+          "seuils_utilises": {
+            "pourcentage_chambre_visible_min": 70.0,
+            "nb_coins_visibles_min": 2
+          },
+          "distance_m": 6.84,
+          "type_chambre": "L2T",
+          "pose_pnp": {
+            "succes": true,
+            "rvec": [
+              1.6371429394465162,
+              -1.1688230991479072,
+              0.8172456387258578
+            ],
+            "tvec": [
+              1.4423379698975896,
+              0.9937116816493509,
+              6.231823178364042
+            ],
+            "coordonnees_chambre_m": {
+              "x": 1.4423379698975896,
+              "y": 0.9937116816493509,
+              "z": 6.231823178364042
+            },
+            "distance_camera_objet_m": 6.47328524414381,
+            "erreur_reprojection_px": 9.638270602075163e-14
+          },
+          "coordonnees_m": {
+            "x": 1.4423379698975896,
+            "y": 0.9937116816493509,
+            "z": 6.231823178364042
+          },
+          "distance_camera_chambre_m": 6.47328524414381,
+          "visualisation": "/api/carte-sig/jobs/a58cba0e81bd/pnp/image/POINT_14_v0_dist6.8m_ajustement.jpg",
+          "comparaison_pnp_gt": {
+            "comparable": false,
+            "raison": "Masque de verite terrain introuvable : dataset_test_pnp/masks_3classes/POINT_14_v0_dist6.8m.png"
+          },
+          "visibilite_coins": {
+            "TL": {
+              "visible": true,
+              "distance_contour_px": 5.4400095413634695,
+              "seuil_applique_px": 9.376366251124036,
+              "raison": "confirme"
+            },
+            "TR": {
+              "visible": true,
+              "distance_contour_px": 2.1888910443239853,
+              "seuil_applique_px": 9.376366251124036,
+              "raison": "confirme"
+            },
+            "BR": {
+              "visible": true,
+              "distance_contour_px": 0.21624755859375,
+              "seuil_applique_px": 9.376366251124036,
+              "raison": "confirme"
+            },
+            "BL": {
+              "visible": true,
+              "distance_contour_px": 5.143783264592876,
+              "seuil_applique_px": 9.376366251124036,
+              "raison": "confirme"
+            }
+          }
+        },
+        {
+          "fichier": "POINT_14_v1_dist10.6m.jpg",
+          "nom_base": "POINT_14_v1_dist10.6m",
+          "statut": "TRAITE",
+          "strategie": "CAS_2_TEMPLATE_MATCHING",
+          "raison": null,
+          "precision_pct": 90.0,
+          "coverage_pct": 84.8,
+          "nb_coins_visibles": 4,
+          "seuils_utilises": {
+            "pourcentage_chambre_visible_min": 70.0,
+            "nb_coins_visibles_min": 2
+          },
+          "distance_m": 10.63,
+          "type_chambre": "L2T",
+          "pose_pnp": {
+            "succes": true,
+            "rvec": [
+              0.5252801590698556,
+              -2.197256748574074,
+              1.7404470485830612
+            ],
+            "tvec": [
+              2.490824243097801,
+              -0.37732877096952905,
+              11.991745573605153
+            ],
+            "coordonnees_chambre_m": {
+              "x": 2.490824243097801,
+              "y": -0.37732877096952905,
+              "z": 11.991745573605153
+            },
+            "distance_camera_objet_m": 12.253511509501424,
+            "erreur_reprojection_px": 1.5173040782245993e-13
+          },
+          "coordonnees_m": {
+            "x": 2.490824243097801,
+            "y": -0.37732877096952905,
+            "z": 11.991745573605153
+          },
+          "distance_camera_chambre_m": 12.253511509501424,
+          "visualisation": "/api/carte-sig/jobs/a58cba0e81bd/pnp/image/POINT_14_v1_dist10.6m_ajustement.jpg",
+          "comparaison_pnp_gt": {
+            "comparable": false,
+            "raison": "Masque de verite terrain introuvable : dataset_test_pnp/masks_3classes/POINT_14_v1_dist10.6m.png"
+          },
+          "visibilite_coins": {
+            "TL": {
+              "visible": true,
+              "distance_contour_px": 1.4558829713840578,
+              "seuil_applique_px": 9.717612487194355,
+              "raison": "confirme"
+            },
+            "TR": {
+              "visible": true,
+              "distance_contour_px": 1.3858274271652533,
+              "seuil_applique_px": 9.717612487194355,
+              "raison": "confirme"
+            },
+            "BR": {
+              "visible": true,
+              "distance_contour_px": 0.52099609375,
+              "seuil_applique_px": 9.717612487194355,
+              "raison": "confirme"
+            },
+            "BL": {
+              "visible": true,
+              "distance_contour_px": 5.900323391130078,
+              "seuil_applique_px": 9.717612487194355,
+              "raison": "confirme"
+            }
+          }
+        },
+        {
+          "fichier": "POINT_14_v2_dist15.0m.jpg",
+          "nom_base": "POINT_14_v2_dist15.0m",
+          "statut": "REJET",
+          "strategie": "AUCUNE",
+          "raison": "Image abandonnee, seuils utilisateur non atteints : chambre visible = 60.9% (seuil choisi 70%)",
+          "precision_pct": 60.9,
+          "coverage_pct": 93.6,
+          "nb_coins_visibles": 4,
+          "seuils_utilises": {
+            "pourcentage_chambre_visible_min": 70.0,
+            "nb_coins_visibles_min": 2
+          },
+          "distance_m": 14.98,
+          "type_chambre": "L2T",
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": {
+            "comparable": false,
+            "raison": "Masque de verite terrain introuvable : dataset_test_pnp/masks_3classes/POINT_14_v2_dist15.0m.png"
+          },
+          "visibilite_coins": {
+            "TL": {
+              "visible": true,
+              "distance_contour_px": 5.8231380299156985,
+              "seuil_applique_px": 8.67307141084871,
+              "raison": "confirme"
+            },
+            "TR": {
+              "visible": true,
+              "distance_contour_px": 2.1891545161261683,
+              "seuil_applique_px": 8.67307141084871,
+              "raison": "confirme"
+            },
+            "BR": {
+              "visible": true,
+              "distance_contour_px": 6.011443241878631,
+              "seuil_applique_px": 8.67307141084871,
+              "raison": "confirme"
+            },
+            "BL": {
+              "visible": true,
+              "distance_contour_px": 0.995404064655304,
+              "seuil_applique_px": 8.67307141084871,
+              "raison": "confirme"
+            }
+          }
+        },
+        {
+          "fichier": "POINT_14_v3_dist20.0m.jpg",
+          "nom_base": "POINT_14_v3_dist20.0m",
+          "statut": "REJET",
+          "strategie": "AUCUNE",
+          "raison": "Image abandonnee, seuils utilisateur non atteints : chambre visible = 59.6% (seuil choisi 70%)",
+          "precision_pct": 59.6,
+          "coverage_pct": 94.7,
+          "nb_coins_visibles": 4,
+          "seuils_utilises": {
+            "pourcentage_chambre_visible_min": 70.0,
+            "nb_coins_visibles_min": 2
+          },
+          "distance_m": 20.05,
+          "type_chambre": "L2T",
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": {
+            "comparable": false,
+            "raison": "Masque de verite terrain introuvable : dataset_test_pnp/masks_3classes/POINT_14_v3_dist20.0m.png"
+          },
+          "visibilite_coins": {
+            "TL": {
+              "visible": true,
+              "distance_contour_px": 1.7116179098557915,
+              "seuil_applique_px": 8.009200329258512,
+              "raison": "confirme"
+            },
+            "TR": {
+              "visible": true,
+              "distance_contour_px": 1.8709370433244281,
+              "seuil_applique_px": 8.009200329258512,
+              "raison": "confirme"
+            },
+            "BR": {
+              "visible": true,
+              "distance_contour_px": 0.5063771889441994,
+              "seuil_applique_px": 8.009200329258512,
+              "raison": "confirme"
+            },
+            "BL": {
+              "visible": true,
+              "distance_contour_px": 0.03940359443501696,
+              "seuil_applique_px": 8.009200329258512,
+              "raison": "confirme"
+            }
+          }
+        },
+        {
+          "fichier": "POINT_14_v4_dist24.1m.jpg",
+          "nom_base": "POINT_14_v4_dist24.1m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "L2T",
+          "distance_m": 24.11,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        }
+      ],
+      "distances": {
+        "POINT_14_v0_dist6.8m.jpg": 6.84,
+        "POINT_14_v1_dist10.6m.jpg": 10.63,
+        "POINT_14_v2_dist15.0m.jpg": 14.98,
+        "POINT_14_v3_dist20.0m.jpg": 20.05,
+        "POINT_14_v4_dist24.1m.jpg": 24.11
+      },
+      "statut_point": "TRAITE",
+      "resume_point": {
+        "images_total": 5,
+        "images_traitees": 2,
+        "cas_1": 1,
+        "cas_2": 1,
+        "rejets": 2,
+        "aucune_chambre": 1,
+        "coordonnees_moyennes_m": {
+          "x": 1.9665811064976952,
+          "y": 0.3081914553399109,
+          "z": 9.111784375984598
+        },
+        "ecart_type_m": {
+          "x": 0.5242431366001057,
+          "y": 0.68552022630944,
+          "z": 2.8799611976205552
+        },
+        "distance_camera_moyenne_m": 9.363398376822616
+      }
+    },
+    {
+      "point_index": 15,
+      "point_id": "1619464",
+      "type_chambre": "REG",
+      "latitude": 50.76572572942643,
+      "longitude": 2.708620119266515,
+      "images": [
+        {
+          "fichier": "POINT_15_v0_dist7.4m.jpg",
+          "nom_base": "POINT_15_v0_dist7.4m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "REG",
+          "distance_m": 7.38,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_15_v1_dist14.6m.jpg",
+          "nom_base": "POINT_15_v1_dist14.6m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "REG",
+          "distance_m": 14.61,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_15_v2_dist16.8m.jpg",
+          "nom_base": "POINT_15_v2_dist16.8m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "REG",
+          "distance_m": 16.79,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        }
+      ],
+      "distances": {
+        "POINT_15_v0_dist7.4m.jpg": 7.38,
+        "POINT_15_v1_dist14.6m.jpg": 14.61,
+        "POINT_15_v2_dist16.8m.jpg": 16.79
+      },
+      "statut_point": "AUCUNE_CHAMBRE",
+      "resume_point": {
+        "images_total": 3,
+        "images_traitees": 0,
+        "cas_1": 0,
+        "cas_2": 0,
+        "rejets": 0,
+        "aucune_chambre": 3,
+        "coordonnees_moyennes_m": null,
+        "ecart_type_m": null,
+        "distance_camera_moyenne_m": null
+      }
+    },
+    {
+      "point_index": 16,
+      "point_id": "2485489",
+      "type_chambre": "REG",
+      "latitude": 50.77757011524313,
+      "longitude": 2.736053511143663,
+      "images": [],
+      "distances": {},
+      "statut_point": "AUCUNE_IMAGE",
+      "resume_point": {
+        "images_total": 0,
+        "images_traitees": 0,
+        "cas_1": 0,
+        "cas_2": 0,
+        "rejets": 0,
+        "aucune_chambre": 0,
+        "coordonnees_moyennes_m": null,
+        "ecart_type_m": null,
+        "distance_camera_moyenne_m": null
+      }
+    },
+    {
+      "point_index": 17,
+      "point_id": "2485492",
+      "type_chambre": "REG",
+      "latitude": 50.77873909087379,
+      "longitude": 2.7358210729972527,
+      "images": [
+        {
+          "fichier": "POINT_17_v0_dist9.4m.jpg",
+          "nom_base": "POINT_17_v0_dist9.4m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "REG",
+          "distance_m": 9.43,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_17_v1_dist11.5m.jpg",
+          "nom_base": "POINT_17_v1_dist11.5m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "REG",
+          "distance_m": 11.48,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_17_v2_dist17.1m.jpg",
+          "nom_base": "POINT_17_v2_dist17.1m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "REG",
+          "distance_m": 17.14,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_17_v3_dist21.1m.jpg",
+          "nom_base": "POINT_17_v3_dist21.1m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "REG",
+          "distance_m": 21.09,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        }
+      ],
+      "distances": {
+        "POINT_17_v0_dist9.4m.jpg": 9.43,
+        "POINT_17_v1_dist11.5m.jpg": 11.48,
+        "POINT_17_v2_dist17.1m.jpg": 17.14,
+        "POINT_17_v3_dist21.1m.jpg": 21.09
+      },
+      "statut_point": "AUCUNE_CHAMBRE",
+      "resume_point": {
+        "images_total": 4,
+        "images_traitees": 0,
+        "cas_1": 0,
+        "cas_2": 0,
+        "rejets": 0,
+        "aucune_chambre": 4,
+        "coordonnees_moyennes_m": null,
+        "ecart_type_m": null,
+        "distance_camera_moyenne_m": null
+      }
+    },
+    {
+      "point_index": 18,
+      "point_id": "2626180",
+      "type_chambre": "REG",
+      "latitude": 50.76446716090893,
+      "longitude": 2.7221472788438623,
+      "images": [
+        {
+          "fichier": "POINT_18_v0_dist6.6m.jpg",
+          "nom_base": "POINT_18_v0_dist6.6m",
+          "statut": "AUCUNE_CHAMBRE",
+          "strategie": null,
+          "raison": "Aucune chambre détectée à l'étape 2",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "type_chambre": "REG",
+          "distance_m": 6.59,
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        },
+        {
+          "fichier": "POINT_18_v1_dist11.4m.jpg",
+          "nom_base": "POINT_18_v1_dist11.4m",
+          "statut": "REJET",
+          "strategie": null,
+          "raison": "Dimensions inconnues pour le type 'REG'",
+          "precision_pct": null,
+          "coverage_pct": null,
+          "nb_coins_visibles": null,
+          "seuils_utilises": {
+            "pourcentage_chambre_visible_min": 70.0,
+            "nb_coins_visibles_min": 2
+          },
+          "distance_m": 11.38,
+          "type_chambre": "REG",
+          "pose_pnp": null,
+          "coordonnees_m": null,
+          "distance_camera_chambre_m": null,
+          "visualisation": null,
+          "comparaison_pnp_gt": null
+        }
+      ],
+      "distances": {
+        "POINT_18_v0_dist6.6m.jpg": 6.59,
+        "POINT_18_v1_dist11.4m.jpg": 11.38
+      },
+      "statut_point": "REJET",
+      "resume_point": {
+        "images_total": 2,
+        "images_traitees": 0,
+        "cas_1": 0,
+        "cas_2": 0,
+        "rejets": 1,
+        "aucune_chambre": 1,
+        "coordonnees_moyennes_m": null,
+        "ecart_type_m": null,
+        "distance_camera_moyenne_m": null
+      }
+    },
+    {
+      "point_index": 19,
+      "point_id": "2766115",
+      "type_chambre": "L1T",
+      "latitude": 50.76824761010096,
+      "longitude": 2.731624401715876,
+      "images": [],
+      "distances": {},
+      "statut_point": "AUCUNE_IMAGE",
+      "resume_point": {
+        "images_total": 0,
+        "images_traitees": 0,
+        "cas_1": 0,
+        "cas_2": 0,
+        "rejets": 0,
+        "aucune_chambre": 0,
+        "coordonnees_moyennes_m": null,
+        "ecart_type_m": null,
+        "distance_camera_moyenne_m": null
+      }
+    }
+  ]
+}

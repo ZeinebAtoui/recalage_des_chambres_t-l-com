@@ -1,0 +1,74 @@
+[
+  {
+    "point_index": 0,
+    "point_id": "1149007",
+    "latitude": 50.76452472723148,
+    "longitude": 2.719859510038881,
+    "type_chambre": "A2",
+    "images": [],
+    "rejets": []
+  },
+  {
+    "point_index": 1,
+    "point_id": "1149009",
+    "latitude": 50.763092894670415,
+    "longitude": 2.720401021499844,
+    "type_chambre": "A3",
+    "images": [],
+    "rejets": []
+  },
+  {
+    "point_index": 2,
+    "point_id": "1149015",
+    "latitude": 50.765961042443216,
+    "longitude": 2.7191723857480072,
+    "type_chambre": "A2",
+    "images": [],
+    "rejets": []
+  },
+  {
+    "point_index": 3,
+    "point_id": "1149027",
+    "latitude": 50.763350483403,
+    "longitude": 2.7213389532132566,
+    "type_chambre": "L1T",
+    "images": [],
+    "rejets": []
+  },
+  {
+    "point_index": 4,
+    "point_id": "1149028",
+    "latitude": 50.76286202274774,
+    "longitude": 2.7215840573114467,
+    "type_chambre": "L0T",
+    "images": [],
+    "rejets": []
+  },
+  {
+    "point_index": 5,
+    "point_id": "1149034",
+    "latitude": 50.76401559818213,
+    "longitude": 2.7189070416728423,
+    "type_chambre": "L2T",
+    "images": [],
+    "rejets": []
+  },
+  {
+    "point_index": 6,
+    "point_id": "1149038",
+    "latitude": 50.7642733643776,
+    "longitude": 2.7195244727576693,
+    "type_chambre": "REG",
+    "images": [],
+    "rejets": []
+  },
+  {
+    "point_index": 7,
+    "point_id": "1149039",
+    "latitude": 50.76421291785884,
+    "longitude": 2.719446619680655,
+    "type_chambre": "REG",
+    "images": [],
+    "rejets": []
+  }
+]

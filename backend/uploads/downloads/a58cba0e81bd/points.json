@@ -1,0 +1,1548 @@
+[
+  {
+    "point_index": 0,
+    "point_id": "1149007",
+    "latitude": 50.76452472723148,
+    "longitude": 2.719859510038881,
+    "type_chambre": "A2",
+    "images": [
+      {
+        "fichier": "POINT_0_v0_dist10.3m.jpg",
+        "pano_id": "aZFkBn5wJLB3pN_xF7xoZg",
+        "distance_m": 10.33,
+        "heading_deg": 268.03,
+        "pitch_deg": -13.61,
+        "fov_deg": 35,
+        "latitude_pano": 50.76452792207499,
+        "longitude_pano": 2.720006277483663,
+        "source_recherche": "cercle_90deg",
+        "date_pano": "2025-03",
+        "qualite": {
+          "nettete": 2003.4,
+          "taux_aplats": 0.051,
+          "score": 0.861
+        }
+      },
+      {
+        "fichier": "POINT_0_v1_dist11.9m.jpg",
+        "pano_id": "W6pD1jSgZotSWv1Qa8FTBw",
+        "distance_m": 11.87,
+        "heading_deg": 69.58,
+        "pitch_deg": -11.9,
+        "fov_deg": 35,
+        "latitude_pano": 50.76448749500508,
+        "longitude_pano": 2.719701381017612,
+        "source_recherche": "cercle_210deg",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 1927.0,
+          "taux_aplats": 0.003,
+          "score": 0.873
+        }
+      },
+      {
+        "fichier": "POINT_0_v2_dist16.0m.jpg",
+        "pano_id": "M4_RaL_WtV_pWiwMr1N2jg",
+        "distance_m": 15.97,
+        "heading_deg": 307.4,
+        "pitch_deg": -8.9,
+        "fov_deg": 35,
+        "latitude_pano": 50.76443748817167,
+        "longitude_pano": 2.720039898820415,
+        "source_recherche": "cercle_120deg",
+        "date_pano": "2025-03",
+        "qualite": {
+          "nettete": 1438.8,
+          "taux_aplats": 0.02,
+          "score": 0.809
+        }
+      },
+      {
+        "fichier": "POINT_0_v3_dist17.8m.jpg",
+        "pano_id": "q_BvQp5aV6ou5xxPduS64w",
+        "distance_m": 17.82,
+        "heading_deg": 118.62,
+        "pitch_deg": -7.98,
+        "fov_deg": 35,
+        "latitude_pano": 50.76460149271814,
+        "longitude_pano": 2.719637052350838,
+        "source_recherche": "cercle_300deg",
+        "date_pano": "2025-03",
+        "qualite": {
+          "nettete": 1247.1,
+          "taux_aplats": 0.308,
+          "score": 0.657
+        }
+      },
+      {
+        "fichier": "POINT_0_v4_dist18.3m.jpg",
+        "pano_id": "Aoh7SfnGu3ffVesIl1w4dg",
+        "distance_m": 18.32,
+        "heading_deg": 241.75,
+        "pitch_deg": -7.77,
+        "fov_deg": 35,
+        "latitude_pano": 50.76460271599138,
+        "longitude_pano": 2.720089005572039,
+        "source_recherche": "cercle_30deg",
+        "date_pano": "2025-03",
+        "qualite": {
+          "nettete": 3824.3,
+          "taux_aplats": 0.161,
+          "score": 0.928
+        }
+      },
+      {
+        "fichier": "POINT_0_v5_dist18.8m.jpg",
+        "pano_id": "OkIgiVpWe1JbPhm7AaOxFQ",
+        "distance_m": 18.81,
+        "heading_deg": 81.47,
+        "pitch_deg": -7.57,
+        "fov_deg": 35,
+        "latitude_pano": 50.76449964951253,
+        "longitude_pano": 2.719595015829453,
+        "source_recherche": "cercle_270deg",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 2345.8,
+          "taux_aplats": 0.022,
+          "score": 0.914
+        }
+      }
+    ],
+    "rejets": [
+      {
+        "position": "point",
+        "pano_id": "43eYoYim4x8y7csgPBJPEQ",
+        "distance_m": 2.9,
+        "heading_deg": 330.86,
+        "pitch_deg": -40.72,
+        "fov_deg": 55,
+        "raison": "qualité : aplats 0.85 > 0.40"
+      },
+      {
+        "position": "cercle_0deg",
+        "pano_id": "utJDAG0LhV2a917JeHPVqA",
+        "distance_m": 8.06,
+        "heading_deg": 107.21,
+        "pitch_deg": -17.23,
+        "fov_deg": 45,
+        "raison": "qualité : aplats 0.63 > 0.40"
+      }
+    ]
+  },
+  {
+    "point_index": 1,
+    "point_id": "1149009",
+    "latitude": 50.763092894670415,
+    "longitude": 2.720401021499844,
+    "type_chambre": "A3",
+    "images": [
+      {
+        "fichier": "POINT_1_v0_dist4.7m.jpg",
+        "pano_id": "_fHd8f1LhMRc2stTM2QEKQ",
+        "distance_m": 4.68,
+        "heading_deg": 301.83,
+        "pitch_deg": -28.13,
+        "fov_deg": 55,
+        "latitude_pano": 50.76307071541545,
+        "longitude_pano": 2.720457498302052,
+        "source_recherche": "point",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 2567.9,
+          "taux_aplats": 0.005,
+          "score": 0.947
+        }
+      },
+      {
+        "fichier": "POINT_1_v1_dist12.0m.jpg",
+        "pano_id": "FzaryAMdq3FEWyIXfnOurA",
+        "distance_m": 11.97,
+        "heading_deg": 258.34,
+        "pitch_deg": -11.8,
+        "fov_deg": 35,
+        "latitude_pano": 50.76311464209298,
+        "longitude_pano": 2.720567640554625,
+        "source_recherche": "cercle_30deg",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 1864.6,
+          "taux_aplats": 0.007,
+          "score": 0.864
+        }
+      },
+      {
+        "fichier": "POINT_1_v2_dist14.2m.jpg",
+        "pano_id": "dLOXwxkRO-cTXA8yZazc8w",
+        "distance_m": 14.25,
+        "heading_deg": 103.35,
+        "pitch_deg": -9.95,
+        "fov_deg": 35,
+        "latitude_pano": 50.76312247377933,
+        "longitude_pano": 2.720203942655282,
+        "source_recherche": "cercle_270deg",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 2630.4,
+          "taux_aplats": 0.004,
+          "score": 0.955
+        }
+      },
+      {
+        "fichier": "POINT_1_v3_dist15.7m.jpg",
+        "pano_id": "VrzlKGjuRAeyyu3dDCNdyQ",
+        "distance_m": 15.69,
+        "heading_deg": 42.69,
+        "pitch_deg": -9.05,
+        "fov_deg": 35,
+        "latitude_pano": 50.76298915575712,
+        "longitude_pano": 2.720249713261617,
+        "source_recherche": "cercle_180deg",
+        "date_pano": "2019-04",
+        "qualite": {
+          "nettete": 910.9,
+          "taux_aplats": 0.227,
+          "score": 0.634
+        }
+      }
+    ],
+    "rejets": []
+  },
+  {
+    "point_index": 2,
+    "point_id": "1149015",
+    "latitude": 50.765961042443216,
+    "longitude": 2.7191723857480072,
+    "type_chambre": "A2",
+    "images": [
+      {
+        "fichier": "POINT_2_v0_dist10.8m.jpg",
+        "pano_id": "SQ5raqw0MJZ2RxJPUmbakw",
+        "distance_m": 10.81,
+        "heading_deg": 2.98,
+        "pitch_deg": -13.02,
+        "fov_deg": 35,
+        "latitude_pano": 50.76586397511863,
+        "longitude_pano": 2.719164403569442,
+        "source_recherche": "cercle_120deg",
+        "date_pano": "2025-03",
+        "qualite": {
+          "nettete": 956.1,
+          "taux_aplats": 0.123,
+          "score": 0.706
+        }
+      }
+    ],
+    "rejets": [
+      {
+        "position": "point",
+        "pano_id": "J1M72H2UER3IiKNEk2JMAw",
+        "distance_m": 2.1,
+        "heading_deg": 71.99,
+        "pitch_deg": -50.02,
+        "fov_deg": 55,
+        "raison": "qualité : aplats 0.96 > 0.40"
+      },
+      {
+        "position": "cercle_0deg",
+        "pano_id": "YGaUbloHX-nCpZXtm3ox6g",
+        "distance_m": 10.14,
+        "heading_deg": 161.09,
+        "pitch_deg": -13.86,
+        "fov_deg": 35,
+        "raison": "qualité : aplats 0.54 > 0.40"
+      }
+    ]
+  },
+  {
+    "point_index": 3,
+    "point_id": "1149027",
+    "latitude": 50.763350483403,
+    "longitude": 2.7213389532132566,
+    "type_chambre": "L1T",
+    "images": [
+      {
+        "fichier": "POINT_3_v0_dist5.9m.jpg",
+        "pano_id": "lmEKdtGhbozmxDIdbuUYKQ",
+        "distance_m": 5.91,
+        "heading_deg": 204.65,
+        "pitch_deg": -22.94,
+        "fov_deg": 55,
+        "latitude_pano": 50.76339877229825,
+        "longitude_pano": 2.7213739847593,
+        "source_recherche": "point",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 875.4,
+          "taux_aplats": 0.116,
+          "score": 0.7
+        }
+      },
+      {
+        "fichier": "POINT_3_v1_dist7.2m.jpg",
+        "pano_id": "jsrMRnIPJWAnt-sP-X9_aw",
+        "distance_m": 7.22,
+        "heading_deg": 96.03,
+        "pitch_deg": -19.1,
+        "fov_deg": 45,
+        "latitude_pano": 50.76335729846404,
+        "longitude_pano": 2.721236891230777,
+        "source_recherche": "cercle_300deg",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 1422.4,
+          "taux_aplats": 0.014,
+          "score": 0.81
+        }
+      },
+      {
+        "fichier": "POINT_3_v2_dist15.4m.jpg",
+        "pano_id": "WMHTKmslbZKbQQr24sgvHg",
+        "distance_m": 15.39,
+        "heading_deg": 231.72,
+        "pitch_deg": -9.23,
+        "fov_deg": 35,
+        "latitude_pano": 50.76343620896181,
+        "longitude_pano": 2.721510687327598,
+        "source_recherche": "cercle_30deg",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 1162.9,
+          "taux_aplats": 0.072,
+          "score": 0.753
+        }
+      },
+      {
+        "fichier": "POINT_3_v3_dist17.0m.jpg",
+        "pano_id": "o2xYqbrDDp5N0bBOAA6Gag",
+        "distance_m": 16.98,
+        "heading_deg": 76.07,
+        "pitch_deg": -8.38,
+        "fov_deg": 35,
+        "latitude_pano": 50.7633137278033,
+        "longitude_pano": 2.721104663453476,
+        "source_recherche": "cercle_210deg",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 1199.8,
+          "taux_aplats": 0.056,
+          "score": 0.765
+        }
+      }
+    ],
+    "rejets": []
+  },
+  {
+    "point_index": 4,
+    "point_id": "1149028",
+    "latitude": 50.76286202274774,
+    "longitude": 2.7215840573114467,
+    "type_chambre": "L0T",
+    "images": [],
+    "rejets": []
+  },
+  {
+    "point_index": 5,
+    "point_id": "1149034",
+    "latitude": 50.76401559818213,
+    "longitude": 2.7189070416728423,
+    "type_chambre": "L2T",
+    "images": [
+      {
+        "fichier": "POINT_5_v0_dist6.9m.jpg",
+        "pano_id": "ecTbTU7jdSi-Rdg1XZINCg",
+        "distance_m": 6.86,
+        "heading_deg": 274.54,
+        "pitch_deg": -20.02,
+        "fov_deg": 55,
+        "latitude_pano": 50.76401071504119,
+        "longitude_pano": 2.719004282501707,
+        "source_recherche": "point",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 1335.1,
+          "taux_aplats": 0.026,
+          "score": 0.794
+        }
+      },
+      {
+        "fichier": "POINT_5_v1_dist8.4m.jpg",
+        "pano_id": "PY27aEYWFRrDR19JkTXnOQ",
+        "distance_m": 8.38,
+        "heading_deg": 356.35,
+        "pitch_deg": -16.61,
+        "fov_deg": 45,
+        "latitude_pano": 50.76394036666395,
+        "longitude_pano": 2.718914619338001,
+        "source_recherche": "cercle_270deg",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 2012.5,
+          "taux_aplats": 0.001,
+          "score": 0.884
+        }
+      },
+      {
+        "fichier": "POINT_5_v2_dist14.5m.jpg",
+        "pano_id": "MsT0tJ4N0b5YghwAMRX5sg",
+        "distance_m": 14.5,
+        "heading_deg": 273.88,
+        "pitch_deg": -9.78,
+        "fov_deg": 35,
+        "latitude_pano": 50.76400676371712,
+        "longitude_pano": 2.719112730258742,
+        "source_recherche": "cercle_90deg",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 1538.7,
+          "taux_aplats": 0.012,
+          "score": 0.824
+        }
+      },
+      {
+        "fichier": "POINT_5_v3_dist15.0m.jpg",
+        "pano_id": "35KuvBvLkMrcRUbtliQR2w",
+        "distance_m": 15.02,
+        "heading_deg": 241.01,
+        "pitch_deg": -9.45,
+        "fov_deg": 35,
+        "latitude_pano": 50.76408106556083,
+        "longitude_pano": 2.719093854295134,
+        "source_recherche": "cercle_0deg",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 1883.3,
+          "taux_aplats": 0.005,
+          "score": 0.867
+        }
+      },
+      {
+        "fichier": "POINT_5_v4_dist17.0m.jpg",
+        "pano_id": "EsYujdkErKHFlYCT6K1anA",
+        "distance_m": 17.05,
+        "heading_deg": 19.35,
+        "pitch_deg": -8.34,
+        "fov_deg": 35,
+        "latitude_pano": 50.76387092968442,
+        "longitude_pano": 2.718826703800845,
+        "source_recherche": "cercle_210deg",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 2439.2,
+          "taux_aplats": 0.005,
+          "score": 0.932
+        }
+      },
+      {
+        "fichier": "POINT_5_v5_dist17.2m.jpg",
+        "pano_id": "7xuqE9mdUx1m1RWmDXReFw",
+        "distance_m": 17.18,
+        "heading_deg": 352.32,
+        "pitch_deg": -8.28,
+        "fov_deg": 35,
+        "latitude_pano": 50.76386250933405,
+        "longitude_pano": 2.718939693615631,
+        "source_recherche": "cercle_180deg",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 1995.5,
+          "taux_aplats": 0.019,
+          "score": 0.874
+        }
+      }
+    ],
+    "rejets": [
+      {
+        "position": "cercle_120deg",
+        "pano_id": "r0pic7TLphQi5a9pIWvpMA",
+        "distance_m": 12.3,
+        "heading_deg": 317.13,
+        "pitch_deg": -11.49,
+        "fov_deg": 35,
+        "raison": "qualité : score trop faible (best-of-N)"
+      }
+    ]
+  },
+  {
+    "point_index": 6,
+    "point_id": "1149038",
+    "latitude": 50.7642733643776,
+    "longitude": 2.7195244727576693,
+    "type_chambre": "REG",
+    "images": [
+      {
+        "fichier": "POINT_6_v0_dist6.8m.jpg",
+        "pano_id": "R15YTq7HhVIl7KEcnA7ywg",
+        "distance_m": 6.76,
+        "heading_deg": 168.91,
+        "pitch_deg": -20.29,
+        "fov_deg": 55,
+        "latitude_pano": 50.76433305046021,
+        "longitude_pano": 2.719505969283676,
+        "source_recherche": "point",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 1570.5,
+          "taux_aplats": 0.002,
+          "score": 0.832
+        }
+      },
+      {
+        "fichier": "POINT_6_v1_dist7.7m.jpg",
+        "pano_id": "pQYMBfUh4S9lYlRsSMtsOg",
+        "distance_m": 7.73,
+        "heading_deg": 78.85,
+        "pitch_deg": -17.91,
+        "fov_deg": 45,
+        "latitude_pano": 50.76425991875563,
+        "longitude_pano": 2.719416586178212,
+        "source_recherche": "cercle_300deg",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 3585.7,
+          "taux_aplats": 0.009,
+          "score": 0.996
+        }
+      },
+      {
+        "fichier": "POINT_6_v2_dist15.9m.jpg",
+        "pano_id": "MYo4Z27ybLGVBOslzJc88w",
+        "distance_m": 15.87,
+        "heading_deg": 200.36,
+        "pitch_deg": -8.95,
+        "fov_deg": 35,
+        "latitude_pano": 50.76440719409749,
+        "longitude_pano": 2.719603007690305,
+        "source_recherche": "cercle_30deg",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 1813.2,
+          "taux_aplats": 0.023,
+          "score": 0.851
+        }
+      },
+      {
+        "fichier": "POINT_6_v3_dist15.9m.jpg",
+        "pano_id": "b1zo8I0RjmaIchbJafTxlg",
+        "distance_m": 15.9,
+        "heading_deg": 173.53,
+        "pitch_deg": -8.94,
+        "fov_deg": 35,
+        "latitude_pano": 50.76441540552359,
+        "longitude_pano": 2.719499025260874,
+        "source_recherche": "cercle_0deg",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 2385.1,
+          "taux_aplats": 0.003,
+          "score": 0.927
+        }
+      },
+      {
+        "fichier": "POINT_6_v4_dist18.4m.jpg",
+        "pano_id": "jbl5fSQR_TJOa6yZ4Ubriw",
+        "distance_m": 18.43,
+        "heading_deg": 72.68,
+        "pitch_deg": -7.73,
+        "fov_deg": 35,
+        "latitude_pano": 50.76422403653442,
+        "longitude_pano": 2.719274325495415,
+        "source_recherche": "cercle_240deg",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 2443.6,
+          "taux_aplats": 0.013,
+          "score": 0.929
+        }
+      },
+      {
+        "fichier": "POINT_6_v5_dist20.6m.jpg",
+        "pano_id": "xC3epjYtXmXVX8m85hVkzA",
+        "distance_m": 20.63,
+        "heading_deg": 51.63,
+        "pitch_deg": -6.91,
+        "fov_deg": 35,
+        "latitude_pano": 50.76415819375262,
+        "longitude_pano": 2.719294482046898,
+        "source_recherche": "cercle_210deg",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 2444.0,
+          "taux_aplats": 0.076,
+          "score": 0.901
+        }
+      }
+    ],
+    "rejets": []
+  },
+  {
+    "point_index": 7,
+    "point_id": "1149039",
+    "latitude": 50.76421291785884,
+    "longitude": 2.719446619680655,
+    "type_chambre": "REG",
+    "images": [
+      {
+        "fichier": "POINT_7_v0_dist5.6m.jpg",
+        "pano_id": "pQYMBfUh4S9lYlRsSMtsOg",
+        "distance_m": 5.64,
+        "heading_deg": 157.99,
+        "pitch_deg": -23.92,
+        "fov_deg": 55,
+        "latitude_pano": 50.76425991875563,
+        "longitude_pano": 2.719416586178212,
+        "source_recherche": "point",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 1250.7,
+          "taux_aplats": 0.081,
+          "score": 0.759
+        }
+      },
+      {
+        "fichier": "POINT_7_v1_dist12.2m.jpg",
+        "pano_id": "jbl5fSQR_TJOa6yZ4Ubriw",
+        "distance_m": 12.18,
+        "heading_deg": 95.83,
+        "pitch_deg": -11.6,
+        "fov_deg": 35,
+        "latitude_pano": 50.76422403653442,
+        "longitude_pano": 2.719274325495415,
+        "source_recherche": "cercle_270deg",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 1886.6,
+          "taux_aplats": 0.04,
+          "score": 0.852
+        }
+      },
+      {
+        "fichier": "POINT_7_v2_dist12.3m.jpg",
+        "pano_id": "xC3epjYtXmXVX8m85hVkzA",
+        "distance_m": 12.31,
+        "heading_deg": 60.37,
+        "pitch_deg": -11.48,
+        "fov_deg": 35,
+        "latitude_pano": 50.76415819375262,
+        "longitude_pano": 2.719294482046898,
+        "source_recherche": "cercle_180deg",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 2042.5,
+          "taux_aplats": 0.053,
+          "score": 0.864
+        }
+      },
+      {
+        "fichier": "POINT_7_v3_dist14.0m.jpg",
+        "pano_id": "R15YTq7HhVIl7KEcnA7ywg",
+        "distance_m": 14.0,
+        "heading_deg": 197.35,
+        "pitch_deg": -10.13,
+        "fov_deg": 35,
+        "latitude_pano": 50.76433305046021,
+        "longitude_pano": 2.719505969283676,
+        "source_recherche": "cercle_0deg",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 1812.4,
+          "taux_aplats": 0.008,
+          "score": 0.858
+        }
+      },
+      {
+        "fichier": "POINT_7_v4_dist24.2m.jpg",
+        "pano_id": "MYo4Z27ybLGVBOslzJc88w",
+        "distance_m": 24.24,
+        "heading_deg": 206.98,
+        "pitch_deg": -5.89,
+        "fov_deg": 35,
+        "latitude_pano": 50.76440719409749,
+        "longitude_pano": 2.719603007690305,
+        "source_recherche": "cercle_90deg",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 2087.4,
+          "taux_aplats": 0.023,
+          "score": 0.883
+        }
+      }
+    ],
+    "rejets": []
+  },
+  {
+    "point_index": 8,
+    "point_id": "1149047",
+    "latitude": 50.764175548894016,
+    "longitude": 2.719089188419972,
+    "type_chambre": "REG",
+    "images": [
+      {
+        "fichier": "POINT_8_v0_dist10.5m.jpg",
+        "pano_id": "35KuvBvLkMrcRUbtliQR2w",
+        "distance_m": 10.51,
+        "heading_deg": 358.21,
+        "pitch_deg": -13.38,
+        "fov_deg": 35,
+        "latitude_pano": 50.76408106556083,
+        "longitude_pano": 2.719093854295134,
+        "source_recherche": "cercle_270deg",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 3067.6,
+          "taux_aplats": 0.005,
+          "score": 0.998
+        }
+      },
+      {
+        "fichier": "POINT_8_v1_dist14.1m.jpg",
+        "pano_id": "jbl5fSQR_TJOa6yZ4Ubriw",
+        "distance_m": 14.09,
+        "heading_deg": 247.51,
+        "pitch_deg": -10.06,
+        "fov_deg": 35,
+        "latitude_pano": 50.76422403653442,
+        "longitude_pano": 2.719274325495415,
+        "source_recherche": "cercle_30deg",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 3240.8,
+          "taux_aplats": 0.053,
+          "score": 0.976
+        }
+      },
+      {
+        "fichier": "POINT_8_v2_dist14.6m.jpg",
+        "pano_id": "xC3epjYtXmXVX8m85hVkzA",
+        "distance_m": 14.57,
+        "heading_deg": 277.61,
+        "pitch_deg": -9.74,
+        "fov_deg": 35,
+        "latitude_pano": 50.76415819375262,
+        "longitude_pano": 2.719294482046898,
+        "source_recherche": "cercle_90deg",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 2794.4,
+          "taux_aplats": 0.002,
+          "score": 0.975
+        }
+      },
+      {
+        "fichier": "POINT_8_v3_dist18.8m.jpg",
+        "pano_id": "MsT0tJ4N0b5YghwAMRX5sg",
+        "distance_m": 18.84,
+        "heading_deg": 354.96,
+        "pitch_deg": -7.56,
+        "fov_deg": 35,
+        "latitude_pano": 50.76400676371712,
+        "longitude_pano": 2.719112730258742,
+        "source_recherche": "cercle_180deg",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 2455.1,
+          "taux_aplats": 0.022,
+          "score": 0.927
+        }
+      },
+      {
+        "fichier": "POINT_8_v4_dist19.3m.jpg",
+        "pano_id": "ecTbTU7jdSi-Rdg1XZINCg",
+        "distance_m": 19.28,
+        "heading_deg": 18.05,
+        "pitch_deg": -7.39,
+        "fov_deg": 35,
+        "latitude_pano": 50.76401071504119,
+        "longitude_pano": 2.719004282501707,
+        "source_recherche": "cercle_210deg",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 2958.5,
+          "taux_aplats": 0.004,
+          "score": 0.993
+        }
+      },
+      {
+        "fichier": "POINT_8_v5_dist34.1m.jpg",
+        "pano_id": "R15YTq7HhVIl7KEcnA7ywg",
+        "distance_m": 34.15,
+        "heading_deg": 239.14,
+        "pitch_deg": -4.19,
+        "fov_deg": 35,
+        "latitude_pano": 50.76433305046021,
+        "longitude_pano": 2.719505969283676,
+        "source_recherche": "cercle_0deg",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 3600.0,
+          "taux_aplats": 0.009,
+          "score": 0.996
+        }
+      }
+    ],
+    "rejets": [
+      {
+        "position": "point",
+        "pano_id": "bVWSSWiHPoLryLMHWJFaOg",
+        "distance_m": 7.18,
+        "heading_deg": 291.5,
+        "pitch_deg": -19.19,
+        "fov_deg": 45,
+        "raison": "qualité : score trop faible (best-of-N)"
+      },
+      {
+        "position": "cercle_150deg",
+        "pano_id": "dFlvWMLdCqqcDB66mTCcog",
+        "distance_m": 13.23,
+        "heading_deg": 323.97,
+        "pitch_deg": -10.7,
+        "fov_deg": 35,
+        "raison": "qualité : score trop faible (best-of-N)"
+      }
+    ]
+  },
+  {
+    "point_index": 9,
+    "point_id": "1149053",
+    "latitude": 50.76376362143801,
+    "longitude": 2.7185641881619893,
+    "type_chambre": "REG",
+    "images": [
+      {
+        "fichier": "POINT_9_v0_dist7.5m.jpg",
+        "pano_id": "zu4RWmQekkvG6Y0CokaK9g",
+        "distance_m": 7.54,
+        "heading_deg": 327.25,
+        "pitch_deg": -18.35,
+        "fov_deg": 45,
+        "latitude_pano": 50.76370662234882,
+        "longitude_pano": 2.718622146597848,
+        "source_recherche": "point",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 6327.1,
+          "taux_aplats": 0.0,
+          "score": 1.0
+        }
+      },
+      {
+        "fichier": "POINT_9_v1_dist13.2m.jpg",
+        "pano_id": "cy3o9CrlVeV0qk0lTYmnpQ",
+        "distance_m": 13.17,
+        "heading_deg": 250.68,
+        "pitch_deg": -10.75,
+        "fov_deg": 35,
+        "latitude_pano": 50.76380279347728,
+        "longitude_pano": 2.7187408500531,
+        "source_recherche": "cercle_0deg",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 2949.9,
+          "taux_aplats": 0.006,
+          "score": 0.991
+        }
+      },
+      {
+        "fichier": "POINT_9_v2_dist14.4m.jpg",
+        "pano_id": "Jg_EfTadU0IqXOqwNBOszg",
+        "distance_m": 14.43,
+        "heading_deg": 294.46,
+        "pitch_deg": -9.83,
+        "fov_deg": 35,
+        "latitude_pano": 50.76370989414204,
+        "longitude_pano": 2.718750920509118,
+        "source_recherche": "cercle_120deg",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 2165.5,
+          "taux_aplats": 0.003,
+          "score": 0.901
+        }
+      },
+      {
+        "fichier": "POINT_9_v3_dist15.9m.jpg",
+        "pano_id": "xY9J5jDPHfBwue2sHZAWew",
+        "distance_m": 15.85,
+        "heading_deg": 334.01,
+        "pitch_deg": -8.96,
+        "fov_deg": 35,
+        "latitude_pano": 50.7636354596385,
+        "longitude_pano": 2.718662982645839,
+        "source_recherche": "cercle_150deg",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 3252.5,
+          "taux_aplats": 0.007,
+          "score": 0.997
+        }
+      },
+      {
+        "fichier": "POINT_9_v4_dist16.9m.jpg",
+        "pano_id": "aIOMNlIJ_ps2Z7RzdZKPWQ",
+        "distance_m": 16.88,
+        "heading_deg": 10.35,
+        "pitch_deg": -8.42,
+        "fov_deg": 35,
+        "latitude_pano": 50.76361424664686,
+        "longitude_pano": 2.718521043916675,
+        "source_recherche": "cercle_180deg",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 2854.6,
+          "taux_aplats": 0.011,
+          "score": 0.978
+        }
+      },
+      {
+        "fichier": "POINT_9_v5_dist21.9m.jpg",
+        "pano_id": "WTGwT1fiuEHsgdIXokJvGQ",
+        "distance_m": 21.9,
+        "heading_deg": 34.95,
+        "pitch_deg": -6.51,
+        "fov_deg": 35,
+        "latitude_pano": 50.76360216021078,
+        "longitude_pano": 2.71838579567552,
+        "source_recherche": "cercle_240deg",
+        "date_pano": "2021-06",
+        "qualite": {
+          "nettete": 2658.4,
+          "taux_aplats": 0.0,
+          "score": 0.96
+        }
+      }
+    ],
+    "rejets": []
+  },
+  {
+    "point_index": 10,
+    "point_id": "1149367",
+    "latitude": 50.76270152846846,
+    "longitude": 2.7223784305048926,
+    "type_chambre": "B1",
+    "images": [
+      {
+        "fichier": "POINT_10_v0_dist9.3m.jpg",
+        "pano_id": "x1gC3nxqvc917IPCH2_s1w",
+        "distance_m": 9.32,
+        "heading_deg": 265.89,
+        "pitch_deg": -15.01,
+        "fov_deg": 45,
+        "latitude_pano": 50.76270754350357,
+        "longitude_pano": 2.722510618346758,
+        "source_recherche": "point",
+        "date_pano": "2025-03",
+        "qualite": {
+          "nettete": 5195.1,
+          "taux_aplats": 0.073,
+          "score": 0.967
+        }
+      },
+      {
+        "fichier": "POINT_10_v1_dist11.5m.jpg",
+        "pano_id": "6MUGhu4Pai723JhjgAvxxg",
+        "distance_m": 11.54,
+        "heading_deg": 205.0,
+        "pitch_deg": -12.23,
+        "fov_deg": 35,
+        "latitude_pano": 50.76279556323034,
+        "longitude_pano": 2.722447742470589,
+        "source_recherche": "cercle_30deg",
+        "date_pano": "2025-03",
+        "qualite": {
+          "nettete": 2723.4,
+          "taux_aplats": 0.191,
+          "score": 0.882
+        }
+      },
+      {
+        "fichier": "POINT_10_v2_dist15.8m.jpg",
+        "pano_id": "wpuH9epuzYCdg9iMR6rCvA",
+        "distance_m": 15.8,
+        "heading_deg": 301.49,
+        "pitch_deg": -8.99,
+        "fov_deg": 35,
+        "latitude_pano": 50.76262730056001,
+        "longitude_pano": 2.722570009693744,
+        "source_recherche": "cercle_120deg",
+        "date_pano": "2025-03",
+        "qualite": {
+          "nettete": 2099.9,
+          "taux_aplats": 0.0,
+          "score": 0.895
+        }
+      },
+      {
+        "fichier": "POINT_10_v3_dist20.1m.jpg",
+        "pano_id": "N9XrdEqBzixJmmaT7qKIkA",
+        "distance_m": 20.12,
+        "heading_deg": 182.28,
+        "pitch_deg": -7.08,
+        "fov_deg": 35,
+        "latitude_pano": 50.76288235704743,
+        "longitude_pano": 2.722389815766009,
+        "source_recherche": "cercle_0deg",
+        "date_pano": "2025-03",
+        "qualite": {
+          "nettete": 1638.9,
+          "taux_aplats": 0.274,
+          "score": 0.718
+        }
+      }
+    ],
+    "rejets": []
+  },
+  {
+    "point_index": 11,
+    "point_id": "1149377",
+    "latitude": 50.76599255565285,
+    "longitude": 2.7229025084771505,
+    "type_chambre": "L3T",
+    "images": [
+      {
+        "fichier": "POINT_11_v0_dist8.6m.jpg",
+        "pano_id": "SPOrglFZZUgdQSfMGr5Wpw",
+        "distance_m": 8.6,
+        "heading_deg": 207.93,
+        "pitch_deg": -16.2,
+        "fov_deg": 45,
+        "latitude_pano": 50.7660609076184,
+        "longitude_pano": 2.722959812119693,
+        "source_recherche": "point",
+        "date_pano": "2025-03",
+        "qualite": {
+          "nettete": 1643.7,
+          "taux_aplats": 0.315,
+          "score": 0.7
+        }
+      },
+      {
+        "fichier": "POINT_11_v1_dist9.4m.jpg",
+        "pano_id": "LvmyIpj8RnHTDX5lGMP6-Q",
+        "distance_m": 9.44,
+        "heading_deg": 273.91,
+        "pitch_deg": -14.83,
+        "fov_deg": 45,
+        "latitude_pano": 50.76598676345277,
+        "longitude_pano": 2.723036484128164,
+        "source_recherche": "cercle_60deg",
+        "date_pano": "2025-03",
+        "qualite": {
+          "nettete": 3379.6,
+          "taux_aplats": 0.01,
+          "score": 0.996
+        }
+      },
+      {
+        "fichier": "POINT_11_v2_dist16.2m.jpg",
+        "pano_id": "4v8dZS6bUfUenz1XN69tNA",
+        "distance_m": 16.19,
+        "heading_deg": 175.68,
+        "pitch_deg": -8.78,
+        "fov_deg": 35,
+        "latitude_pano": 50.76613778173504,
+        "longitude_pano": 2.722885155984567,
+        "source_recherche": "cercle_0deg",
+        "date_pano": "2025-03",
+        "qualite": {
+          "nettete": 879.4,
+          "taux_aplats": 0.31,
+          "score": 0.613
+        }
+      },
+      {
+        "fichier": "POINT_11_v3_dist17.5m.jpg",
+        "pano_id": "8z0JBUO5rnf4rYXBdhnVzA",
+        "distance_m": 17.46,
+        "heading_deg": 300.5,
+        "pitch_deg": -8.15,
+        "fov_deg": 35,
+        "latitude_pano": 50.76591286097015,
+        "longitude_pano": 2.72311640508723,
+        "source_recherche": "cercle_120deg",
+        "date_pano": "2025-03",
+        "qualite": {
+          "nettete": 1771.2,
+          "taux_aplats": 0.058,
+          "score": 0.831
+        }
+      }
+    ],
+    "rejets": []
+  },
+  {
+    "point_index": 12,
+    "point_id": "1149394",
+    "latitude": 50.76728265439874,
+    "longitude": 2.72358010706131,
+    "type_chambre": "L3T",
+    "images": [
+      {
+        "fichier": "POINT_12_v0_dist7.7m.jpg",
+        "pano_id": "GayhPbKUQ0bY4cNPEmwxDA",
+        "distance_m": 7.66,
+        "heading_deg": 171.42,
+        "pitch_deg": -18.07,
+        "fov_deg": 45,
+        "latitude_pano": 50.76735079151931,
+        "longitude_pano": 2.72356385963201,
+        "source_recherche": "cercle_0deg",
+        "date_pano": "2025-03",
+        "qualite": {
+          "nettete": 7535.5,
+          "taux_aplats": 0.077,
+          "score": 0.965
+        }
+      },
+      {
+        "fichier": "POINT_12_v1_dist14.1m.jpg",
+        "pano_id": "AfvEPhxjfCSSEEbAEpr7Hg",
+        "distance_m": 14.14,
+        "heading_deg": 214.94,
+        "pitch_deg": -10.02,
+        "fov_deg": 35,
+        "latitude_pano": 50.76738692278789,
+        "longitude_pano": 2.723695300497778,
+        "source_recherche": "cercle_30deg",
+        "date_pano": "2025-03",
+        "qualite": {
+          "nettete": 1984.2,
+          "taux_aplats": 0.157,
+          "score": 0.811
+        }
+      },
+      {
+        "fichier": "POINT_12_v2_dist15.5m.jpg",
+        "pano_id": "Y0IVbwZfSjLm2fWDZQzmvw",
+        "distance_m": 15.52,
+        "heading_deg": 136.17,
+        "pitch_deg": -9.15,
+        "fov_deg": 35,
+        "latitude_pano": 50.76738333049012,
+        "longitude_pano": 2.723427289454436,
+        "source_recherche": "cercle_300deg",
+        "date_pano": "2025-03",
+        "qualite": {
+          "nettete": 3608.1,
+          "taux_aplats": 0.014,
+          "score": 0.994
+        }
+      },
+      {
+        "fichier": "POINT_12_v3_dist23.1m.jpg",
+        "pano_id": "gxZObzgvVTW5fq_c6XZupg",
+        "distance_m": 23.13,
+        "heading_deg": 28.89,
+        "pitch_deg": -6.17,
+        "fov_deg": 35,
+        "latitude_pano": 50.76710054169239,
+        "longitude_pano": 2.723421214537543,
+        "source_recherche": "cercle_150deg",
+        "date_pano": "2025-03",
+        "qualite": {
+          "nettete": 1140.5,
+          "taux_aplats": 0.356,
+          "score": 0.623
+        }
+      }
+    ],
+    "rejets": [
+      {
+        "position": "point",
+        "pano_id": "n_nwsYP9mLivcfy6uc7edw",
+        "distance_m": 5.69,
+        "heading_deg": 78.3,
+        "pitch_deg": -23.73,
+        "fov_deg": 55,
+        "raison": "qualité : aplats 0.56 > 0.40"
+      },
+      {
+        "position": "cercle_180deg",
+        "pano_id": "JPz7JGYhf5F5D5bDMPuFwg",
+        "distance_m": 13.3,
+        "heading_deg": 34.33,
+        "pitch_deg": -10.65,
+        "fov_deg": 35,
+        "raison": "qualité : aplats 0.50 > 0.40"
+      }
+    ]
+  },
+  {
+    "point_index": 13,
+    "point_id": "1149418",
+    "latitude": 50.78036040354595,
+    "longitude": 2.7227332718705908,
+    "type_chambre": "L3T",
+    "images": [
+      {
+        "fichier": "POINT_13_v0_dist15.2m.jpg",
+        "pano_id": "Gh8dtSu-UvypYY6pf6fGtQ",
+        "distance_m": 15.2,
+        "heading_deg": 52.18,
+        "pitch_deg": -9.34,
+        "fov_deg": 35,
+        "latitude_pano": 50.78027656597871,
+        "longitude_pano": 2.722562486509056,
+        "source_recherche": "cercle_210deg",
+        "date_pano": "2025-03",
+        "qualite": {
+          "nettete": 1556.7,
+          "taux_aplats": 0.152,
+          "score": 0.763
+        }
+      },
+      {
+        "fichier": "POINT_13_v1_dist17.0m.jpg",
+        "pano_id": "PTpa6WZOrg9AwiFEs8PX-Q",
+        "distance_m": 16.98,
+        "heading_deg": 269.42,
+        "pitch_deg": -8.37,
+        "fov_deg": 35,
+        "latitude_pano": 50.78036195078118,
+        "longitude_pano": 2.722974835802756,
+        "source_recherche": "cercle_60deg",
+        "date_pano": "2025-03",
+        "qualite": {
+          "nettete": 1908.6,
+          "taux_aplats": 0.152,
+          "score": 0.804
+        }
+      }
+    ],
+    "rejets": [
+      {
+        "position": "point",
+        "pano_id": "Ji5RoC4Ha3FVhExvDOeNWA",
+        "distance_m": 6.09,
+        "heading_deg": 22.62,
+        "pitch_deg": -22.33,
+        "fov_deg": 55,
+        "raison": "qualité : aplats 0.47 > 0.40"
+      },
+      {
+        "position": "cercle_120deg",
+        "pano_id": "i1hniCppr2K1bD61uZLv-g",
+        "distance_m": 7.84,
+        "heading_deg": 288.49,
+        "pitch_deg": -17.69,
+        "fov_deg": 45,
+        "raison": "qualité : aplats 0.50 > 0.40"
+      }
+    ]
+  },
+  {
+    "point_index": 14,
+    "point_id": "1512513",
+    "latitude": 50.76822951270997,
+    "longitude": 2.7187270354028263,
+    "type_chambre": "L2T",
+    "images": [
+      {
+        "fichier": "POINT_14_v0_dist6.8m.jpg",
+        "pano_id": "D-HpuayDyu_wrC7qVG6Svg",
+        "distance_m": 6.84,
+        "heading_deg": 258.75,
+        "pitch_deg": -20.07,
+        "fov_deg": 55,
+        "latitude_pano": 50.76824151911281,
+        "longitude_pano": 2.718822471558808,
+        "source_recherche": "point",
+        "date_pano": "2013-08",
+        "qualite": {
+          "nettete": 1204.3,
+          "taux_aplats": 0.03,
+          "score": 0.637
+        }
+      },
+      {
+        "fichier": "POINT_14_v1_dist10.6m.jpg",
+        "pano_id": "RGu3PKiI5WQIT3PKLqQA6A",
+        "distance_m": 10.63,
+        "heading_deg": 340.01,
+        "pitch_deg": -13.24,
+        "fov_deg": 35,
+        "latitude_pano": 50.76813971037473,
+        "longitude_pano": 2.718778686542726,
+        "source_recherche": "cercle_120deg",
+        "date_pano": "2013-08",
+        "qualite": {
+          "nettete": 775.0,
+          "taux_aplats": 0.051,
+          "score": 0.577
+        }
+      },
+      {
+        "fichier": "POINT_14_v2_dist15.0m.jpg",
+        "pano_id": "pg0YvszvadK-2k_mjE4emQ",
+        "distance_m": 14.98,
+        "heading_deg": 221.09,
+        "pitch_deg": -9.48,
+        "fov_deg": 35,
+        "latitude_pano": 50.76833101268729,
+        "longitude_pano": 2.718866998558823,
+        "source_recherche": "cercle_0deg",
+        "date_pano": "2013-08",
+        "qualite": {
+          "nettete": 960.0,
+          "taux_aplats": 0.027,
+          "score": 0.61
+        }
+      },
+      {
+        "fichier": "POINT_14_v3_dist20.0m.jpg",
+        "pano_id": "YteA1HYOH92acyIVGPnWCA",
+        "distance_m": 20.05,
+        "heading_deg": 354.84,
+        "pitch_deg": -7.11,
+        "fov_deg": 35,
+        "latitude_pano": 50.7680499453728,
+        "longitude_pano": 2.718752658663826,
+        "source_recherche": "cercle_180deg",
+        "date_pano": "2013-08",
+        "qualite": {
+          "nettete": 879.6,
+          "taux_aplats": 0.18,
+          "score": 0.532
+        }
+      },
+      {
+        "fichier": "POINT_14_v4_dist24.1m.jpg",
+        "pano_id": "guvZKyAwKKMc4pvEiBUvZQ",
+        "distance_m": 24.11,
+        "heading_deg": 208.12,
+        "pitch_deg": -5.92,
+        "fov_deg": 35,
+        "latitude_pano": 50.76842072242122,
+        "longitude_pano": 2.718888597756838,
+        "source_recherche": "cercle_330deg",
+        "date_pano": "2013-08",
+        "qualite": {
+          "nettete": 604.4,
+          "taux_aplats": 0.135,
+          "score": 0.52
+        }
+      }
+    ],
+    "rejets": []
+  },
+  {
+    "point_index": 15,
+    "point_id": "1619464",
+    "latitude": 50.76572572942643,
+    "longitude": 2.708620119266515,
+    "type_chambre": "REG",
+    "images": [
+      {
+        "fichier": "POINT_15_v0_dist7.4m.jpg",
+        "pano_id": "NrkssidAPjeujKu2yyV-3g",
+        "distance_m": 7.38,
+        "heading_deg": 150.6,
+        "pitch_deg": -18.71,
+        "fov_deg": 45,
+        "latitude_pano": 50.76578355411579,
+        "longitude_pano": 2.708568598931674,
+        "source_recherche": "cercle_300deg",
+        "date_pano": "2025-03",
+        "qualite": {
+          "nettete": 990.0,
+          "taux_aplats": 0.305,
+          "score": 0.628
+        }
+      },
+      {
+        "fichier": "POINT_15_v1_dist14.6m.jpg",
+        "pano_id": "WhplRNychNOHuVZmnkPDiw",
+        "distance_m": 14.61,
+        "heading_deg": 10.63,
+        "pitch_deg": -9.71,
+        "fov_deg": 35,
+        "latitude_pano": 50.7655965651618,
+        "longitude_pano": 2.708581776572404,
+        "source_recherche": "cercle_150deg",
+        "date_pano": "2025-03",
+        "qualite": {
+          "nettete": 1115.2,
+          "taux_aplats": 0.359,
+          "score": 0.619
+        }
+      },
+      {
+        "fichier": "POINT_15_v2_dist16.8m.jpg",
+        "pano_id": "dfSEjG34HU4euiddJLCjDQ",
+        "distance_m": 16.79,
+        "heading_deg": 166.62,
+        "pitch_deg": -8.47,
+        "fov_deg": 35,
+        "latitude_pano": 50.76587265885517,
+        "longitude_pano": 2.708564857010322,
+        "source_recherche": "cercle_0deg",
+        "date_pano": "2025-03",
+        "qualite": {
+          "nettete": 744.3,
+          "taux_aplats": 0.347,
+          "score": 0.581
+        }
+      }
+    ],
+    "rejets": [
+      {
+        "position": "point",
+        "pano_id": "WPXDRhHS2fH1vTf-YLaA3w",
+        "distance_m": 5.04,
+        "heading_deg": 38.83,
+        "pitch_deg": -26.38,
+        "fov_deg": 55,
+        "raison": "qualité : aplats 0.73 > 0.40"
+      }
+    ]
+  },
+  {
+    "point_index": 16,
+    "point_id": "2485489",
+    "latitude": 50.77757011524313,
+    "longitude": 2.736053511143663,
+    "type_chambre": "REG",
+    "images": [],
+    "rejets": []
+  },
+  {
+    "point_index": 17,
+    "point_id": "2485492",
+    "latitude": 50.77873909087379,
+    "longitude": 2.7358210729972527,
+    "type_chambre": "REG",
+    "images": [
+      {
+        "fichier": "POINT_17_v0_dist9.4m.jpg",
+        "pano_id": "QhIAyRWitCg-WXYED8WlWQ",
+        "distance_m": 9.43,
+        "heading_deg": 182.02,
+        "pitch_deg": -14.84,
+        "fov_deg": 45,
+        "latitude_pano": 50.77882387331825,
+        "longitude_pano": 2.735825806387991,
+        "source_recherche": "point",
+        "date_pano": "2025-02",
+        "qualite": {
+          "nettete": 3900.0,
+          "taux_aplats": 0.194,
+          "score": 0.913
+        }
+      },
+      {
+        "fichier": "POINT_17_v1_dist11.5m.jpg",
+        "pano_id": "b00NVJdMj6PXjDm6EfEVnQ",
+        "distance_m": 11.48,
+        "heading_deg": 238.87,
+        "pitch_deg": -12.29,
+        "fov_deg": 35,
+        "latitude_pano": 50.77879246227929,
+        "longitude_pano": 2.735960808163543,
+        "source_recherche": "cercle_30deg",
+        "date_pano": "2025-02",
+        "qualite": {
+          "nettete": 1586.7,
+          "taux_aplats": 0.001,
+          "score": 0.835
+        }
+      },
+      {
+        "fichier": "POINT_17_v2_dist17.1m.jpg",
+        "pano_id": "yCieautnY5YNNi2Aw-M8Ag",
+        "distance_m": 17.14,
+        "heading_deg": 147.77,
+        "pitch_deg": -8.3,
+        "fov_deg": 35,
+        "latitude_pano": 50.77886948246562,
+        "longitude_pano": 2.735691082890397,
+        "source_recherche": "cercle_300deg",
+        "date_pano": "2025-02",
+        "qualite": {
+          "nettete": 2673.0,
+          "taux_aplats": 0.136,
+          "score": 0.901
+        }
+      },
+      {
+        "fichier": "POINT_17_v3_dist21.1m.jpg",
+        "pano_id": "xJk66BVOFowhjUxWpR_v5w",
+        "distance_m": 21.09,
+        "heading_deg": 257.37,
+        "pitch_deg": -6.76,
+        "fov_deg": 35,
+        "latitude_pano": 50.77878054926368,
+        "longitude_pano": 2.736113760013048,
+        "source_recherche": "cercle_90deg",
+        "date_pano": "2025-02",
+        "qualite": {
+          "nettete": 1137.8,
+          "taux_aplats": 0.172,
+          "score": 0.705
+        }
+      }
+    ],
+    "rejets": []
+  },
+  {
+    "point_index": 18,
+    "point_id": "2626180",
+    "latitude": 50.76446716090893,
+    "longitude": 2.7221472788438623,
+    "type_chambre": "REG",
+    "images": [
+      {
+        "fichier": "POINT_18_v0_dist6.6m.jpg",
+        "pano_id": "JdJ_PM6kEGGs_dz6CLJ0sg",
+        "distance_m": 6.59,
+        "heading_deg": 317.94,
+        "pitch_deg": -20.76,
+        "fov_deg": 55,
+        "latitude_pano": 50.7644231339803,
+        "longitude_pano": 2.722210082229411,
+        "source_recherche": "point",
+        "date_pano": "2025-03",
+        "qualite": {
+          "nettete": 3552.9,
+          "taux_aplats": 0.342,
+          "score": 0.846
+        }
+      },
+      {
+        "fichier": "POINT_18_v1_dist11.4m.jpg",
+        "pano_id": "KSm_jmwPWeDJoNzmJHwPZA",
+        "distance_m": 11.38,
+        "heading_deg": 16.33,
+        "pitch_deg": -12.39,
+        "fov_deg": 35,
+        "latitude_pano": 50.76436893023086,
+        "longitude_pano": 2.722101788735574,
+        "source_recherche": "cercle_180deg",
+        "date_pano": "2025-03",
+        "qualite": {
+          "nettete": 2155.4,
+          "taux_aplats": 0.063,
+          "score": 0.873
+        }
+      }
+    ],
+    "rejets": [
+      {
+        "position": "cercle_0deg",
+        "pano_id": "MsfuZ55qzifarn_Kb3Onww",
+        "distance_m": 12.33,
+        "heading_deg": 264.65,
+        "pitch_deg": -11.46,
+        "fov_deg": 35,
+        "raison": "qualité : aplats 0.49 > 0.40"
+      }
+    ]
+  },
+  {
+    "point_index": 19,
+    "point_id": "2766115",
+    "latitude": 50.76824761010096,
+    "longitude": 2.731624401715876,
+    "type_chambre": "L1T",
+    "images": [],
+    "rejets": []
+  }
+]

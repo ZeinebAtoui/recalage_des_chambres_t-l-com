@@ -1,0 +1,15 @@
+--- DÉMARRAGE DU JOB 477916d3a1fd ---
+Script : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/services/telechargement_interface.py
+CSV source : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/cartes/Exp-Avant-IA-Saint-jans-Cappel (2).csv
+Dossier de sortie : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/477916d3a1fd
+Points max : 5
+Interprète Python : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/env_hybrid_311/bin/python3
+Clé API transmise : NON - Variable absente
+Lancement du sous-processus...
+
+[SCRIPT] Démarrage du script de téléchargement...
+[SCRIPT] Execution via ligne de commande.
+[SCRIPT] Lecture du fichier CSV : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/cartes/Exp-Avant-IA-Saint-jans-Cappel (2).csv
+[SCRIPT] ERREUR : Clé API GOOGLE_STREETVIEW_API_KEY non trouvée.
+
+Statut : Terminé avec succès, mais 0 image n'a été téléchargée.

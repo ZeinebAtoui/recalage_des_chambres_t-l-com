@@ -1,0 +1,47 @@
+--- DÉMARRAGE DU JOB d39263ec4e6a ---
+Script : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/services/telechargement_interface.py
+CSV source : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/cartes/Exp-Avant-IA.csv
+Dossier de sortie : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/d39263ec4e6a
+Points max : 7
+Interprète Python : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/env_hybrid_311/bin/python3
+Clé API transmise : Oui
+Lancement du sous-processus...
+
+[SCRIPT] 21:29:33 Execution via ligne de commande.
+[SCRIPT] 21:29:33 Demarrage du script de telechargement...
+[SCRIPT] 21:29:33 Cle API detectee : AIzaSy...
+[SCRIPT] 21:29:33 Lecture du fichier CSV : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/cartes/Exp-Avant-IA.csv
+[SCRIPT] 21:29:33 CSV charge : 185 lignes trouvees.
+[SCRIPT] 21:29:33 Analyse OBJECTID 2766115 (50.76824761010096, 2.731624401715876)...
+[SCRIPT] 21:29:34 OBJECTID 2766115 : arret anticipe (plus de nouveau panorama depuis 4 angles).
+[SCRIPT] 21:29:34 OBJECTID 2766115 termine : 0 image(s) / 0 panorama(s) distinct(s).
+[SCRIPT] 21:29:34 Analyse OBJECTID 2878562 (50.75882085144213, 2.708544138671416)...
+[SCRIPT] 21:29:35 Image enregistree : CH_2878562_ANGLE36_dist8m_2025-03.jpg
+[SCRIPT] 21:29:37 Image enregistree : CH_2878562_ANGLE108_dist6m_2025-03.jpg
+[SCRIPT] 21:29:37 OBJECTID 2878562 : arret anticipe (plus de nouveau panorama depuis 4 angles).
+[SCRIPT] 21:29:37 OBJECTID 2878562 termine : 2 image(s) / 2 panorama(s) distinct(s).
+[SCRIPT] 21:29:37 Analyse OBJECTID 3143860 (50.77548688421004, 2.738524299200429)...
+[SCRIPT] 21:29:38 Image enregistree : CH_3143860_ANGLE0_dist3m_2025-02.jpg
+[SCRIPT] 21:29:40 OBJECTID 3143860 : arret anticipe (plus de nouveau panorama depuis 4 angles).
+[SCRIPT] 21:29:40 OBJECTID 3143860 termine : 1 image(s) / 1 panorama(s) distinct(s).
+[SCRIPT] 21:29:40 Analyse OBJECTID 2056801 (50.76493004969596, 2.7086949080940474)...
+[SCRIPT] 21:29:41 Image enregistree : CH_2056801_ANGLE36_dist4m_2025-03.jpg
+[SCRIPT] 21:29:42 Image enregistree : CH_2056801_ANGLE108_dist7m_2025-03.jpg
+[SCRIPT] 21:29:42 OBJECTID 2056801 : arret anticipe (plus de nouveau panorama depuis 4 angles).
+[SCRIPT] 21:29:42 OBJECTID 2056801 termine : 2 image(s) / 2 panorama(s) distinct(s).
+[SCRIPT] 21:29:42 Analyse OBJECTID 1149406 (50.76839417635474, 2.7321087123290684)...
+[SCRIPT] 21:29:43 Image enregistree : CH_1149406_ANGLE0_dist10m_2025-03.jpg
+[SCRIPT] 21:29:48 Image enregistree : CH_1149406_ANGLE144_dist10m_2025-03.jpg
+[SCRIPT] 21:30:00 OBJECTID 1149406 : arret anticipe (plus de nouveau panorama depuis 4 angles).
+[SCRIPT] 21:30:00 OBJECTID 1149406 termine : 2 image(s) / 2 panorama(s) distinct(s).
+[SCRIPT] 21:30:00 Analyse OBJECTID 1619464 (50.76572572942643, 2.708620119266515)...
+[SCRIPT] 21:30:00 Image enregistree : CH_1619464_ANGLE36_dist7m_2025-03.jpg
+[SCRIPT] 21:30:01 Image enregistree : CH_1619464_ANGLE108_dist5m_2025-03.jpg
+[SCRIPT] 21:30:02 OBJECTID 1619464 : arret anticipe (plus de nouveau panorama depuis 4 angles).
+[SCRIPT] 21:30:02 OBJECTID 1619464 termine : 2 image(s) / 2 panorama(s) distinct(s).
+[SCRIPT] 21:30:02 Analyse OBJECTID 1149022 (50.7661684141951, 2.713288530334582)...
+[SCRIPT] 21:30:03 Image enregistree : CH_1149022_ANGLE108_dist11m_2022-08.jpg
+[SCRIPT] 21:30:04 Image enregistree : CH_1149022_ANGLE180_dist13m_2022-08.jpg
+[SCRIPT] 21:30:04 OBJECTID 1149022 termine : 2 image(s) / 2 panorama(s) distinct(s).
+[SCRIPT] 21:30:04 Termine. 11 images sur 7 points traites.
+[SCRIPT] 21:30:04 Detail : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/d39263ec4e6a/manifest.json

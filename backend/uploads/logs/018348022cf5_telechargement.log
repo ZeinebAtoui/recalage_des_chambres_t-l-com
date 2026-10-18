@@ -1,0 +1,70 @@
+--- DÉMARRAGE DU JOB 018348022cf5 ---
+Script : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/services/telechargement_interface.py
+CSV source : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/cartes/Exp-Avant-IA-Saint-jans-Cappel (2).csv
+Dossier de sortie : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/018348022cf5
+Points max : 2
+Options de recherche : {"rayon_recherche": 10.0, "max_images_par_point": 2}
+Interprète Python : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/env_hybrid_311/bin/python3
+Clé API transmise : Oui
+Lancement du sous-processus...
+
+[SCRIPT] Exécution via ligne de commande.
+[SCRIPT] Options reçues : {'rayon_recherche': 10.0, 'max_images_par_point': 2}
+[SCRIPT] Démarrage du script de téléchargement...
+[SCRIPT] Configuration de recherche :
+[SCRIPT]   rayon de recherche   : 10.0 m
+[SCRIPT]   échantillons cercle  : 12
+[SCRIPT]   max images / point   : 2
+[SCRIPT]   distance             : [2.0 ; 50.0] m
+[SCRIPT]   bearing              : [0° ; 360°]
+[SCRIPT]   pitch                : [-60° ; 0°]
+[SCRIPT]   FOV                  : dynamique (35/45/55°)
+[SCRIPT]   bonus candidats      : +2 (best-of-N)
+[SCRIPT]   seuil aplats (rejet) : 0.40
+[SCRIPT] Clé API détectée : AIzaSy...
+[SCRIPT] Lecture du CSV : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/cartes/Exp-Avant-IA-Saint-jans-Cappel (2).csv
+[SCRIPT] 185 ligne(s) trouvée(s).
+[SCRIPT] Colonne latitude  : latitude
+[SCRIPT] Colonne longitude : longitude
+[SCRIPT] Colonne ID        : OBJECTID
+[SCRIPT] Colonne type      : REF_CHAMBR
+[SCRIPT] Points à traiter : 2
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 1/2 - ID : 1149007
+[SCRIPT] Coordonnées : 50.76452472723148, 2.719859510038881
+[SCRIPT] Rayon de recherche : 10.0 m
+[SCRIPT] ========================================
+[SCRIPT] Candidats valides : 4 (rejets : 0)
+[SCRIPT] Qualité POINT_0_c0_dist2.9m.jpg : netteté 624 | aplats 0.846 | pano 2025-03 | score 0.342 (aplats trop élevés)
+[SCRIPT] Qualité POINT_0_c1_dist8.1m.jpg : netteté 1924 | aplats 0.631 | pano 2025-03 | score 0.591 (aplats trop élevés)
+[SCRIPT] Qualité POINT_0_c2_dist10.3m.jpg : netteté 2003 | aplats 0.051 | pano 2025-03 | score 0.861
+[SCRIPT] Qualité POINT_0_c3_dist11.9m.jpg : netteté 1927 | aplats 0.003 | pano 2021-06 | score 0.873
+[SCRIPT] Image retenue : POINT_0_v0_dist10.3m.jpg (dist 10.3 m, score 0.861, bearing 268.0°, pitch -13.6°, FOV 35°)
+[SCRIPT] Image retenue : POINT_0_v1_dist11.9m.jpg (dist 11.9 m, score 0.873, bearing 69.6°, pitch -11.9°, FOV 35°)
+[SCRIPT] ✓ ID 1149007 : 2 image(s) validée(s).
+
+[SCRIPT] ========================================
+[SCRIPT] Traitement 2/2 - ID : 1149009
+[SCRIPT] Coordonnées : 50.763092894670415, 2.720401021499844
+[SCRIPT] Rayon de recherche : 10.0 m
+[SCRIPT] ========================================
+[SCRIPT] Candidats valides : 4 (rejets : 0)
+[SCRIPT] Qualité POINT_1_c0_dist4.7m.jpg : netteté 2568 | aplats 0.005 | pano 2021-06 | score 0.947
+[SCRIPT] Qualité POINT_1_c1_dist6.8m.jpg : netteté 2830 | aplats 0.019 | pano 2021-06 | score 0.972
+[SCRIPT] Qualité POINT_1_c2_dist12.0m.jpg : netteté 1865 | aplats 0.007 | pano 2021-06 | score 0.864
+[SCRIPT] Qualité POINT_1_c3_dist14.2m.jpg : netteté 2630 | aplats 0.004 | pano 2021-06 | score 0.955
+[SCRIPT] Image retenue : POINT_1_v0_dist6.8m.jpg (dist 6.8 m, score 0.972, bearing 61.2°, pitch -20.2°, FOV 55°)
+[SCRIPT] Image retenue : POINT_1_v1_dist14.2m.jpg (dist 14.2 m, score 0.955, bearing 103.3°, pitch -10.0°, FOV 35°)
+[SCRIPT] ✓ ID 1149009 : 2 image(s) validée(s).
+[SCRIPT] Métadonnées écrites : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/018348022cf5/points.json
+
+[SCRIPT] ========================================
+[SCRIPT] TERMINÉ
+[SCRIPT] Points traités       : 2
+[SCRIPT] Points avec images   : 2
+[SCRIPT] Images téléchargées  : 8
+[SCRIPT] Dossier images       : /mnt/c/Users/Zeineb Atoui/Downloads/recalage_des_chambres_t-l-com/backend/uploads/downloads/018348022cf5/images
+[SCRIPT] ========================================
+
+[SCRIPT] Terminé : 8 image(s) pour 2 point(s).

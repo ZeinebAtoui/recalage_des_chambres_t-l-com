@@ -1,0 +1,19 @@
+{
+  "statut": "termine",
+  "phase": "termine",
+  "job_id": "ed801a0a98b9",
+  "images_traitees": 4,
+  "images_total": 4,
+  "points_traitees": 2,
+  "points_total": 2,
+  "seuils": {
+    "pourcentage_chambre_visible_min": 20.0,
+    "nb_coins_visibles_min": 1
+  },
+  "debut": "2026-09-27T13:11:35",
+  "fin": "2026-09-27T13:11:39",
+  "erreur": null,
+  "maj": "2026-09-27T13:11:39",
+  "image_courante": "POINT_1_v1_dist6.8m.jpg",
+  "duree_s": 4.2
+}

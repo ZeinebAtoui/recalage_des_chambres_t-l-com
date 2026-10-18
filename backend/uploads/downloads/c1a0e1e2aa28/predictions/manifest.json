@@ -1,0 +1,62 @@
+[
+  {
+    "file_name": "CH_1149020_ANGLE0_dist2m_2022-08.jpg",
+    "nom_base": "CH_1149020_ANGLE0_dist2m_2022-08",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "CH_1149022_ANGLE0_dist11m_2022-08.jpg",
+    "nom_base": "CH_1149022_ANGLE0_dist11m_2022-08",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "CH_1149406_ANGLE0_dist10m_2025-03.jpg",
+    "nom_base": "CH_1149406_ANGLE0_dist10m_2025-03",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "CH_1149406_ANGLE108_dist10m_2025-03.jpg",
+    "nom_base": "CH_1149406_ANGLE108_dist10m_2025-03",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "CH_1619464_ANGLE0_dist7m_2025-03.jpg",
+    "nom_base": "CH_1619464_ANGLE0_dist7m_2025-03",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "CH_1619464_ANGLE108_dist5m_2025-03.jpg",
+    "nom_base": "CH_1619464_ANGLE108_dist5m_2025-03",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "CH_2056801_ANGLE0_dist4m_2025-03.jpg",
+    "nom_base": "CH_2056801_ANGLE0_dist4m_2025-03",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "CH_2056801_ANGLE108_dist7m_2025-03.jpg",
+    "nom_base": "CH_2056801_ANGLE108_dist7m_2025-03",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "CH_2878562_ANGLE0_dist8m_2025-03.jpg",
+    "nom_base": "CH_2878562_ANGLE0_dist8m_2025-03",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "CH_2878562_ANGLE108_dist6m_2025-03.jpg",
+    "nom_base": "CH_2878562_ANGLE108_dist6m_2025-03",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "CH_3143860_ANGLE0_dist3m_2025-02.jpg",
+    "nom_base": "CH_3143860_ANGLE0_dist3m_2025-02",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "CH_3143860_ANGLE108_dist7m_2025-02.jpg",
+    "nom_base": "CH_3143860_ANGLE108_dist7m_2025-02",
+    "chambre_detectee": false
+  }
+]

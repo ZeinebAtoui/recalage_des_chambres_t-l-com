@@ -1,0 +1,112 @@
+[
+  {
+    "meta": {
+      "chambre_id": "1064983",
+      "type_chambre": "L2T",
+      "distance_m": 5.0,
+      "chemin_image": "CH_1064983_L2T_dist5m_2024-06.jpg"
+    },
+    "statut": "TRAITE",
+    "strategie": "CAS_1_PNP_DIRECT",
+    "pose_pnp": {
+      "succes": true,
+      "rvec": [
+        1.0694892115553136,
+        -2.0655557011980648,
+        1.2765836289965258
+      ],
+      "tvec": [
+        0.9905006478169721,
+        0.45202298738642005,
+        6.056543380469081
+      ],
+      "coordonnees_chambre_m": {
+        "x": 0.9905006478169721,
+        "y": 0.45202298738642005,
+        "z": 6.056543380469081
+      },
+      "distance_camera_objet_m": 6.153627713305007,
+      "erreur_reprojection_px": 5.02429586778808e-14
+    },
+    "coins_finaux_px": [
+      [
+        493.6088246711696,
+        278.41355754735457
+      ],
+      [
+        447.6287709247781,
+        254.30158814837037
+      ],
+      [
+        344.22969262546457,
+        293.67283205468533
+      ],
+      [
+        387.535426708459,
+        324.3299766303124
+      ]
+    ],
+    "coverage_pct": 91.6,
+    "precision_pct": 95.7,
+    "taux_occlusion_estime_pct": 0.0,
+    "nb_coins_visibles_diagnostic": 4,
+    "visibilite_coins_detail": {
+      "TL": {
+        "visible": true,
+        "distance_contour_px": 2.48914883252686,
+        "seuil_applique_px": 10.398537338336931,
+        "raison": "confirme"
+      },
+      "TR": {
+        "visible": true,
+        "distance_contour_px": 0.6984100341796875,
+        "seuil_applique_px": 10.398537338336931,
+        "raison": "confirme"
+      },
+      "BR": {
+        "visible": true,
+        "distance_contour_px": 1.4831374838547184,
+        "seuil_applique_px": 10.398537338336931,
+        "raison": "confirme"
+      },
+      "BL": {
+        "visible": true,
+        "distance_contour_px": 1.4337191286531996,
+        "seuil_applique_px": 10.398537338336931,
+        "raison": "confirme"
+      }
+    },
+    "cout_chamfer": 0.38,
+    "echelle_ajustement": 0.803,
+    "dimensions_utilisees_m": {
+      "longueur_m": 1.405,
+      "largeur_m": 0.635,
+      "hauteur_m": 0.66,
+      "source": "MODOP_exterieur",
+      "fiabilite": "haute"
+    },
+    "seuils_utilises": {
+      "pourcentage_chambre_visible_min": 80.0,
+      "nb_coins_visibles_min": 3
+    },
+    "visualisation": "CH_1064983_L2T_dist5m_2024-06_ajustement.jpg",
+    "comparaison_pnp_gt": {
+      "comparable": true,
+      "erreur_translation_m": 0.4201,
+      "tvec_predit": [
+        0.9905006478169721,
+        0.45202298738642005,
+        6.056543380469081
+      ],
+      "tvec_verite_terrain": [
+        0.9173914956436355,
+        0.416112368224346,
+        5.644398040552331
+      ],
+      "strategie_verite_terrain": "GT_REFERENCE",
+      "coverage_pct_verite_terrain": 92.9,
+      "precision_pct_verite_terrain": 99.0,
+      "visualisation_gt": "CH_1064983_L2T_dist5m_2024-06_ajustement_GT.jpg"
+    }
+  }
+]

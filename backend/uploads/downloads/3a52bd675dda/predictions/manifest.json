@@ -1,0 +1,57 @@
+[
+  {
+    "file_name": "POINT_0_v0_dist10.3m.jpg",
+    "nom_base": "POINT_0_v0_dist10.3m",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_0_v1_dist11.9m.jpg",
+    "nom_base": "POINT_0_v1_dist11.9m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_0_v2_dist16.0m.jpg",
+    "nom_base": "POINT_0_v2_dist16.0m",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_0_v3_dist17.8m.jpg",
+    "nom_base": "POINT_0_v3_dist17.8m",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_0_v4_dist18.3m.jpg",
+    "nom_base": "POINT_0_v4_dist18.3m",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_0_v5_dist18.8m.jpg",
+    "nom_base": "POINT_0_v5_dist18.8m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_1_v0_dist4.7m.jpg",
+    "nom_base": "POINT_1_v0_dist4.7m",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_1_v1_dist12.0m.jpg",
+    "nom_base": "POINT_1_v1_dist12.0m",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_1_v2_dist14.2m.jpg",
+    "nom_base": "POINT_1_v2_dist14.2m",
+    "chambre_detectee": false
+  },
+  {
+    "file_name": "POINT_1_v3_dist15.7m.jpg",
+    "nom_base": "POINT_1_v3_dist15.7m",
+    "chambre_detectee": true
+  },
+  {
+    "file_name": "POINT_2_v0_dist10.8m.jpg",
+    "nom_base": "POINT_2_v0_dist10.8m",
+    "chambre_detectee": false
+  }
+]

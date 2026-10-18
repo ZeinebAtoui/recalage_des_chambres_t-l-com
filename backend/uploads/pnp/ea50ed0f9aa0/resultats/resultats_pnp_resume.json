@@ -1,0 +1,20 @@
+{
+  "nb_images_total": 1,
+  "nb_images_traitees": 0,
+  "nb_images_rejetees": 1,
+  "nb_cas_1_pnp_direct": 0,
+  "nb_cas_2_template_matching": 0,
+  "nb_images_comparables": 0,
+  "erreur_translation_moyenne_m": null,
+  "erreur_translation_mediane_m": null,
+  "erreur_translation_min_m": null,
+  "erreur_translation_max_m": null,
+  "erreur_translation_ecart_type_m": null,
+  "detail_par_image": [],
+  "duree_traitement_s": 49.6,
+  "seuils_utilises": {
+    "pourcentage_chambre_visible_min": 99.0,
+    "nb_coins_visibles_min": 3,
+    "comparaison_gt": true
+  }
+}
